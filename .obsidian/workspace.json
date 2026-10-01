@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "8dd0737936a3d9c2",
+    "id": "984d3c0f2a4d8082",
     "type": "split",
     "children": [
       {
-        "id": "bd0080362e6bf048",
+        "id": "f6882ae821eca9c6",
         "type": "tabs",
         "children": [
           {
-            "id": "a3abdf5d82ff6d94",
+            "id": "c4c43d3c2b1e7a8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Visión/02 - Visión del Juego.md",
+                "file": "01 - Visión/04 - Pilares de Diseño.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Visión del Juego"
+              "title": "04 - Pilares de Diseño"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0b38c030515ed8ad",
+    "id": "0ac1f6d8b5b9e002",
     "type": "split",
     "children": [
       {
-        "id": "4a126682fbd8ad4b",
+        "id": "30e335e59008ec7d",
         "type": "tabs",
         "children": [
           {
-            "id": "869c511d046036dd",
+            "id": "3793b98e7747de54",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "f03acfc850fa5f20",
+            "id": "5eb2fad291d5da0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "e5abd59983fb687c",
+            "id": "f97e8d7b2b3d48c8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "4572e5b4b5e19af7",
+    "id": "130293fdd8c7bb5f",
     "type": "split",
     "children": [
       {
-        "id": "f33c54efd89b6f65",
+        "id": "cec7486f053f71e9",
         "type": "tabs",
         "children": [
           {
-            "id": "63b92f4b2090b3fc",
+            "id": "a054a9504594231c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Visión/02 - Visión del Juego.md",
+                "file": "01 - Visión/03 - Público y Plataforma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +113,12 @@
             }
           },
           {
-            "id": "60ff544a3a7888f7",
+            "id": "fd9072cc61edfba3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Visión/02 - Visión del Juego.md",
+                "file": "01 - Visión/03 - Público y Plataforma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -127,7 +127,7 @@
             }
           },
           {
-            "id": "6f518d27e81b0b93",
+            "id": "0f505190c6190ffd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +142,7 @@
             }
           },
           {
-            "id": "07aa4fe48452d4b1",
+            "id": "8e08f5af6150c56d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,12 +156,12 @@
             }
           },
           {
-            "id": "8df2d2bbc0baca01",
+            "id": "7c7bd3f00af8a118",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Visión/02 - Visión del Juego.md",
+                "file": "01 - Visión/03 - Público y Plataforma.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,12 +188,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "a3abdf5d82ff6d94",
+  "active": "c4c43d3c2b1e7a8a",
   "lastOpenFiles": [
-    "01 - Visión/04 - Pilares de Diseño.md",
-    "01 - Visión/02 - Visión del Juego.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
     "01 - Visión/03 - Público y Plataforma.md",
-    "00 - Índice.md"
+    "01 - Visión/02 - Visión del Juego.md",
+    "01 - Visión/04 - Pilares de Diseño.md",
+    "01 - Visión/01 - Ficha del Proyecto.md"
   ]
 }
