@@ -6,27 +6,29 @@ Documenta las entidades controladas por el juego y su comportamiento.
 
 ## Plantilla de enemigo
 
-### Nombre
+### Nombre: Criatura canina deformada
 
-**Rol de combate:**
+**Rol de combate:** Enemigo de persecución. Representa una amenaza física que obliga al jugador a desplazarse y evitar el contacto.
 
-**Comportamiento:**
+**Comportamiento:** Su aparición se activa después de que el protagonista interactúa con la computadora y observa un video perturbador.
 
-**Vida:**
+La criatura comienza a perseguirlo por el escenario. El jugador debe desplazarse por la ruta disponible y evitar recibir suficientes ataques como para provocar su derrota.
 
-**Daño:**
+**Vida:** No aplica. La criatura no puede ser eliminada mediante combate.
 
-**Defensas:**
+**Daño:** Provoca daño al protagonista al alcanzarlo o atacarlo. Cada impacto debe producir una señal visual, como manchas rojas en la pantalla. La cantidad de impactos necesarios para perder está pendiente de definir.
 
-**Velocidad:**
+**Defensas:** No aplica. El jugador no dispone de ataques que puedan dañarla.
 
-**Rango de detección:**
+**Velocidad:** Debe permitir una persecución desafiante, pero superable mediante el movimiento del protagonista. Su valor definitivo se establecerá mediante pruebas.
 
-**Ataques:**
+**Rango de detección:** Su persecución se activa por un evento narrativo, no por un sistema de patrullaje. La distancia a partir de la cual puede localizar nuevamente al jugador, si se pierde el contacto, está pendiente de definir.
 
-**Debilidades:**
+**Ataques:** Contacto o ataque de corto alcance que provoca daño. No se han definido ataques a distancia.
 
-**Recompensa:**
+**Debilidades:** No presenta vulnerabilidades de combate. La forma de superar el encuentro es escapar y alcanzar la zona segura o el evento que finaliza la persecución.
+
+**Recompensa:** Superar la primera persecución y continuar con los acontecimientos del Nivel 2.
 
 **Estados de IA:**
 
@@ -36,21 +38,118 @@ Patrullar → Detectar → Perseguir → Atacar
                 Perder objetivo → Buscar
 ```
 
-## Plantilla de NPC
+```text
+INACTIVO
+   ↓
+Evento de la computadora
+   ↓
+APARICIÓN
+   ↓
+PERSEGUIR AL JUGADOR
+   ├── Jugador al alcance
+   │       ↓
+   │     ATACAR
+   │       ├── Jugador sobrevive → PERSEGUIR
+   │       └── Jugador derrotado → REINICIAR
+   │
+   └── Jugador alcanza la salida
+           ↓
+     FINALIZAR PERSECUCIÓN
+```
 
-**Nombre:**
+### Nombre: Manifestación grotesca de Margarita
 
-**Función:**
+**Rol de combate:** Antagonista principal en su versión hostil. Enemigo de persecución que combina horror psicológico y corporal.
 
-**Ubicación:**
+**Comportamiento:** Aparece después de la primera persecución, inicialmente como una figura femenina que recuerda a Margarita.
 
-**Interacción:**
+Su apariencia se transforma y revela rasgos grotescos. Posteriormente comienza a perseguir al protagonista, quien debe escapar para continuar con la historia.
 
-**Diálogos:**
+**Vida:** No aplica. No puede ser derrotada mediante ataques.
 
-**Condiciones:**
+**Daño:** Puede dañar al protagonista durante la persecución. Los impactos producen retroalimentación visual y pueden provocar la derrota si se alcanza el límite establecido.
 
-**Recompensas / información:**
+**Defensas:** No aplica. No existe un sistema de combate contra esta manifestación.
 
+**Velocidad:** Debe generar una sensación de peligro mayor que la primera persecución, sin hacer imposible la evasión. Los valores definitivos se ajustarán mediante pruebas.
+
+**Rango de detección:** La persecución comienza mediante un evento narrativo. No se contempla patrullaje previo.
+
+**Ataques:** Ataque de proximidad o contacto. Su animación y alcance exactos están pendientes de definir.
+
+**Debilidades:** No presenta debilidades de combate. El jugador debe escapar y llegar al punto que finaliza la secuencia.
+
+**Recompensa:** Supervivencia y activación del segundo despertar, que permite continuar con la historia.
+
+**Estados de IA:**
+
+```text
+INACTIVA
+   ↓
+Encuentro con figura femenina
+   ↓
+REVELACIÓN / TRANSFORMACIÓN
+   ↓
+PERSEGUIR AL JUGADOR
+   ├── Jugador al alcance
+   │       ↓
+   │     ATACAR
+   │       ├── Jugador sobrevive → PERSEGUIR
+   │       └── Jugador derrotado → REINICIAR
+   │
+   └── Jugador completa la huida
+           ↓
+     FINALIZAR PERSECUCIÓN
+           ↓
+     SEGUNDO DESPERTAR
+```
+## Plantilla de NPC 
+
+El juego no contempla NPC convencionales con diálogos interactivos, misiones secundarias, comercio o sistemas de acompañamiento.
+
+Sin embargo, existen personajes controlados por el juego que participan en las cinemáticas y los eventos narrativos.
+
+**Nombre:** Madre [Pendiente]
+
+**Función:** Personaje narrativo que participa en las conversaciones familiares y contribuye al misterio sobre Margarita.
+
+**Ubicación:** Comedor de la casa familiar, durante las secuencias de desayuno.
+
+**Interacción:** Participación mediante cinemáticas. No cuenta con un sistema de conversación libre.
+
+**Diálogos:** Niega que el protagonista haya tenido una hermana y mantiene una actitud evasiva.
+
+**Condiciones:** Aparece durante los eventos narrativos del primer y segundo desayuno.
+
+**Recompensas / información:** Introduce contradicciones entre los recuerdos del protagonista y las afirmaciones de su familia.
+
+
+**Nombre:** Padre del protagonista. [Pendiente]
+
+**Función:** Personaje narrativo que refuerza la negación de la existencia de Margarita.
+
+**Ubicación:** Comedor de la casa familiar.
+
+**Interacción:** Participación mediante cinemáticas, sin diálogo interactivo.
+
+**Diálogos:** Respuestas breves y evasivas ante las preguntas del protagonista.
+
+**Condiciones:** Aparece durante las secuencias familiares establecidas por la historia.
+
+**Recompensas / información:** Refuerza el conflicto narrativo y la incertidumbre sobre los recuerdos del protagonista.
+
+**Nombre:** Manifestación de Margarita [Pendiente]
+
+**Función:** Entidad narrativa que conduce al desenlace del demo.
+
+**Ubicación:** Bañera del Nivel 3.
+
+**Interacción:** Encuentro dirigido mediante un evento narrativo. No cuenta con un sistema de conversación libre.
+
+**Diálogos:** Invita al protagonista a acercarse. El texto definitivo está pendiente de confirmar.
+
+**Condiciones:** Se presenta cuando el protagonista alcanza el baño final.
+
+**Recompensas / información:** Activa la transición hacia los carteles de desaparición y la noticia sobre el hallazgo del cuerpo de Margarita.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+                "file": "04 - Contenido/05 - Misiones y Desafíos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Diálogos y Narrativa"
+              "title": "05 - Misiones y Desafíos"
             }
           }
         ]
@@ -190,6 +190,11 @@
   },
   "active": "a32c2443ee37e80c",
   "lastOpenFiles": [
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
+    "04 - Contenido/02 - Niveles.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
     "03 - Historia y Mundo/03 - Personajes.md",
     "03 - Historia y Mundo/02 - Mundo.md",
     "03 - Historia y Mundo/01 - Premisa y Trama.md",
