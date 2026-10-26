@@ -6,17 +6,17 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo                        | Información                                                                                                 |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Nombre del proyecto**      | Portales? - Polihui (NAHUAL - desaparecer/ perderse o hacer falta) - Naa (MIXTECO - Perderse/ desaparecer ) |
-| **Nombre clave**             | <!-- Identificador interno si existe -->                                                                    |
-| **Versión del GDD**          | 0.1.0                                                                                                       |
-| **Estado del proyecto**      | Concepto ~~/ Preproducción / Producción / Pruebas / Publicado~~                                             |
-| **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando                                                               |
-| **Responsable del proyecto** | Wendy                                                                                                       |
-| **Fecha de inicio**          | 24 de septiembre 2026                                                                                       |
-| **Última actualización**     | 27 de septiembre 2026                                                                                       |
-| **Repositorio**              | Pendiente                                                                                                   |
+| Campo                        | Información                                                     |
+| ---------------------------- | --------------------------------------------------------------- |
+| **Nombre del proyecto**      | Carencia                                                        |
+| **Nombre clave**             | <!-- Identificador interno si existe -->                        |
+| **Versión del GDD**          | 0.1.0                                                           |
+| **Estado del proyecto**      | Concepto ~~/ Preproducción / Producción / Pruebas / Publicado~~ |
+| **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando                   |
+| **Responsable del proyecto** | Wendy                                                           |
+| **Fecha de inicio**          | 24 de septiembre 2026                                           |
+| **Última actualización**     | 25 de Octubre 2026                                              |
+| **Repositorio**              | https://github.com/MelchorOjeda/CARENCIA                        |
 
 ## Identidad del videojuego
 

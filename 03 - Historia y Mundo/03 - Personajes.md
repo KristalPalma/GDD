@@ -40,7 +40,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ### Protagonista
 
-### Nombre: Manuel Flores Hernández [por definir]
+### Nombre: Elaki Flores Hernández
 
 **Rol:** Personaje principal y único personaje controlable.
 

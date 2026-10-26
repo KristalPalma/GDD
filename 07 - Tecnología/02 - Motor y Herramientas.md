@@ -6,9 +6,9 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 ## Motor
 
-**Motor:**
+**Motor:** Unity
 
-**Versión:**
+**Versión:** Unity 6 6000.6.3f1
 
 **Renderizado:**
 

@@ -75,11 +75,11 @@ Su apariencia se transforma y revela rasgos grotescos. Posteriormente comienza a
 
 **Rango de detección:** La persecución comienza mediante un evento narrativo. No se contempla patrullaje previo.
 
-**Ataques:** Ataque de proximidad o contacto. ==🟣Su animación y alcance exactos están pendientes de definir.==
+**Ataques:** Ataque por contacto. 
 
-**Debilidades:** No presenta debilidades de combate. El jugador debe escapar y llegar al punto que finaliza la secuencia.
+**Debilidades:** Puede morir con cualquier momento en el que el los enemigos lo ataquen al alcanzarlo. 
 
-**Recompensa:** Supervivencia y activación del segundo despertar, que permite continuar con la historia.
+**Recompensa:** Supervivencia y activación del siguiente nivel, que permite continuar con la historia.
 
 **Estados de IA:**
 
