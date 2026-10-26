@@ -47,7 +47,7 @@ Explorar el entorno → Acercarse e inspeccionar elementos → Descubrir pistas 
 ## Condición de derrota
 
 ¿Qué situaciones provocan fracaso?
-	==El jugador pierde cuando los ataques agotan la salud del protagonista. En ese caso, retoma la partida desde el último punto de guardado.==
+	El jugador pierde cuando los ataques agotan la salud del protagonista. En ese caso, retoma la partida desde el último punto de guardado.
 	Ser descubierto genera una situación de peligro; no implica necesariamente una derrota inmediata. Agotar la energía limita la posibilidad de correr y aumenta la vulnerabilidad.
 ## Ritmo
 

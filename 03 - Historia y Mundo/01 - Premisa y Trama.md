@@ -16,16 +16,41 @@ Sin embargo, cuanto más profundiza en las dimensiones, más se distorsiona su h
 
 Describe el argumento completo sin entrar todavía en cada escena.
 
-Un joven de 17 años vive atormentado por el recuerdo de su hermana Margarita, cuya existencia sus padres niegan. Durante una mañana aparentemente normal, descubre medicamentos relacionados con su trastorno y objetos personales que parecen confirmar que ella existió. Decidido a encontrar respuestas, atraviesa un portal oculto en el espejo de su baño.
+Un joven de 17 años vive atormentado por el recuerdo de su hermana Margarita, cuya existencia sus padres niegan. Durante una mañana aparentemente normal, encuentra medicamentos y objetos personales que contradicen la versión de su familia. Decidido a descubrir qué ocurrió, atraviesa un portal oculto en el espejo de su baño.
 
-Su búsqueda lo lleva a recorrer versiones cada vez más deformadas de su hogar, donde encuentra criaturas, recuerdos contradictorios y manifestaciones aterradoras de su hermana. Finalmente, descubre que Margarita desapareció el 31 de octubre y que su cuerpo fue encontrado posteriormente, enfrentándose a una verdad que había permanecido oculta entre sus recuerdos y una realidad cuya naturaleza sigue siendo incierta.
+Su búsqueda lo lleva a recorrer tres dimensiones que representan diferentes manifestaciones del miedo. Primero explora espacios vacíos y desolados; después enfrenta criaturas y deformaciones corporales relacionadas con sus recuerdos; finalmente, llega a una versión grotesca de su hogar, donde las alteraciones de la realidad se vuelven cada vez más evidentes.
+
+Al regresar al baño, encuentra a Margarita dentro de la bañera y atraviesa un último portal creyendo que podrá reunirse con ella. Sin embargo, una secuencia de noticias revela que su hermana desapareció el 31 de octubre y que posteriormente fue encontrada sin vida. Finalmente, un reporte del 25 de diciembre informa sobre la muerte de un joven tras caer de un edificio, sugiriendo el destino del protagonista.
 ## Estructura narrativa
 
-### Acto / Etapa 1. La negación y la búsqueda
+### Acto / Etapa 1 Prologo - La negación
+El protagonista despierta en su hogar y comienza su rutina diaria. Durante el desayuno, sus padres niegan la existencia de Margarita, a pesar de que él conserva recuerdos de ella.
 
-### Acto / Etapa 2
+Al explorar el baño, encuentra medicamentos y objetos personales que refuerzan sus sospechas. Posteriormente descubre un portal en el espejo y decide atravesarlo para buscar respuestas.
 
-### Acto / Etapa 3
+### Acto / Etapa 2 Nivel 1 - Primera Ruptura
+El protagonista llega a una versión aparentemente familiar de su hogar, pero encuentra espacios amplios, vacíos, limpios y desolados.
+
+La ausencia de personas y objetos genera una sensación de inquietud y extrañeza. Durante esta etapa, el jugador se familiariza con la exploración y las interacciones básicas, mientras descubre pequeñas alteraciones que lo conducen hacia la siguiente dimensión.
+
+### Acto / Etapa 3 Nivel 2 - La deformación
+La búsqueda continúa en un entorno más oscuro, donde aparecen manifestaciones de horror corporal relacionadas con la hermana y el perro.
+
+El protagonista encuentra nuevas inconsistencias, observa una grabación perturbadora y enfrenta situaciones de persecución. Tras sobrevivir, regresa temporalmente a su hogar, donde los acontecimientos aumentan su desconfianza hacia sus padres y su propia percepción.
+
+### Acto / Etapa 4 Nivel 3. La realidad se rompe
+El protagonista explora una versión profundamente deformada de su hogar, caracterizada por superficies orgánicas, ojos, estructuras semejantes a carne y una oscuridad más intensa.
+
+Las manifestaciones del horror se vuelven explícitas y las pistas sobre Margarita adquieren mayor importancia. Finalmente, regresa al baño y encuentra a su hermana dentro de la bañera, que ahora funciona como el último portal.
+
+### Acto / Etapa 5 Desenlace. La revelación
+Convencido de que podrá reunirse con Margarita, el protagonista atraviesa la bañera. En ese momento, la ambientación y el sonido se interrumpen abruptamente.
+
+Una secuencia de carteles y noticias revela que Margarita desapareció el 31 de octubre y que su cuerpo fue encontrado posteriormente.
+
+Después, un reporte fechado el 25 de diciembre informa sobre la muerte de un joven tras caer de un edificio. La última cinemática muestra el lugar del incidente desde una perspectiva superior, rodeado de personas, sirenas y decoraciones navideñas.
+
+El desenlace sugiere que el joven fallecido es el protagonista, mientras deja abierta la interpretación sobre la naturaleza de las dimensiones que recorrió.
 
 ## Eventos principales
 
@@ -46,9 +71,9 @@ Su búsqueda lo lleva a recorrer versiones cada vez más deformadas de su hogar,
 | Nivel 3 — La realidad se rompe |                                                                                                 |                                                                         |                                                                          |
 | 9                              | Explora su casa completamente deformada.                                                        | Recorre el entorno y descubre pistas relacionadas con el 31 de octubre. | Se aproxima a la verdad sobre Margarita.                                 |
 | 10                             | Encuentra a Margarita dentro de la bañera.                                                      | Presencia el encuentro y la transición final.                           | Cree que finalmente podrá reunirse con ella.                             |
-| 11                             | Se revela el destino de Margarita.                                                              | Observa los carteles de desaparición y la transmisión informativa.      | Descubre que su hermana había muerto.                                    |
 | Desenlace                      |                                                                                                 |                                                                         |                                                                          |
-| 12                             | Se presenta una noticia del 25 de diciembre y la escena del edificio.                           | Observa la cinemática final.                                            | Se sugiere el destino del protagonista y concluye la historia.           |
+| 11                             | Se presenta una noticia del 25 de diciembre y la escena del edificio.                           | Observa la cinemática final.                                            | Se sugiere el destino del protagonista y concluye la historia.           |
+| 12                             | Una noticia del 25 de diciembre informa sobre la muerte de un joven tras caer de un edificio.   | Observa la transmisión y la cinemática final.                           | Se sugiere el destino del protagonista y concluye la historia.           |
 
 ## Finales
 
@@ -58,9 +83,9 @@ El videojuego cuenta con un único final narrativo.
 
 Tras recorrer las diferentes dimensiones, el protagonista encuentra a Margarita en la bañera. Ella lo invita a reunirse con ella y el joven atraviesa el último portal creyendo que finalmente podrá recuperarla.
 
-Sin embargo, una secuencia de carteles de desaparición y una transmisión televisiva revelan que Margarita desapareció el 31 de octubre y que su cuerpo fue encontrado posteriormente en un lote baldío.
+En ese momento, la ambientación y el sonido desaparecen, dando paso a una secuencia de carteles y noticias. Se revela que Margarita desapareció el 31 de octubre y que posteriormente fue encontrada sin vida en un lote baldío.
 
-Esta revelación sugiere que las dimensiones recorridas podrían representar la negación del protagonista ante la pérdida de su hermana, aunque se mantiene cierta ambigüedad sobre la naturaleza de sus experiencias.
+Esta revelación sugiere que las dimensiones recorridas podrían representar la negación del protagonista ante la pérdida de su hermana, sin confirmar completamente si los acontecimientos sobrenaturales fueron reales.
 
 Finalmente, una noticia fechada el 25 de diciembre informa sobre la muerte de un joven tras caer de un edificio. La última cinemática muestra el lugar de los hechos y sugiere que se trata del protagonista.
 

@@ -14,7 +14,6 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 
 **Fuentes:** formas en las que el jugador obtiene recursos.
 La vida del protagonista se establece al comenzar la partida o al reiniciar desde el punto de control correspondiente. No se contempla la recolección de objetos para recuperar vida.
-[por definir]
 
 **Sumideros:** formas en las que el jugador los gasta.
 La vida disminuye cuando el protagonista recibe daño durante las persecuciones.

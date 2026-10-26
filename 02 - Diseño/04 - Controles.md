@@ -6,13 +6,13 @@ Define la relación entre las acciones del jugador y las entradas físicas del d
 
 ## Mapa de controles
 
-| Acción                     | Teclado                      | Mouse                                                       | Control | Táctil |
-| -------------------------- | ---------------------------- | ----------------------------------------------------------- | ------- | ------ |
-| Mover al personaje         | WASD / Flechas direccionales | -                                                           | X       | X      |
-| Interactuar / inspeccionar | E                            | Clic izquierdo sobre la opción disponible ==🟣(Propuesto)== | X       | X      |
-| Cerrar inspección          | Esc                          | Clic en cerrar                                              | X       | X      |
-| Ataque principal           |                              |                                                             | X       | X      |
-| Pausar/ Abrir Menú         | Esc                          | Clic en opciones del menú                                   | X       | X      |
+| Acción                     | Teclado                      | Mouse                                     | Control | Táctil |
+| -------------------------- | ---------------------------- | ----------------------------------------- | ------- | ------ |
+| Mover al personaje         | WASD / Flechas direccionales | -                                         | X       | X      |
+| Interactuar / inspeccionar | E                            | Clic izquierdo sobre la opción disponible | X       | X      |
+| Cerrar inspección          | Esc                          | Clic en cerrar                            | X       | X      |
+| Ataque principal           | X                            | X                                         | X       | X      |
+| Pausar/ Abrir Menú         | Esc                          | Clic en opciones del menú                 | X       | X      |
 
 
 ## Principios de control

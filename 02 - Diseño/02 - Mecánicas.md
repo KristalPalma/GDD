@@ -162,22 +162,15 @@ El jugador interactúa con un elemento disponible o entra en una zona que activa
 **Reglas:**
 
 - Cada interacción tiene condiciones previas y un resultado definido.
-    
 - Un objeto bloqueado no ejecuta su acción hasta que se cumplan sus condiciones.
-    
 - La acción produce una respuesta visual o sonora que confirma su ejecución.
-    
 - Las interacciones narrativas de una sola ejecución quedan registradas.
-    
 - Durante una animación o transición no se aceptan nuevas activaciones del mismo elemento.
-    
 - Las interacciones obligatorias deben contar con señales que ayuden a identificarlas.
-    
 - Las pistas opcionales no se convierten en requisitos de avance.
-    
 
 **Entrada:**  
-Propuesta: **clic izquierdo** para accionar objetos. Los eventos por proximidad se activan al entrar en su zona.
+Propuesta: Tecla "E" para accionar objetos. Los eventos por proximidad se activan al entrar en su zona.
 
 **Estado inicial:**  
 Elemento en su estado correspondiente: bloqueado, disponible o ya utilizado.
@@ -200,5 +193,8 @@ Inspección, movimiento, cambios de vista, portales y transiciones narrativas.
 
 Lista las mecánicas que complementan la experiencia pero no constituyen el núcleo.
 
-
+|Mecánica|Descripción|Función|
+|---|---|---|
+|**Correr**|Permite aumentar temporalmente la velocidad de desplazamiento del protagonista.|Facilitar la evasión durante las persecuciones del Nivel 2 y otros encuentros peligrosos.|
+|**Evasión de enemigos**|Consiste en evitar el contacto con las criaturas mediante el desplazamiento y el aprovechamiento de los espacios disponibles.|Permitir que el protagonista sobreviva a los encuentros y continúe la historia.|
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

@@ -223,7 +223,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Interacciones:** Observación e inspección.
 
-**Representación visual:** Pequeño espacio conmemorativo relacionado con el perro. Sus elementos decorativos específicos están pendientes de definir.
+**Representación visual:** Pequeño espacio conmemorativo relacionado con el perro. 
 
 ### Nombre: Carteles de desaparición
 

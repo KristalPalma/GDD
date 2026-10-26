@@ -16,13 +16,13 @@ La criatura comienza a perseguirlo por el escenario. El jugador debe desplazarse
 
 **Vida:** No aplica. La criatura no puede ser eliminada mediante combate.
 
-**Daño:** Provoca daño al protagonista al alcanzarlo o atacarlo. Cada impacto debe producir una señal visual, como manchas rojas en la pantalla. La cantidad de impactos necesarios para perder está pendiente de definir.
+**Daño:** Provoca daño al protagonista al alcanzarlo o atacarlo. Cada impacto debe producir una señal visual, como manchas rojas en la pantalla.
 
 **Defensas:** No aplica. El jugador no dispone de ataques que puedan dañarla.
 
 **Velocidad:** Debe permitir una persecución desafiante, pero superable mediante el movimiento del protagonista. Su valor definitivo se establecerá mediante pruebas.
 
-**Rango de detección:** Su persecución se activa por un evento narrativo, no por un sistema de patrullaje. La distancia a partir de la cual puede localizar nuevamente al jugador, si se pierde el contacto, está pendiente de definir.
+**Rango de detección:** Su persecución se activa por un evento narrativo, no por un sistema de patrullaje. 
 
 **Ataques:** Contacto o ataque de corto alcance que provoca daño. No se han definido ataques a distancia.
 
@@ -75,7 +75,7 @@ Su apariencia se transforma y revela rasgos grotescos. Posteriormente comienza a
 
 **Rango de detección:** La persecución comienza mediante un evento narrativo. No se contempla patrullaje previo.
 
-**Ataques:** Ataque de proximidad o contacto. Su animación y alcance exactos están pendientes de definir.
+**Ataques:** Ataque de proximidad o contacto. ==🟣Su animación y alcance exactos están pendientes de definir.==
 
 **Debilidades:** No presenta debilidades de combate. El jugador debe escapar y llegar al punto que finaliza la secuencia.
 
@@ -109,7 +109,7 @@ El juego no contempla NPC convencionales con diálogos interactivos, misiones se
 
 Sin embargo, existen personajes controlados por el juego que participan en las cinemáticas y los eventos narrativos.
 
-**Nombre:** Madre [Pendiente]
+**Rol:** Madre
 
 **Función:** Personaje narrativo que participa en las conversaciones familiares y contribuye al misterio sobre Margarita.
 
@@ -124,7 +124,7 @@ Sin embargo, existen personajes controlados por el juego que participan en las c
 **Recompensas / información:** Introduce contradicciones entre los recuerdos del protagonista y las afirmaciones de su familia.
 
 
-**Nombre:** Padre del protagonista. [Pendiente]
+**Rol:** Padre del protagonista. 
 
 **Función:** Personaje narrativo que refuerza la negación de la existencia de Margarita.
 
@@ -138,7 +138,7 @@ Sin embargo, existen personajes controlados por el juego que participan en las c
 
 **Recompensas / información:** Refuerza el conflicto narrativo y la incertidumbre sobre los recuerdos del protagonista.
 
-**Nombre:** Manifestación de Margarita [Pendiente]
+**Rol:** Manifestación de Margarita
 
 **Función:** Entidad narrativa que conduce al desenlace del demo.
 
@@ -146,7 +146,13 @@ Sin embargo, existen personajes controlados por el juego que participan en las c
 
 **Interacción:** Encuentro dirigido mediante un evento narrativo. No cuenta con un sistema de conversación libre.
 
-**Diálogos:** Invita al protagonista a acercarse. El texto definitivo está pendiente de confirmar.
+**Diálogos:** Invita al protagonista a acercarse. 
+
+Margarita: «¿Por qué tardaste tanto?»
+Protagonista: «¿Margarita…?»
+Margarita: «Te estaba esperando. Ven, acércate… Ya no tenemos que separarnos».
+Protagonista: «Pensé que te había perdido».
+Margarita: «Nunca me fui. Ven conmigo».
 
 **Condiciones:** Se presenta cuando el protagonista alcanza el baño final.
 

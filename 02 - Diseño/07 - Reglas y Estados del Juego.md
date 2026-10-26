@@ -49,11 +49,10 @@ Se produce cuando el protagonista recibe suficiente daño durante una persecuci�
 - **Game Over**
 Representa el resultado de una derrota por muerte del protagonista.
 
-Desde este estado se permite reiniciar la partida desde el punto de control establecido para recuperar la oportunidad de superar el desafío. [por definir]
+Desde este estado se permite reiniciar la partida desde el punto de control establecido para recuperar la oportunidad de superar el desafío.
 
 - **Créditos**
 Aparecerán los créditos en una sección mostrada en el menú principal.
-[por definir]
 
 ## Transiciones
 
@@ -73,7 +72,6 @@ Aparecerán los créditos en una sección mostrada en el menú principal.
 | Jugando                       | Completar el desenlace              | Victoria                            | Se cumplen las condiciones del final del videojuego.                 |
 | Victoria                      | Finalizar secuencia de cierre       | Créditos                            | Se ha completado el videojuego.                                      |
 | Créditos                      | Finalizar o regresar                | Menú principal                      | Termina la presentación de créditos o se selecciona regresar.        |
-[por definir]
 ## Reglas globales
 
 1. **Movimiento:** el protagonista se controla mediante WASD o flechas direccionales. No se utiliza desplazamiento automático al hacer clic sobre el escenario.
@@ -112,7 +110,7 @@ El jugador debe acercarse hasta la distancia permitida para que aparezca la opci
 
 **5. Daño durante las persecuciones**
 El daño se representa visualmente mediante manchas rojizas progresivas.
-Cuando se alcanza el límite de vida, se activa la derrota. La cantidad de golpes necesarios para morir queda pendiente de definición.
+Cuando se alcanza el límite de vida, se activa la derrota.
 
 **6. Supervivencia durante la persecución de la hermana**
 El jugador debe sobrevivir a la persecución y alcanzar el punto que marca el final del Nivel 2.

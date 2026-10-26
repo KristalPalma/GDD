@@ -81,7 +81,7 @@ NIVEL 1
 - Observar el comportamiento de la cortina de la ducha.
 - Investigar el pasillo y seguir las señales auditivas.
 
-**Duración estimada:** Pendiente de validar mediante pruebas de recorrido.
+**Duración estimada:** ==🟣Pendiente de validar mediante pruebas de recorrido.==
 
 **Dificultad:** Baja. El desafío se concentra en la exploración y la identificación de cambios.
 
@@ -147,7 +147,7 @@ NIVEL 2
 - Descubrir nuevas pistas después del segundo despertar.
 - Revisar el periódico y los cambios en las habitaciones.
 
-**Duración estimada:** Pendiente de validar mediante pruebas, especialmente por la duración de las persecuciones.
+**Duración estimada:** ==🟣Pendiente de validar mediante pruebas, especialmente por la duración de las persecuciones.==
 
 **Dificultad:** Media-alta. Es el primer nivel que incorpora amenazas directas y condiciones de derrota.
 
@@ -243,7 +243,7 @@ NIVEL 3
 - Investigar los sonidos y las apariciones del pasillo.
 - Reconocer la transformación definitiva del baño.
 
-**Duración estimada:** Pendiente de validar mediante pruebas de recorrido.
+**Duración estimada:** ==🟣Pendiente de validar mediante pruebas de recorrido.==
 
 **Dificultad:** Media. El nivel se centra en la tensión ambiental, la exploración y los eventos narrativos.
 

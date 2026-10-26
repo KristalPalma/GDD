@@ -84,7 +84,7 @@ La información se transmite principalmente mediante cinemáticas, además de lo
 
 **Consecuencias:** La inspección del gabinete es obligatoria para continuar. Al cerrarlo, el protagonista observa una alteración en el espejo que conduce a la aparición del portal.
 
-### Escena 03 — Voz femenina en la primera dimensión [pendiente por definir]
+### Escena 03 — Voz femenina en la primera dimensión
 
 **Participantes:** Protagonista y voz femenina de origen incierto.
 
@@ -140,8 +140,9 @@ La noticia informa que el cuerpo de Margarita fue encontrado en un lote baldío 
 
 **Consecuencias:** Se revela que Margarita no estaba simplemente atrapada en otra dimensión. El demo concluye con esta información, manteniendo la incertidumbre sobre la naturaleza de las experiencias del protagonista.
 
-_El texto definitivo del noticiero deberá establecerse en el guion de diálogos._ [pendiente]
-
+Texto definitivo del noticiero: 
+"Esta noche de 25 de diciembre, se reportó el fallecimiento de un joven tras caer desde un edificio. Elementos de emergencia y autoridades acudieron al lugar de los hechos. Hasta el momento, no se ha dado a conocer la identidad de la víctima ni las circunstancias que provocaron la caída."
+La transmisión termina y comienza la cinemática del edificio.
 ## Tono
 
 Describe el lenguaje, humor, formalidad y estilo de comunicación.

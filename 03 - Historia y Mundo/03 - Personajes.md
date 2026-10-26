@@ -40,7 +40,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ### Protagonista
 
-### Nombre: Javier Flores Hernández [por definir]
+### Nombre: Manuel Flores Hernández [por definir]
 
 **Rol:** Personaje principal y único personaje controlable.
 
@@ -158,7 +158,7 @@ En el Nivel 3 aparece una representación de Margarita dentro de la bañera, cuy
 
 **Función narrativa:** Introduce el conflicto al negar la existencia de Margarita y contribuye a generar dudas sobre los recuerdos del protagonista.
 
-**Descripción física:** Mujer adulta. Durante su segunda aparición presenta una apariencia cansada, con ojeras y una tonalidad grisácea. Su diseño físico definitivo está pendiente.
+**Descripción física:** Mujer adulta. Durante su segunda aparición presenta una apariencia cansada, con ojeras. 
 
 **Personalidad:** Reservada y evasiva ante las preguntas relacionadas con Margarita.
 
@@ -188,7 +188,7 @@ En el Nivel 3 aparece una representación de Margarita dentro de la bañera, cuy
 
 **Función narrativa:** Refuerza la negación de la existencia de Margarita y aumenta la desconfianza del protagonista.
 
-**Descripción física:** Hombre adulto. Apariencia detallada pendiente de definir.
+**Descripción física:** Hombre adulto. 
 
 **Personalidad:** Serio, reservado y evasivo.
 

@@ -144,7 +144,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 - Durante la exploración, la cámara se mantiene fija al escenario conservando la perspectiva isométrica.
 - Debe permitir visualizar el espacio completo en el que el personaje se está desplazando e interactuando.
 - Al interactuar con el monitor o televisión u otro elemento, que ayude a la trama, la cámara realiza un acercamiento gradual.
-- El acercamiento debe permitir observar el video ==🟡sin cambiar a una perspectiva en primera persona.== [sin definir]
+- El acercamiento debe permitir observar el video sin cambiar a una perspectiva en primera persona.
 - Conforme avanza el video, la cámara puede alejarse progresivamente para revelar una presencia en el escenario.
 - Al finalizar la secuencia, recupera su encuadre habitual.
 - Los cambios de cámara no deben interferir con el movimiento durante las persecuciones.
@@ -321,8 +321,6 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - Los enemigos permanecen inactivos hasta que se activa su evento correspondiente.
 - Al comenzar una persecución, el enemigo identifica la posición del protagonista y se desplaza hacia él.
 - El seguimiento debe respetar los obstáculos del escenario.
-- Cuando el enemigo alcanza la distancia de ataque, puede ejecutar una acción ofensiva.
-[Pendiente por definir]
 - La persecución de la primera criatura termina cuando el protagonista alcanza la zona establecida del pasillo.
 - Durante el encuentro posterior, la hermana es la amenaza principal y persigue directamente al protagonista.
 - Los gusanos de su secuencia funcionan como elementos ambientales y no deben causar daño directo.
@@ -484,7 +482,7 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - Cada escenario reproduce los sonidos ambientales correspondientes.
 - Durante la exploración pueden aparecer murmullos y ruidos inesperados.
 - El video del monitor reproduce su audio sincronizado con la imagen.
-- El audio posicional o diferenciado entre canales izquierdo y derecho se considera una mejora opcional, sujeta a pruebas técnicas. [posible cambio]
+- El audio posicional o diferenciado entre canales izquierdo y derecho se considera una mejora opcional, sujeta a pruebas técnicas.
 - Los efectos deben equilibrarse para que no oculten diálogos o sonidos importantes.
 
 **Salidas:** 
@@ -536,7 +534,7 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - El sistema debe identificar la fase y los eventos completados.
 - En caso de muerte, el juego ejecuta la consecuencia narrativa o el reinicio correspondiente.
 - Al reiniciar, los sistemas de movimiento, enemigos, daño, cámara y secuencias deben recuperar un estado válido.
-- La persistencia del progreso entre sesiones y la ubicación definitiva de los puntos de control quedan pendientes de definición.
+- La persistencia del progreso entre sesiones y la ubicación definitiva de los puntos de control.
 
 **Salidas:** 
 - Registro de progreso.

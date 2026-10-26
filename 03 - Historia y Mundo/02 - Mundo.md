@@ -60,15 +60,14 @@ No se establece qué ocurre posteriormente con la familia ni se confirma de mane
 | Sala y comedor              | Habitaciones familiares que aparecen en distintas versiones.                                              | Exploración, observación de pistas y eventos narrativos.     | Muestran contradicciones sobre la composición de la familia.                      |
 
 
-## ==🔴Facciones==
+## Facciones
 
-| Facción                            | Objetivo                                                                               | Relación con el jugador                                                        |
-| ---------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-|                                    |                                                                                        |                                                                                |
-|                                    |                                                                                        |                                                                                |
-|                                    |                                                                                        |                                                                                |
-|                                    |                                                                                        |                                                                                |
 
+_Carencia_ no contempla facciones ni grupos organizados con objetivos colectivos. La narrativa se desarrolla alrededor del conflicto personal y psicológico del protagonista, sus relaciones familiares y las entidades que aparecen durante su búsqueda.
+
+Los personajes y las criaturas se documentan individualmente en el apartado **03 - Personajes** y, cuando corresponda, en **Enemigos y NPC**.
+
+**Estado:** No aplica.
 ## Coherencia del mundo
 
 Lista reglas que no deben romperse sin una razón narrativa o de diseño.
@@ -85,7 +84,6 @@ Lista reglas que no deben romperse sin una razón narrativa o de diseño.
 10. **La historia es lineal.** El jugador puede explorar e interactuar con distintos elementos, pero no modificar los acontecimientos centrales ni el desenlace.
 11. **Las transiciones deben respetar el orden narrativo.** Los portales y eventos que conducen a otro nivel deben activarse únicamente cuando se cumplan las condiciones correspondientes.
 12. **La información sobre Margarita se revela gradualmente.** Su destino no debe confirmarse antes de las secuencias finales.
-    
 
 ---
 

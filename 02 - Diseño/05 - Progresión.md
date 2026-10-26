@@ -55,14 +55,15 @@ El jugador debe utilizar las habilidades adquiridas para recorrer los escenarios
 
 La tensión narrativa aumenta conforme el protagonista se aproxima a las revelaciones principales de la historia.
 
-La secuencia exacta de acontecimientos y los desafíos finales de este nivel quedan pendientes de definición por parte del equipo.
 
 6. Final
-La experiencia concluye cuando el protagonista completa los acontecimientos narrativos establecidos y alcanza la revelación final relacionada con su hermana y la alteración de la realidad.
+La experiencia concluye cuando el protagonista supera los tres niveles y regresa al baño, donde encuentra a su hermana Margarita dentro de la bañera. Convencido de que finalmente podrá reunirse con ella, acepta su invitación y atraviesa el último portal, provocando una interrupción abrupta de la ambientación sonora.
 
-Las pistas descubiertas durante la exploración adquieren un significado más claro y permiten comprender la relación entre los acontecimientos de los distintos niveles.
+A continuación, una secuencia de noticias revela que Margarita desapareció el 31 de octubre y que posteriormente fue encontrada sin vida en un lote baldío. Esta información permite reinterpretar las pistas y los acontecimientos de los niveles anteriores, relacionándolos con la negación, los recuerdos y la percepción alterada del protagonista.
 
-El desenlace debe ofrecer una conclusión coherente con la historia y con la transformación psicológica del protagonista.
+Finalmente, una noticia fechada el 25 de diciembre informa sobre la muerte de un joven tras caer de un edificio, sin revelar su identidad. La última cinemática muestra el lugar del incidente desde una perspectiva superior, con personas reunidas, sirenas y decoraciones navideñas, sugiriendo que se trata del protagonista.
+
+El desenlace cierra la búsqueda de Margarita y mantiene la ambigüedad sobre la naturaleza de las dimensiones recorridas, permitiendo que el jugador interprete la relación entre los acontecimientos sobrenaturales y el estado psicológico del protagonista.
 
 ## Progresión del jugador
 
