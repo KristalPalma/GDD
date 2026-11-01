@@ -4,7 +4,7 @@
 
 Cada nivel debe documentar su propósito jugable, estructura, dificultad, contenido y condiciones de entrada/salida.
 
-## Plantilla de nivel
+## Niveles
 
 ### Prólogo — La realidad
 
