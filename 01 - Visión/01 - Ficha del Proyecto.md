@@ -6,17 +6,17 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 
 ## Información general
 
-| Campo                        | Información                                                     |
-| ---------------------------- | --------------------------------------------------------------- |
-| **Nombre del proyecto**      | Carencia                                                        |
-| **Nombre clave**             | <!-- Identificador interno si existe -->                        |
-| **Versión del GDD**          | 0.1.0                                                           |
-| **Estado del proyecto**      | Concepto ~~/ Preproducción / Producción / Pruebas / Publicado~~ |
-| **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando                   |
-| **Responsable del proyecto** | Wendy                                                           |
-| **Fecha de inicio**          | 24 de septiembre 2026                                           |
-| **Última actualización**     | 25 de Octubre 2026                                              |
-| **Repositorio**              | https://github.com/MelchorOjeda/CARENCIA                        |
+| Campo                        | Información                                   |
+| ---------------------------- | --------------------------------------------- |
+| **Nombre del proyecto**      | Carencia                                      |
+| **Nombre clave**             | <!-- Identificador interno si existe -->      |
+| **Versión del GDD**          | 0.2.0                                         |
+| **Estado del proyecto**      | Producción                                    |
+| **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando |
+| **Responsable del proyecto** | Wendy                                         |
+| **Fecha de inicio**          | 24 de septiembre 2026                         |
+| **Última actualización**     | 05 de Noviembre 2026                          |
+| **Repositorio**              | https://github.com/MelchorOjeda/CARENCIA      |
 
 ## Identidad del videojuego
 
@@ -92,7 +92,6 @@ Terror psicológico con horror corporal, en el que el jugador duda constantement
 - Un GDD completo. 
 - Un demo jugable y presentable de 3 niveles, con una duración mínima de 20 minutos. 
 - Un demo con los bugs corregidos. 
-- Un trailer. 
 - Todo el contenido (arte, audio y código) hecho por el equipo, sin recursos de terceros. 
 - Un fragmento del demo listo para mostrarse en el evento.
 
