@@ -25,21 +25,21 @@ Teclado y ratón. WASD o flechas para el desplazamiento, clic izquierdo para ins
 
 ## Herramientas
 
-| Herramienta                        | Propósito                                                                                                        | Versión                         |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| Unity Editor                       | Desarrollo del videojuego, construcción de escenarios, configuración de físicas, animaciones, escenas y pruebas. | Unity 6 versión: 6000.6.3f1     |
-| Visual Studio Code / Visual Studio | Escritura, edición y depuración de scripts en C#                                                                 | ==🟣Por verificar.==            |
-| Git                                | Control de versiones y registro de cambios del código y los recursos                                             | ==🟣Por verificar.==            |
-| GitHub                             | Almacenamiento del repositorio, colaboración y seguimiento de cambios del equipo.                                | Servicio web                    |
-| Aseprite                           | Creación de sprites, personajes, elementos visuales y animaciones en pixel art.                                  | ==🟣Por verificar.==            |
-| Krita                              | Elaboración de bocetos, ilustraciones, diseños de personajes y escenarios.                                       | ==🟣Por verificar.==<br>        |
-| CapCut                             | Edición de videos narrativos, transmisiones y secuencias cinematográficas del videojuego.                        | ==🟣Por verificar.==            |
-| Audacity                           | Grabación, limpieza de ruido y edición de voces, efectos sonoros y ambientes.                                    | ==🟣Por verificar.==            |
-| FL Studio                          | Composición musical y producción de la banda sonora del videojuego.                                              | ==🟣Por verificar.==            |
-| Obsidian                           | Redacción de documentación y organización del cronograma mediante documentos y hojas de cálculo.                 | ==🟣Por verificar.==<br>        |
-| ClickUp                            | Gestión del proyecto, organización de actividades y asignación de responsables.                                  | Servicio web                    |
-| Claude Pro                         | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local |
-| ChatGPT Plus                       | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local |
+| Herramienta                        | Propósito                                                                                                        | Versión                                                  |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Unity Editor                       | Desarrollo del videojuego, construcción de escenarios, configuración de físicas, animaciones, escenas y pruebas. | Unity 6 versión: 6000.6.3f1                              |
+| Visual Studio Code / Visual Studio | Escritura, edición y depuración de scripts en C#                                                                 | Visual studio: 18.10.3<br>Visual Studio Code:<br>1.143.1 |
+| Git                                | Control de versiones y registro de cambios del código y los recursos                                             | 2.55.0.windows.5                                         |
+| GitHub                             | Almacenamiento del repositorio, colaboración y seguimiento de cambios del equipo.                                | Servicio web                                             |
+| Aseprite                           | Creación de sprites, personajes, elementos visuales y animaciones en pixel art.                                  | Aseprite v1.3.18.6                                       |
+| Krita                              | Elaboración de bocetos, ilustraciones, diseños de personajes y escenarios.                                       | v5.3.4.1<br>                                             |
+| CapCut                             | Edición de videos narrativos, transmisiones y secuencias cinematográficas del videojuego.                        | v20.0.0                                                  |
+| Audacity                           | Grabación, limpieza de ruido y edición de voces, efectos sonoros y ambientes.                                    | ==🟣Por verificar.==                                     |
+| FL Studio                          | Composición musical y producción de la banda sonora del videojuego.                                              | v26.1.7                                                  |
+| Obsidian                           | Redacción de documentación y organización del cronograma mediante documentos y hojas de cálculo.                 | v1.15.0<br>                                              |
+| ClickUp                            | Gestión del proyecto, organización de actividades y asignación de responsables.                                  | Servicio web                                             |
+| Claude Pro                         | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local v4.23118.0               |
+| ChatGPT Plus                       | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local                          |
 
 ## Dependencias
 
