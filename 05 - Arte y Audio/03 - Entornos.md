@@ -88,8 +88,7 @@ Reglas:
 | Comedor y cocina                  | ✓    |                     | ✓       | ✓       |
 | Espacios del otro lado de la casa |      | ✓                   |         |         |
 
-Cada versión necesita piso, paredes, puertas y ventanas con el material correspondiente: doméstico, liminal, abandonado y de carne. ==🟣Pendiente: confirmar con el equipo de arte la paleta de cada versión.==
-
+Cada versión necesita piso, paredes, puertas y ventanas con el material correspondiente: doméstico, liminal, abandonado y de carne.
 **Objetos:**
 
 - **Baño:** espejo, gabinete, lavabo, inodoro, tina (vacía y llena), cortina (cuatro estados), toallero con sus variantes de toallas.
