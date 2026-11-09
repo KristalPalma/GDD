@@ -11,9 +11,9 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 | Elaki (protagonista) | Modelo 3D `personaje_modelo.blend` (1.60 m). Sprites isométricos de 192×192, 112 px de alto. | Espera (respiración), caminar, correr y muerte, en 8 direcciones. | Manchas rojas de daño en pantalla (UI). | Animaciones terminadas y subidas al repositorio de assets. Faltan retratos y sprite de diálogo. |
 | Manifestación de Margarita (Hermana) | Modelo 3D `Character_hermana.blend` (1.77 m). Sprites de 192×192, 124 px de alto. Falda y pelo con simulación de tela. | Correr herida, gateo y combo de ataque, en 8 direcciones. | Gusanos y sangre en el sprite. | Animaciones terminadas y subidas. Pendiente corregir el giro de 45° de las direcciones y faltan la aparición de espaldas, el giro y la versión en la tina. |
 | Criatura canina (perro humanoide) | Modelo 3D `Character_perro.blend` (1.84 m). Sprites de 224×224, 132 px de alto. | 13 animaciones renderizadas (ver tabla siguiente). Subidas: correr, ataque y recoger. | Sangre vino en manos y boca. | Animaciones terminadas. Falta el perro doméstico original. |
-| Margarita (versión real) | — | Reflejo en la tina (Nivel 3). | Ondas de agua. | ==🟣Pendiente.== |
-| Madre | — | Escenas de desayuno, con tres estados de deterioro. | — | ==🟣Pendiente.== |
-| Padre | — | Escenas de desayuno. | — | ==🟣Pendiente.== |
+| Margarita (versión real) | — | Reflejo en la tina (Nivel 3). | Ondas de agua. | Sprite de 192 x 192 terminado. |
+| Madre | — | Escenas de desayuno, con tres estados de deterioro. | — | Pendiente |
+| Padre | — | Escenas de desayuno. | — | Pendiente |
 
 ### Animaciones disponibles
 
@@ -43,7 +43,7 @@ Documenta cómo deben verse y comportarse visualmente los personajes.
 
 ### Interacción
 
-- Elaki: inspeccionar e interactuar se comunican con la cámara y la UI. ==🟣Pendiente decidir si necesita una animación propia de inspeccionar.==
+- Elaki: inspeccionar e interactuar se comunican con la cámara y la UI.
 - Criatura canina: recoger un objeto del suelo.
 
 ### Combate
@@ -69,7 +69,7 @@ Elaki no tiene animación de daño. El daño se comunica con manchas rojas progr
 - Adolescente de 1.60 m, unas 6.5 cabezas. Pelo negro con flequillo y largo hasta el cuello. Playera blanca con mangas raglán negras, pantalón oscuro, calcetas y pantuflas moradas.
 - El modelo se reconstruyó desde una lámina de referencia, porque la primera versión (4 cabezas) no correspondía a la lámina.
 - En caminar y correr, el pelo y la silueta de N, NE, E, SE y S se retocaron a mano; SW, W y NW son el espejo de SE, E y NE.
-- **Nota:** [[03 - Personajes]] describe el pelo castaño oscuro y la piel morena; el modelo actual tiene el pelo casi negro (`#161616`) y la piel morena clara. ==🟣Pendiente unificar.==
+- **Nota:** [[03 - Personajes]] describe el pelo castaño oscuro y la piel morena; el modelo actual tiene el pelo casi negro (`#161616`) y la piel morena clara. 
 
 ### Manifestación de Margarita
 
