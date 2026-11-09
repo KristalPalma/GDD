@@ -34,7 +34,6 @@ Teclado y ratón. WASD o flechas para el desplazamiento, clic izquierdo para ins
 | Aseprite                           | Creación de sprites, personajes, elementos visuales y animaciones en pixel art.                                  | Aseprite v1.3.18.6                                       |
 | Krita                              | Elaboración de bocetos, ilustraciones, diseños de personajes y escenarios.                                       | v5.3.4.1<br>                                             |
 | CapCut                             | Edición de videos narrativos, transmisiones y secuencias cinematográficas del videojuego.                        | v20.0.0                                                  |
-| Audacity                           | Grabación, limpieza de ruido y edición de voces, efectos sonoros y ambientes.                                    | ==🟣Por verificar.==                                     |
 | FL Studio                          | Composición musical y producción de la banda sonora del videojuego.                                              | v26.1.7                                                  |
 | Obsidian                           | Redacción de documentación y organización del cronograma mediante documentos y hojas de cálculo.                 | v1.15.0<br>                                              |
 | ClickUp                            | Gestión del proyecto, organización de actividades y asignación de responsables.                                  | Servicio web                                             |
