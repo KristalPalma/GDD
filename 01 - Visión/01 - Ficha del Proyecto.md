@@ -1,9 +1,4 @@
 # Ficha del Proyecto
-
-## Descripción de la sección
-
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
-
 ## Información general
 
 | Campo                        | Información                                   |
@@ -15,7 +10,7 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando |
 | **Responsable del proyecto** | Wendy                                         |
 | **Fecha de inicio**          | 24 de septiembre 2026                         |
-| **Última actualización**     | 05 de Noviembre 2026                          |
+| **Última actualización**     | 09 de Noviembre 2026                          |
 | **Repositorio**              | https://github.com/MelchorOjeda/CARENCIA      |
 
 ## Identidad del videojuego
@@ -23,22 +18,20 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 **Género principal:**  
 > Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
 
-Terror. 
-Terror psicológico con horror corporal: la experiencia busca incomodidad más que combate.
+Terror.
+Terror psicológico con horror corporal. La experiencia busca generar incomodidad y duda, no combate.
 
 **Subgéneros:**  
 > Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
 
-- Point and Click (exploración e investigación). 
-- Terror psicológico con horror corporal (No aparece como subgénero en la biblioteca).
+- **Point and Click:** la exploración e investigación se basan en seleccionar objetos del entorno con clic o con la tecla E. El desplazamiento del personaje se realiza con el teclado.
 
 **Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
 
 **Plataforma objetivo:**  
 > Consulta [[03 - Plataformas y Consolas]] antes de elegir.
 
-- PC 
-Es la más simple de construir. Teclado y mouse encajan con el Point and Click.
+- PC con Windows, con teclado y ratón.
 
 **Modo de juego:**  
 > Consulta [[05 - Modos de Juego]].
@@ -48,14 +41,12 @@ Un jugador
 **Perspectiva:**  
 > Consulta [[04 - Perspectivas y Cámaras]].
 
-Isométrica (baño, los pasillos) y primera persona (nivel 3)
-Programación 
-Cámara dinámica
+Isométrica 2D, con cámara dinámica que realiza acercamientos durante los eventos narrativos y vista fija en primera persona para inspeccionar el gabinete del baño.
 
 **Clasificaciones y etiquetas adicionales:**  
 > Consulta [[06 - Clasificaciones y Etiquetas]].
 
-Lineal - Mundo persistente - Exploración
+Lineal - Exploración
 
 **Tecnología principal:**  
 > Motor, lenguaje y herramientas principales.
@@ -67,23 +58,20 @@ Lineal - Mundo persistente - Exploración
 - Audicy 
 ## Elevator Pitch
 
-> [!example] ¿Qué es?
-> Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
-
 **Respuesta:**
-Un joven de 17 años busca a su hermana, cuya existencia niega su propia familia, cruzando portales que se abren desde el espejo de su baño hacia dimensiones cada vez más deformadas. 
+Elaki, un joven de 17 años, busca a su hermana Margarita, cuya existencia niega su propia familia, cruzando el espejo de su baño hacia versiones de su casa cada vez más deformadas.
 
-Terror psicológico con horror corporal, en el que el jugador duda constantemente si el protagonista viaja entre dimensiones o si todo ocurre en su mente.
+Un videojuego de terror psicológico con horror corporal en el que el jugador duda constantemente si Elaki viaja a otro lado o si todo ocurre en su mente.
 ## Estado actual
 
 - [x] Concepto definido
-- [ ] Alcance inicial definido
-- [ ] Mecánica principal definida
-- [ ] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
-- [ ] Pruebas
-- [ ] Versión final
+- [x] Alcance inicial definido
+- [x] Mecánica principal definida
+- [x] Prototipo funcional
+- [x] Vertical slice
+- [x] Producción
+- [x] Pruebas
+- [x] Versión final
 
 ## Criterio de éxito del proyecto
 
