@@ -38,7 +38,7 @@ Describe iluminación global, fuentes de luz y cambios durante el juego.
 
 ## Efectos visuales
 
-- **Partículas:** No se contemplan, salvo el goteo del baño.
+- **Partículas:** No se contemplan.
 - **Clima:** No aplica; el juego ocurre dentro de la casa. La vista por la ventana es de noche.
 - **Humo:** No aplica.
 - **Fuego:** No aplica.

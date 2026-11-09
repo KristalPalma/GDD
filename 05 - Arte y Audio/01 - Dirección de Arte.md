@@ -81,7 +81,6 @@ Añade enlaces o imágenes dentro de la carpeta del proyecto.
 - `Sprites_Game/Personajes/Hermana/referencia_personaje/`: cuerpo demacrado, forma del cuerpo, vestido y falda rota, gusanos, espiral, textura de piel y rostro.
 - `Sprites_Game/Personajes/Perro humanoide/referencia_personaje/`: cuerpo, rostro, sonrisa y pelaje.
 - `Sprites_Game/Referencias/`: ciclos de caminata isométrica en 8 direcciones, maniquí isométrico de Mixamo y referencias de peinado y anatomía.
-- `Sprites_Game/Personajes/Sesiones claude/`: guías del proceso de cada personaje (modelo 3D → Mixamo → sprites).
 
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →
