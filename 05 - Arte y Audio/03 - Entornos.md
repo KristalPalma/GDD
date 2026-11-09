@@ -34,7 +34,6 @@ Describe iluminación global, fuentes de luz y cambios durante el juego.
   - **Nivel 1:** luz plana y fría que hace ver los espacios vacíos.
   - **Nivel 2:** penumbra; la luz se concentra en el camino y en los objetos importantes.
   - **Nivel 3:** luz rojiza y baja, con la tina como punto de atención.
-- ==🟣Pendiente definir los valores de cada luz en Unity.==
 
 ## Efectos visuales
 
@@ -55,17 +54,17 @@ Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 | Azulejos modulares de piso y pared (beige y lila) | Sprites isométricos | Terminado |
 | Mesa isométrica de madera | Sprite | Terminado |
 | Mesa redonda con flor | Sprite | Terminado |
-| Comedor: mesa cuadrada con mantel y elementos de la mesa | Sprites | ==🟣Pendiente== |
-| Baño: lavabo, espejo, gabinete, inodoro, toallas y tina | Sprites, con variantes por nivel | ==🟣Pendiente== |
-| Cortina del baño en 4 estados (cerrada → abierta) y niveles de agua | Sprites | ==🟣Pendiente== |
-| Pasillo modular | Sprites | ==🟣Pendiente== |
-| Calendario del 31 de octubre | Sprite | ==🟣Pendiente== |
-| Fotografía familiar (normal y alterada) | Ilustración | ==🟣Pendiente== |
-| Sala con sillón y televisión, y reproductor de video | Sprites | ==🟣Pendiente== |
-| Paredes con ojos y órganos (Nivel 3) | Sprites | ==🟣Pendiente== |
-| Vista por la ventana: barda y figuras (Nivel 2) y hombre armado (Nivel 3) | Ilustraciones | ==🟣Pendiente== |
-| Portal en espiral | Sprite animado y VFX | ==🟣Pendiente== |
-| Efectos de pantalla (daño, desenfoque, ojo de pez, *glitch*, viñeta) | VFX / shaders | ==🟣Pendiente== |
+| Comedor: mesa cuadrada con mantel y elementos de la mesa | Sprites | Terminado |
+| Baño: lavabo, espejo, gabinete, inodoro, toallas y tina | Sprites, con variantes por nivel | Terminado |
+| Cortina del baño en 4 estados (cerrada → abierta) y niveles de agua | Sprites | Terminado |
+| Pasillo modular | Sprites | Terminado |
+| Calendario del 31 de octubre | Sprite | Terminado |
+| Fotografía familiar (normal y alterada) | Ilustración | Terminado |
+| Sala con sillón y televisión, y reproductor de video | Sprites | Terminado |
+| Paredes con ojos y órganos (Nivel 3) | Sprites | Terminado |
+| Vista por la ventana: barda y figuras (Nivel 2) y hombre armado (Nivel 3) | Ilustraciones | Terminado |
+| Portal en espiral | Sprite animado y VFX | Terminado |
+| Efectos de pantalla (daño, desenfoque, ojo de pez, *glitch*, viñeta) | VFX / shaders | Terminado |
 
 **Formato:** PNG con fondo transparente para Unity (Filter Mode Point, Compression None) y fuente `.aseprite`. Los recursos que se usan en más de un momento van en `99_Compartido/` del repositorio de assets.
 
