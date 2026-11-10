@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8ff4e5cf704d97",
+        "id": "925500d5547c995d",
         "type": "tabs",
         "children": [
           {
-            "id": "21a095c4288a4e27",
+            "id": "212abcd5cb1050ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Contenido/02 - Niveles.md",
+                "file": "05 - Arte y Audio/01 - Dirección de Arte.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Niveles"
+              "title": "01 - Dirección de Arte"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "plantilla",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 311.1000061035156
   },
   "right": {
     "id": "4572e5b4b5e19af7",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Acerca de esta guía.md",
+                "file": "01 - Visión/02 - Visión del Juego.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Acerca de esta guía.md",
+                "file": "01 - Visión/02 - Visión del Juego.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -170,8 +170,7 @@
               "title": "Esquema"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,44 +188,44 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "21a095c4288a4e27",
+  "active": "212abcd5cb1050ef",
   "lastOpenFiles": [
-    "04 - Contenido/01 - Estructura del Contenido.md",
-    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
-    "03 - Historia y Mundo/03 - Personajes.md",
-    "03 - Historia y Mundo/02 - Mundo.md",
-    "03 - Historia y Mundo/01 - Premisa y Trama.md",
-    "02 - Diseño/05 - Progresión.md",
-    "07 - Tecnología/02 - Motor y Herramientas.md",
-    "prueba-autoria.txt",
-    "01 - Visión/04 - Pilares de Diseño.md",
-    "01 - Visión/03 - Público y Plataforma.md",
-    "01 - Visión/02 - Visión del Juego.md",
-    "01 - Visión/01 - Ficha del Proyecto.md",
-    "02 - Diseño/01 - Jugabilidad.md",
-    "11 - Referencia de Diseño/01 - Géneros.md",
-    "10 - Referencia/04 - Historial de Versiones.md",
-    "10 - Referencia/01 - Glosario.md",
-    "11 - Referencia de Diseño/06 - Clasificaciones y Etiquetas.md",
-    "11 - Referencia de Diseño/00 - Biblioteca de Clasificación.md",
-    "10 - Referencia/02 - Referencias e Inspiración.md",
-    "10 - Referencia/03 - Registro de Decisiones.md",
-    "image21.png",
-    "image21 1.png",
-    "06 - Experiencia/03 - Accesibilidad.md",
-    "09 - Calidad/04 - Criterios de Aceptación.md",
-    "09 - Calidad/01 - Criterios de Calidad.md",
-    "09 - Calidad/02 - Pruebas.md",
-    "09 - Calidad/03 - Bugs y Seguimiento.md",
-    "REF10_espiral_a.png.md",
+    "05 - Arte y Audio/img/UI14_derrota.jpg",
+    "05 - Arte y Audio/img/UI19_tipografia.png",
+    "05 - Arte y Audio/img/UI16_fin_del_demo.jpg",
+    "05 - Arte y Audio/img/UI17_componentes.jpg",
+    "05 - Arte y Audio/img/UI18_paleta.png",
+    "05 - Arte y Audio/img/UI15_derrota_reiniciando.jpg",
+    "05 - Arte y Audio/img/UI01_portada.jpg",
+    "05 - Arte y Audio/img/UI13_opciones_restablecer.jpg",
+    "05 - Arte y Audio/img/UI12_opciones_accesibilidad.jpg",
+    "05 - Arte y Audio/img/UI11_opciones_controles.jpg",
+    "05 - Arte y Audio/img/UI09_opciones_audio.jpg",
+    "05 - Arte y Audio/img",
+    "05 - Arte y Audio/03 - Entornos.md",
+    "05 - Arte y Audio/02 - Personajes y Animación.md",
+    "05 - Arte y Audio/05 - Audio y Música.md",
+    "05 - Arte y Audio/04 - Interfaz Visual.md",
+    "05 - Arte y Audio/01 - Dirección de Arte.md",
     "REF12_tina_c.png.md",
-    "image18.png",
-    "image17.png",
-    "image27.png",
-    "image5.png",
-    "image9.png",
-    "image14.png",
-    "image20.png",
-    "image32.png"
+    "REF12_tina_b.png.md",
+    "REF12_tina_a.png.md",
+    "REF11_calendario.png.md",
+    "REF10_piel_b.png.md",
+    "REF10_piel_a.png.md",
+    "REF10_frente_c.png.md",
+    "REF10_frente_b.png.md",
+    "REF10_frente_a.png.md",
+    "REF10_espiral_b.png.md",
+    "REF10_espiral_a.png.md",
+    "REF10_espalda.png.md",
+    "REF09_perro_b.png.md",
+    "REF09_perro_a.png.md",
+    "REF09_boca_b.png.md",
+    "REF09_boca_a.png.md",
+    "REF07_barda.png.md",
+    "REF06_foto_familiar.png.md",
+    "REF05_gabinete.png.md",
+    "REF04_bano.png.md"
   ]
 }
