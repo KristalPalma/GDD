@@ -8,12 +8,15 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 ### Prólogo — La negación
 
+**Escena:** `PRO_Casa`.
+
 **Objetivo principal:** Revisar el baño real, abrir y cerrar el gabinete del espejo y cruzar el primer portal.
 
 **Objetivos secundarios:**
 
 - Reconocer los elementos del baño para identificar sus alteraciones en niveles posteriores.
 - Inspeccionar el lavabo, las toallas y la cortina, y conocer los pensamientos de Elaki.
+- Revisar el periódico del padre y el interior del refrigerador.
 - Familiarizarse con el movimiento y la interacción.
 
 **Duración estimada:** Aproximadamente 4 minutos.
@@ -23,7 +26,8 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 **Mecánicas introducidas:**
 - Movimiento con WASD o flechas.
 - Interacción con objetos mediante E o clic.
-- Vista fija en primera persona del gabinete, con selección de objetos con el ratón.
+- Sentarse a la mesa durante el desayuno.
+- Vistas fijas en primera persona del gabinete y del refrigerador, con selección de objetos con el ratón.
 - Pensamientos y diálogos.
 - Cruce del portal del espejo.
 
@@ -33,20 +37,21 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Recompensas:** Primeras pistas sobre Margarita y acceso al otro lado.
 
-**Puntos de guardado:** Inicio de la partida y cruce del primer portal.
+**Puntos de guardado:** Inicio de la partida y al levantarse de la cama.
 
 **Condición de entrada:** Iniciar una nueva partida.
 
-**Condición de salida:** Abrir y cerrar el gabinete y cruzar el espejo.
+**Condición de salida:** Abrir y cerrar el gabinete y cruzar el espejo con E.
 
 **Eventos narrativos:**
 
-1. Elaki despierta en su cuarto y se dirige al comedor.
-2. Durante el primer desayuno pregunta por Margarita, cuyo nombre se corrompe, y sus padres niegan su existencia.
-3. Sufre un mareo y aparece en el baño real.
-4. El espejo no refleja a Elaki hasta que abre y cierra el gabinete.
-5. Al cerrarlo, el espejo se deforma, se abre el portal y una silueta femenina lo cruza.
-6. Elaki cruza el espejo.
+1. Elaki despierta en su cuarto y mamá lo llama a comer.
+2. Al acercarse al comedor, Elaki se sienta. Puede revisar el periódico del padre y debe revisar el lugar vacío.
+3. Pregunta por Margarita, cuyo nombre se corrompe, y sus padres niegan su existencia.
+4. Sufre un mareo y aparece en el baño real. Después del desayuno, el perro de la familia lo acompaña por la casa.
+5. El espejo no refleja a Elaki hasta que abre y cierra el gabinete. El gabinete se abre con E en el espejo o solo, si Elaki se queda quieto 10 segundos frente a él.
+6. Al cerrarlo, el espejo se deforma, se abre el portal y una silueta femenina lo cruza.
+7. Elaki cruza el espejo.
 
 **Mapa / diagrama:**
 
@@ -54,6 +59,8 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 CUARTO DE ELAKI
           ↓
 COMEDOR: PRIMER DESAYUNO
+    ├── Periódico del padre (opcional)
+    └── Lugar vacío (obligatorio)
           ↓
 MAREO
           ↓
@@ -70,14 +77,16 @@ NIVEL 1
 
 ### Nivel 1 — La primera ruptura
 
-**Objetivo principal:** Explorar la primera versión alterada de la casa y encontrar el portal que permite continuar la búsqueda de Margarita.
+**Escenas:** `N1_Laberinto`, `N1_Pasillo` y `R1_Casa` (segundo despertar).
+
+**Objetivo principal:** Recorrer la primera versión alterada de la casa y seguir la voz de Margarita hasta el fondo del pasillo.
 
 **Objetivos secundarios:**
 
 - Comparar el baño con su versión original.
-- Identificar cambios en las toallas, el inodoro y otros elementos.
-- Observar el comportamiento de la cortina de la ducha.
-- Investigar el pasillo y seguir las señales auditivas.
+- Abrir la cortina de la tina y descubrir el pasaje con el calendario del 31 de octubre.
+- Revisar los objetos regados por los espacios del otro lado.
+- Seguir la voz femenina por el pasillo largo.
 
 **Duración estimada:** ==🟣Pendiente de validar mediante pruebas de recorrido.==
 
@@ -88,62 +97,69 @@ NIVEL 1
 - Comparación visual entre versiones de un mismo escenario.
 - Exploración de espacios distorsionados.
 - Seguimiento de pistas auditivas.
-- Activación de eventos ambientales.
+- Activación de eventos ambientales por zona y por número de visitas.
 
 **Mecánicas utilizadas:** Movimiento, interacción, inspección, exploración y uso de portales.
 
-**Enemigos / obstáculos:** No existen persecuciones. Los obstáculos incluyen un pasillo anormalmente largo, una ventana cubierta con tablas y una puerta bloqueada. Las alteraciones visuales pueden dificultar la orientación.
+**Enemigos / obstáculos:** No existen persecuciones ni daño. Los obstáculos son una puerta del baño que no abre, espacios conectados de forma inconsistente, un pasillo anormalmente largo cuya salida se cierra detrás de Elaki y una visión que se oscurece con cada paso.
 
-**Recompensas:** Nuevas pistas sobre las dimensiones y acceso a la siguiente versión de la casa.
+**Recompensas:** Nuevas pistas sobre las dimensiones y la confirmación de que la voz pertenece a alguien que pide ayuda.
 
-**Puntos de guardado:** Entrada al nivel y punto de control al alcanzar la siguiente transición, sujetos a la implementación definitiva.
+**Puntos de guardado:** Entrada a `N1_Laberinto`, entrada a `N1_Pasillo`, inicio del segundo despertar y al levantarse de la cama.
 
 **Condición de entrada:** Atravesar el portal del espejo durante el prólogo.
 
-**Condición de salida:** Recorrer el pasillo, alcanzar el evento narrativo final y atravesar el siguiente portal.
+**Condición de salida:** Llegar a la puerta del fondo del pasillo, desmayarse y completar el segundo desayuno.
 
 **Eventos narrativos:**
 
-1. El protagonista aparece en un baño similar al anterior.
-2. Descubre cambios en los colores y la apariencia de los objetos.
-3. La cortina de la ducha presenta su primera alteración.
-4. Observa diferencias en los productos y las etiquetas del gabinete.
-5. Sale al pasillo, cuya longitud resulta anormal.
-6. Encuentra una ventana cubierta y una puerta que no permite el paso.
-7. Escucha una voz femenina de origen desconocido.
-8. Sigue las señales hasta encontrar el siguiente portal.
+1. El protagonista aparece en un baño en blanco, similar al anterior: toallas, gabinete con símbolos ilegibles y una puerta que no abre.
+2. Al hacer clic en la cortina, esta se abre y deja ver un pasaje con el calendario del 31 de octubre.
+3. El pasaje lleva a una versión liminal del cuarto de Elaki, con su cama y cuadros.
+4. Elaki recorre la sala (con el sillón pegado a la pared), la cocina, el comedor (cuatro sillas sin mesa), una pared de frente y el cuarto de lavado. A la tercera vuelta por el cuarto de lavado, Elaki lo nota.
+5. Al salir, entra a un pasillo blanco y largo; la salida se cierra detrás. Elaki pregunta «¿M-M-A-A-R?».
+6. Una voz femenina se escucha cada vez más cerca y la visión se oscurece con cada paso hacia la puerta del fondo.
+7. Frente a la puerta se escucha un golpe y «Ayuda.»; Elaki se desmaya.
+8. Despierta en su cuarto real. En el segundo desayuno, la madre le pregunta cómo se siente y Elaki decide no contar lo que vivió.
 
 **Mapa / diagrama:**
 
 ```text
-BAÑO ALTERADO
-    ├── Toallas modificadas
-    ├── Inodoro amarillento
-    ├── Gabinete distorsionado
-    └── Cortina de ducha (estado 1)
+BAÑO DEL OTRO LADO (EN BLANCO)
+    ├── Toallas
+    ├── Gabinete con símbolos
+    ├── Puerta que no abre
+    └── Cortina (se abre con clic)
           ↓
-PASILLO PROLONGADO
-    ├── Ventana cubierta
-    ├── Puerta bloqueada
+PASAJE Y CALENDARIO DEL 31
+          ↓
+CUARTO LIMINAL
+          ↓
+SALA → COCINA → COMEDOR → PARED DE FRENTE → CUARTO DE LAVADO
+          ↓
+PASILLO BLANCO Y LARGO
     └── Voz femenina
           ↓
-SEGUNDO PORTAL
+DESMAYO
+          ↓
+SEGUNDO DESPERTAR Y SEGUNDO DESAYUNO
           ↓
 NIVEL 2
 ```
 
 ### Nivel 2 — La deformación
 
-**Objetivo principal:** Investigar la nueva dimensión de la casa, sobrevivir a las persecuciones y encontrar la forma de continuar hacia el siguiente nivel.
+**Escenas:** `R1_Casa` (baño real), `N2_Casa` y `R2_Casa` (tercer despertar).
+
+**Objetivo principal:** Investigar la casa abandonada, escapar de la criatura canina y enfrentar el encuentro con la Manifestación de Margarita.
 
 **Objetivos secundarios:**
 
-- Examinar las fotografías familiares alteradas.
-- Observar el paisaje de la ventana.
-- Investigar las anomalías del comedor y la televisión.
+- Examinar la fotografía familiar de los cuatro.
+- Observar la barda desde la ventana.
+- Investigar los cuatro platos y la televisión con estática.
 - Interactuar con la computadora.
-- Descubrir nuevas pistas después del segundo despertar.
-- Revisar el periódico y los cambios en las habitaciones.
+- Descubrir nuevas pistas después del tercer despertar.
 
 **Duración estimada:** ==🟣Pendiente de validar mediante pruebas, especialmente por la duración de las persecuciones.==
 
@@ -156,156 +172,154 @@ NIVEL 2
 - Derrota y reinicio desde un punto de control.
 - Activación de amenazas mediante eventos narrativos.
 
-**Mecánicas utilizadas:** Movimiento, exploración, interacción, inspección, activación de eventos, evasión y transición entre escenarios.
+**Mecánicas utilizadas:** Movimiento, carrera, exploración, interacción, inspección, activación de eventos, evasión y transición entre escenarios.
 
 **Enemigos / obstáculos:**
 
-- Criatura canina deformada: persigue al protagonista después del evento de la computadora.
-- Manifestación grotesca de Margarita: desencadena una segunda persecución.
+- Criatura canina deformada: persigue al protagonista después del evento de la computadora. Elaki puede escaparle corriendo.
+- Manifestación de Margarita: aparece al fondo del pasillo y siempre alcanza a Elaki.
 - Pasillos y espacios que limitan las rutas de escape.
-- Alteraciones ambientales que dificultan reconocer el entorno.
+- Penumbra que dificulta reconocer el entorno.
 
 Las amenazas deben evitarse. No se contempla un sistema de combate.
 
-**Recompensas:** Supervivencia, avance narrativo, nuevas pistas sobre la familia y acceso a la dimensión final del demo.
+**Recompensas:** Avance narrativo, la confirmación de que Margarita existió y nuevas pistas sobre la familia.
 
-**Puntos de guardado:** Se recomienda establecer puntos de control antes de cada persecución y después de superarlas, para evitar repetir secuencias extensas.
+**Puntos de guardado:** Entrada a `N2_Casa`, al sentarse frente a la computadora, al iniciar el encuentro con la Manifestación y, en el tercer despertar, al levantarse de la cama y en el comedor.
 
-**Condición de entrada:** Atravesar el portal al final del Nivel 1.
+**Condición de entrada:** Completar el segundo desayuno.
 
-**Condición de salida:** Sobrevivir a ambas persecuciones, completar los acontecimientos del segundo despertar y atravesar el portal del baño.
+**Condición de salida:** Escapar de la criatura canina, recibir el tercer golpe de la Manifestación, revisar los cuatro elementos obligatorios del tercer desayuno y cruzar el espejo.
 
 **Eventos narrativos:**
 
-1. El protagonista llega a un pasillo con una apariencia visual diferente.
-2. Encuentra fotografías familiares alteradas, incluyendo una en la que aparece un perro.
-3. Observa un paisaje extraño desde la ventana.
-4. En el comedor descubre cuatro platos con comida deteriorada y una televisión con interferencias.
-5. Interactúa con una computadora que reproduce un video perturbador.
-6. Aparece la criatura canina y comienza la primera persecución.
-7. Después de escapar, se encuentra con una figura que recuerda a Margarita.
-8. La figura revela una apariencia grotesca y comienza la segunda persecución.
-9. El protagonista despierta nuevamente en su habitación.
-10. Durante el segundo desayuno observa a su madre con una apariencia cansada.
-11. Encuentra un periódico del 20 de noviembre que informa sobre el aumento de las desapariciones.
-12. Explora el altar del perro y el espacio donde recuerda que estaba la habitación de Margarita, ahora ocupado por un armario.
-13. Regresa al baño y encuentra la cortina de la ducha en su segundo estado de alteración.
-14. Atraviesa el siguiente portal.
+1. Elaki decide volver al baño real: ahora hay tres toallas, la cortina está en su primer estado y el portal ya está abierto.
+2. Cruza a un baño abandonado, con la bañera, las toallas tiesas y el calendario sucios.
+3. En el pasillo encuentra la fotografía de los cuatro: «Ahí está ella. Yo no estaba loco.». Por la ventana ve mujeres de pie frente a una barda; después, la ventana queda tapiada.
+4. La sala y la cocina están en penumbra, con cuatro platos, la televisión con estática y el refrigerador podrido.
+5. Al sentarse frente a la computadora, el juego guarda. El video dura 50 segundos; la penumbra cede poco a poco y el perro de la familia, erguido, se acerca.
+6. Al terminar el video, la criatura canina persigue a Elaki. Si lo alcanza tres veces, el juego vuelve casi al final del video.
+7. En el pasillo, la Manifestación de Margarita espera al fondo. La criatura canina revienta, la figura gira («¿Eres tú?») y persigue a Elaki.
+8. Al tercer golpe, la vista se cierra en espiral y Elaki despierta por tercera vez en su cuarto real.
+9. En el tercer desayuno, la madre luce gris y ojerosa. Elaki revisa el lugar vacío, a la madre, la comida y el periódico, que habla de las familias que buscan a sus desaparecidos.
+10. En el pasillo real aparece el altar del perro, con un sollozo, y una alacena en el lugar del cuarto de Margarita. Si intenta ir a la cocina, Elaki se detiene.
+11. Regresa al baño: cuatro toallas, la cortina en su segundo estado y el gabinete sin los parches.
+12. Atraviesa el portal del espejo.
 
 **Mapa / diagrama:**
 
 ```text
-PASILLO ALTERADO
-    ├── Fotografías familiares
-    └── Ventana con paisaje liminal
+BAÑO REAL (TRES TOALLAS, CORTINA EN ESTADO 1)
           ↓
-SALA / COMEDOR
-    ├── Cuatro platos deteriorados
-    └── Televisión con interferencias
+BAÑO ABANDONADO Y CALENDARIO
           ↓
-COMPUTADORA
+PASILLO
+    ├── Fotografía de los cuatro
+    └── Ventana con la barda
           ↓
-VIDEO PERTURBADOR
+SALA Y COCINA EN PENUMBRA
+    ├── Cuatro platos
+    ├── Televisión con estática
+    └── Refrigerador podrido
           ↓
-PERSECUCIÓN 1: CRIATURA CANINA
+COMPUTADORA Y VIDEO (PUNTO DE CONTROL)
           ↓
-ENCUENTRO CON MARGARITA DEFORMADA
+PERSECUCIÓN: CRIATURA CANINA
           ↓
-PERSECUCIÓN 2: MANIFESTACIÓN
+ENCUENTRO CON LA MANIFESTACIÓN DE MARGARITA
           ↓
-DESPERTAR EN LA REALIDAD
+TERCER GOLPE: ESPIRAL Y NEGRO
           ↓
-SEGUNDO DESAYUNO
-          ↓
-EXPLORACIÓN DE LA CASA
-    ├── Periódico
+TERCER DESPERTAR Y TERCER DESAYUNO
+    ├── Lugar vacío, madre, comida y periódico
     ├── Altar del perro
-    └── Armario
+    └── Alacena
           ↓
-BAÑO / CORTINA (ESTADO 2)
-          ↓
-TERCER PORTAL
+BAÑO REAL (CUATRO TOALLAS, CORTINA EN ESTADO 2)
           ↓
 NIVEL 3
 ```
 
 ### Nivel 3 — La realidad se rompe
 
-**Objetivo principal:** Recorrer la versión más deformada de la casa, encontrar a Margarita en la bañera y alcanzar la revelación final.
+**Escena:** `N3_Casa`.
+
+**Objetivo principal:** Recorrer la casa de carne, regresar al baño y encontrar a Margarita en la tina.
 
 **Objetivos secundarios:**
 
 - Explorar las alteraciones orgánicas del entorno.
-- Observar los cambios de la televisión.
-- Identificar los elementos relacionados con el 31 de octubre.
-- Investigar los sonidos y las apariciones del pasillo.
+- Aprender el ritmo de los apéndices para pasar sin daño.
+- Escuchar el anuncio de la televisión desde el sillón (opcional).
+- Identificar el calendario del 31 de octubre.
 - Reconocer la transformación definitiva del baño.
 
 **Duración estimada:** ==🟣Pendiente de validar mediante pruebas de recorrido.==
 
-**Dificultad:** Media. El nivel se centra en la tensión ambiental, la exploración y los eventos narrativos.
+**Dificultad:** Media. El nivel se centra en la tensión ambiental, la oscuridad y los peligros del entorno.
 
 **Mecánicas introducidas:**
 
-- Interacciones con elementos de horror corporal.
-- Eventos ambientales de mayor intensidad.
+- Oscuridad con una luz pequeña alrededor de Elaki, que camina lento y no puede correr.
+- Evasión de peligros del entorno: apéndices de carne con ritmo fijo.
+- Recuperación del daño cuando Elaki pasa unos segundos sin recibir golpes.
 - Secuencia narrativa final vinculada con la bañera.
 
-**Mecánicas utilizadas:** Movimiento, exploración, interacción, observación, activación de eventos y transición mediante portal.
+**Mecánicas utilizadas:** Movimiento, exploración, interacción, observación, activación de eventos y transición final.
 
-**Enemigos / obstáculos:** El entorno presenta paredes con apariencia orgánica, ojos, estructuras corporales y elementos perturbadores. No se ha definido una persecución adicional obligatoria para este nivel.
+**Enemigos / obstáculos:** Apéndices que salen de las paredes de la cocina y del pasillo. Antes de salir, una sombra roja en el piso marca por dónde pasarán. Si tocan a Elaki, lo lastiman y lo empujan; tres golpes seguidos lo regresan al último punto de control.
 
 **Recompensas:** Revelación narrativa sobre Margarita y conclusión del demo.
 
-**Puntos de guardado:** Entrada al nivel. Se recomienda un punto de control previo al encuentro final.
+**Puntos de guardado:** Entrada al nivel, cocina, cuarto y pasillo.
 
-**Condición de entrada:** Completar el Nivel 2 y atravesar el portal del baño.
+**Condición de entrada:** Completar el tercer desayuno y atravesar el portal del baño real.
 
-**Condición de salida:** Llegar a la bañera, completar el encuentro con la manifestación de Margarita y activar la secuencia del desenlace.
+**Condición de salida:** Llegar a la tina y hacer clic en ella.
 
 **Eventos narrativos:**
 
-1. El protagonista aparece en una versión de la casa con paredes y estructuras orgánicas.
-2. Observa alteraciones en la televisión y elementos visuales perturbadores.
-3. Recorre un pasillo con agua, ojos y sonidos de llanto.
-4. Puede observar una figura humana en una ventana, si este evento se conserva en la versión definitiva.
-5. Encuentra referencias al 31 de octubre.
-6. Llega a una puerta del baño asociada con la imagen de un corazón deformado.
-7. Descubre que la cortina de la bañera está completamente abierta.
-8. Observa una manifestación de Margarita dentro de la bañera.
-9. La figura lo invita a acercarse y se activa la transición final.
-10. Se muestran carteles de personas desaparecidas.
-11. Una noticia televisiva revela que el cuerpo de Margarita fue encontrado en un lote baldío.
-12. Finaliza el demo.
+1. El protagonista aparece en el baño de carne, con toallas tibias y frascos llenos de dientes.
+2. Al salir del baño, la luz parpadea, se apaga y Elaki aparece en la cocina, sellada con carne.
+3. De las paredes salen apéndices; la puerta de la cocina está cubierta de carne.
+4. De forma opcional, antes de abrir el refrigerador, puede sentarse en el sillón; la televisión transmite un anuncio y se apaga.
+5. Al abrir el refrigerador, Elaki ve la carne que late y la membrana de la puerta se abre.
+6. Cruza su cuarto deforme: «Mi cuarto. Ya no es mi cuarto.».
+7. En el pasillo, tres apéndices cierran el paso; Elaki debe esperar a que se escondan.
+8. En el baño, la cortina está abierta por completo y Margarita aparece en el remolino de la tina.
+9. Elaki piensa «Te encontré». Al hacer clic en la tina, la imagen se funde a negro y comienza el desenlace.
 
 **Mapa / diagrama:**
 
 ```text
-CASA ORGÁNICA
-    ├── Paredes deformadas
-    └── Televisión alterada
+BAÑO DE CARNE
+    ├── Toallas tibias
+    └── Gabinete con dientes
           ↓
-PASILLO
-    ├── Agua y ojos
-    ├── Sonidos de llanto
-    ├── Ventana (evento opcional)
-    └── Calendario del 31 de octubre
+PARPADEO DE LA LUZ
           ↓
-PUERTA DEL BAÑO
-    └── Corazón deformado
+COCINA SELLADA
+    ├── Apéndices en las paredes
+    ├── Sillón y anuncio de la televisión (opcional)
+    └── Refrigerador: se abre la membrana
+          ↓
+CUARTO DEFORME
+          ↓
+PASILLO CON TRES APÉNDICES
           ↓
 BAÑO FINAL
     ├── Cortina completamente abierta
-    └── Margarita en la bañera
+    └── Margarita en la tina
           ↓
-TRANSICIÓN FINAL
-          ↓
-CARTELES DE DESAPARICIÓN
-          ↓
-NOTICIERO
-          ↓
-FIN DEL DEMO
+DESENLACE
 ```
+
+### Desenlace
+
+**Escena:** `DES_Final`.
+
+**Eventos:** imágenes alternadas de Elaki entrando a la tina del otro lado y de Elaki solo en su baño real; carteles de búsqueda de Margarita; transmisión del noticiero del 25 de diciembre; pantalla de texto sobre el joven ahogado; edificio de la familia de noche, en Navidad; texto de cierre; regreso al menú principal.
+
 ## Flujo del nivel
 
 ```text
@@ -316,7 +330,7 @@ Inicio → Zona A → Desafío → Zona B → Recompensa → Final
 INICIO
    ↓
 PRÓLOGO
-Cinemáticas familiares
+Despertar y primer desayuno
    ↓
 Exploración e inspección del baño
    ↓
@@ -325,32 +339,34 @@ Portal del espejo
 NIVEL 1
 Primera dimensión alterada
    ↓
-Exploración y voz femenina
+Pasillo y voz femenina
    ↓
-Segundo portal
+Desmayo, segundo despertar y segundo desayuno
    ↓
 NIVEL 2
-Exploración de la casa deformada
+Baño real y portal
+   ↓
+Exploración de la casa abandonada
    ↓
 Evento de la computadora
    ↓
 Persecución de la criatura canina
    ↓
-Persecución de Margarita deformada
+Encuentro con la Manifestación de Margarita
    ↓
-Segundo despertar y exploración
-   ↓
-Tercer portal
+Tercer despertar y tercer desayuno
    ↓
 NIVEL 3
-Exploración de la casa orgánica
+Baño real y portal
+   ↓
+Casa de carne
    ↓
 Encuentro en la bañera
    ↓
-REVELACIÓN FINAL
-Carteles y noticiero
+DESENLACE
+Carteles, noticiero, texto y edificio
    ↓
-FIN DEL DEMO
+MENÚ PRINCIPAL
 ```
 ## Criterios de calidad
 

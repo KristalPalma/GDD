@@ -19,7 +19,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Cómo se obtiene:** No se recoge. Se encuentra en el baño durante el prólogo y puede aparecer alterado en otras dimensiones.
 
-**Cómo se utiliza:** El jugador se aproxima y presiona E. Se muestra una vista fija en primera persona desde la que puede seleccionar los objetos del interior.
+**Cómo se utiliza:** El jugador se aproxima al espejo y presiona E; en el prólogo, el gabinete también se abre solo si Elaki se queda quieto 10 segundos frente a él. Se muestra una vista fija en primera persona desde la que puede seleccionar los objetos del interior con el ratón. E o Esc cierran la vista.
 
 **Cantidad máxima:** Uno por cada versión del baño en la que aparezca.
 
@@ -37,7 +37,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Tipo:** Objetos de inspección narrativa.
 
-**Descripción:** Conjunto de elementos ubicados dentro del gabinete, incluyendo medicamentos para dormir, ansiedad y esquizofrenia, analgésicos, una crema con etiqueta ilegible y parches para granitos.
+**Descripción:** Conjunto de elementos ubicados dentro del gabinete: cajas y frasco de sertralina (depresión y ansiedad), bote y frasco de clorpromazina (para dormir y esquizofrenia), risperidona (esquizofrenia), blíster de naproxeno y paracetamol, parches juveniles para granitos y un rastrillo. En el Nivel 1 las etiquetas son símbolos ilegibles; en el tercer despertar los parches ya no están; en el Nivel 3 los frascos están llenos de dientes.
 
 **Función:** Presentar pensamientos del protagonista y generar preguntas sobre sus recuerdos y su percepción de la realidad.
 
@@ -67,7 +67,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Cómo se obtiene:** No se recoge. Forma parte del baño.
 
-**Cómo se utiliza:** Se observa durante la exploración de cada versión del escenario.
+**Cómo se utiliza:** Se revisa durante la exploración de cada versión del escenario. En el Nivel 1, al hacer clic en ella se abre y deja ver el pasaje con el calendario del 31 de octubre. En el Nivel 3, al hacer clic en la tina comienza el desenlace.
 
 **Cantidad máxima:** Una por baño.
 
@@ -153,17 +153,17 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Representación visual:** Televisión doméstica con variaciones de imagen y efectos de distorsión. Durante el desenlace presenta una transmisión informativa.
 
-### Nombre: Periódico del 20 de noviembre
+### Nombre: Periódico del tercer desayuno
 
 **Tipo:** Objeto de información narrativa.
 
-**Descripción:** Periódico con una noticia relacionada con el aumento de las desapariciones en México.
+**Descripción:** Periódico con el titular «Más familias buscan a sus desaparecidos», sobre el crecimiento del registro nacional de personas desaparecidas. En los desayunos anteriores, el periódico del padre muestra anuncios clasificados (prólogo) y la sección de música (segundo desayuno).
 
 **Función:** Introducir información contextual y reforzar las pistas sobre la desaparición de Margarita.
 
-**Cómo se obtiene:** No se recoge. Se encuentra durante los acontecimientos posteriores al segundo despertar.
+**Cómo se obtiene:** No se recoge. Se encuentra en la mesa durante el tercer desayuno.
 
-**Cómo se utiliza:** Se observa o inspecciona para conocer su contenido.
+**Cómo se utiliza:** Se revisa para conocer su contenido. Es uno de los cuatro elementos obligatorios del tercer desayuno.
 
 **Cantidad máxima:** Una instancia principal.
 
@@ -175,7 +175,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Interacciones:** Lectura e inspección.
 
-**Representación visual:** Periódico físico con fecha del 20 de noviembre, titular y texto relacionado con las desapariciones.
+**Representación visual:** Periódico físico con titular y texto relacionado con las desapariciones.
 
 ### Nombre: Calendario del 31 de octubre
 
@@ -185,11 +185,11 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Función:** Reforzar la importancia de esta fecha dentro de la historia.
 
-**Cómo se obtiene:** No se recoge. Se encuentra integrado en el escenario del Nivel 3.
+**Cómo se obtiene:** No se recoge. Aparece en los tres niveles: en el pasaje detrás de la cortina del Nivel 1, junto a la puerta del baño abandonado del Nivel 2 y en la casa de carne del Nivel 3.
 
 **Cómo se utiliza:** Se observa o inspecciona.
 
-**Cantidad máxima:** Una instancia principal identificada para el Nivel 3.
+**Cantidad máxima:** Una instancia por nivel.
 
 **Valor:** Narrativo.
 
@@ -201,6 +201,30 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Representación visual:** Calendario de pared con el 31 de octubre destacado visualmente.
 
+### Nombre: Refrigerador
+
+**Tipo:** Objeto interactivo narrativo; obligatorio en el Nivel 3.
+
+**Descripción:** Refrigerador de la cocina. En el prólogo contiene comida olvidada (frijoles de hace dos semanas, agua de jamaica, arroz, huevos, pay, jitomates y refresco sin gas). En el Nivel 2 está podrido; en el Nivel 3 contiene carne que late.
+
+**Función:** En el prólogo, mostrar la apatía de Elaki. En el Nivel 3, abrir la membrana que sella la puerta de la cocina.
+
+**Cómo se obtiene:** No se recoge. Forma parte de la cocina.
+
+**Cómo se utiliza:** En el prólogo, E junto al refrigerador abre una vista fija; cada objeto se marca al pasar el cursor y muestra un pensamiento al hacer clic. E lo cierra. En el Nivel 3, E lo abre.
+
+**Cantidad máxima:** Uno por versión de la cocina.
+
+**Valor:** Narrativo y de progresión.
+
+**Rareza:** Objeto común con función narrativa.
+
+**Restricciones:** No se puede tomar ni consumir su contenido.
+
+**Interacciones:** Abrir, inspeccionar y cerrar.
+
+**Representación visual:** Refrigerador doméstico con variantes normal, podrida y de carne.
+
 ### Nombre: Altar del perro
 
 **Tipo:** Elemento ambiental narrativo.
@@ -209,7 +233,7 @@ El videojuego no contempla un inventario tradicional, objetos equipables, comerc
 
 **Función:** Aportar información sobre la mascota y relacionarla con la criatura que aparece durante el Nivel 2.
 
-**Cómo se obtiene:** No se recoge. Se descubre durante la exploración posterior al segundo despertar.
+**Cómo se obtiene:** No se recoge. Se descubre en el pasillo real durante el tercer despertar; frente a él se escucha un sollozo.
 
 **Cómo se utiliza:** El jugador se aproxima para observarlo o inspeccionarlo.
 

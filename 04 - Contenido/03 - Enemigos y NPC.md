@@ -20,7 +20,7 @@ La criatura comienza a perseguirlo por el escenario. El jugador debe desplazarse
 
 **Defensas:** No aplica. El jugador no dispone de ataques que puedan dañarla.
 
-**Velocidad:** Debe permitir una persecución desafiante, pero superable mediante el movimiento del protagonista. Su valor definitivo se establecerá mediante pruebas.
+**Velocidad:** 2.0 unidades por segundo. Elaki camina a 1.5 y corre a 2.6, así que puede escaparle corriendo. Busca a Elaki por las celdas libres del escenario, rodeando los obstáculos.
 
 **Rango de detección:** Su persecución se activa por un evento narrativo, no por un sistema de patrullaje. 
 
@@ -61,25 +61,25 @@ PERSEGUIR AL JUGADOR
 
 **Rol de combate:** Antagonista principal en su versión hostil. Enemigo de persecución que combina horror psicológico y corporal.
 
-**Comportamiento:** Aparece después de la primera persecución, inicialmente como una figura femenina que recuerda a Margarita.
+**Comportamiento:** Aparece después de la primera persecución, al fondo del pasillo, de espaldas, como una figura femenina que recuerda a Margarita. La criatura canina revienta frente a ella.
 
-Su apariencia se transforma y revela rasgos grotescos. Posteriormente comienza a perseguir al protagonista, quien debe escapar para continuar con la historia.
+La figura gira y revela rasgos grotescos. Después persigue al protagonista y siempre lo alcanza: el encuentro no tiene escapatoria.
 
 **Vida:** No aplica. No puede ser derrotada mediante ataques.
 
-**Daño:** Puede dañar al protagonista durante la persecución. Los impactos producen retroalimentación visual y pueden provocar la derrota si se alcanza el límite establecido.
+**Daño:** Cada golpe aumenta las manchas rojas en la pantalla. Al tercero, la vista se cierra en espiral y pasa a negro, sin pantalla de derrota.
 
 **Defensas:** No aplica. No existe un sistema de combate contra esta manifestación.
 
-**Velocidad:** Debe generar una sensación de peligro mayor que la primera persecución, sin hacer imposible la evasión. Los valores definitivos se ajustarán mediante pruebas.
+**Velocidad:** Siempre alcanza a Elaki, aunque corra. La evasión no es posible por diseño.
 
 **Rango de detección:** La persecución comienza mediante un evento narrativo. No se contempla patrullaje previo.
 
 **Ataques:** Ataque por contacto. 
 
-**Debilidades:** Puede morir con cualquier momento en el que el los enemigos lo ataquen al alcanzarlo. 
+**Debilidades:** No presenta vulnerabilidades. El jugador no puede derrotarla ni escapar de ella.
 
-**Recompensa:** Supervivencia y activación del siguiente nivel, que permite continuar con la historia.
+**Recompensa:** El tercer golpe lleva al tercer despertar, que permite continuar con la historia.
 
 **Estados de IA:**
 
@@ -91,18 +91,38 @@ Encuentro con figura femenina
 REVELACIÓN / TRANSFORMACIÓN
    ↓
 PERSEGUIR AL JUGADOR
-   ├── Jugador al alcance
-   │       ↓
-   │     ATACAR
-   │       ├── Jugador sobrevive → PERSEGUIR
-   │       └── Jugador derrotado → REINICIAR
-   │
-   └── Jugador completa la huida
+   └── Jugador al alcance
            ↓
-     FINALIZAR PERSECUCIÓN
-           ↓
-     SEGUNDO DESPERTAR
+         ATACAR
+           ├── Primer o segundo golpe → PERSEGUIR
+           └── Tercer golpe
+                   ↓
+             ESPIRAL Y NEGRO
+                   ↓
+             TERCER DESPERTAR
 ```
+
+### Nombre: Apéndices de carne
+
+**Rol de combate:** Peligro del entorno del Nivel 3. No persigue a Elaki.
+
+**Comportamiento:** Salen de las paredes de la cocina y del pasillo con un ritmo fijo, desfasado entre apéndices, para que el jugador pueda aprenderlo. Antes de salir, una sombra roja en el piso marca por dónde pasarán. Asoman, latiguean a lo largo del piso y regresan a la pared.
+
+**Vida:** No aplica.
+
+**Daño:** Si tocan los pies de Elaki, lo lastiman y lo empujan hacia el lado del que venía. Tres golpes seguidos lo regresan al último punto de control. Después de 4 segundos sin daño, las manchas se borran poco a poco.
+
+**Defensas:** No aplica.
+
+**Velocidad:** Ciclo fijo; no reaccionan a la posición de Elaki.
+
+**Rango de detección:** No aplica.
+
+**Ataques:** Latigazo a lo largo del piso.
+
+**Debilidades:** Se esconden en la pared al terminar su ciclo: el jugador debe esperar ese momento para pasar.
+
+**Recompensa:** Avanzar hacia el cuarto, el pasillo y el baño.
 ## NPC 
 
 **Rol:** Madre
@@ -115,7 +135,7 @@ PERSEGUIR AL JUGADOR
 
 **Diálogos:** Niega que el protagonista haya tenido una hermana y mantiene una actitud evasiva.
 
-**Condiciones:** Aparece durante los eventos narrativos del primer y segundo desayuno.
+**Condiciones:** Aparece durante los tres desayunos.
 
 **Recompensas / información:** Introduce contradicciones entre los recuerdos del protagonista y las afirmaciones de su familia.
 
@@ -134,7 +154,7 @@ PERSEGUIR AL JUGADOR
 
 **Recompensas / información:** Refuerza el conflicto narrativo y la incertidumbre sobre los recuerdos del protagonista.
 
-**Rol:** Manifestación de Margarita
+**Rol:** Margarita en la tina
 
 **Función:** Entidad narrativa que conduce al desenlace del demo.
 
@@ -142,13 +162,24 @@ PERSEGUIR AL JUGADOR
 
 **Interacción:** Encuentro dirigido mediante un evento narrativo. No cuenta con un sistema de conversación libre.
 
-**Diálogos:** Invita al protagonista a acercarse. 
-
-Margarita: «¿Por qué tardaste tanto?»
-Protagonista: «¿Margarita…?»
+**Diálogos:** Margarita no habla. Elaki piensa: «Te encontré».
 
 **Condiciones:** Se presenta cuando el protagonista alcanza el baño final.
 
 **Recompensas / información:** Activa la transición hacia los carteles de desaparición y la noticia sobre el hallazgo del cuerpo de Margarita.
+
+**Rol:** Perro de la familia
+
+**Función:** Mascota que acompaña a Elaki en la casa real y anticipa la criatura canina del Nivel 2.
+
+**Ubicación:** Casa real, después del primer desayuno y durante el segundo despertar, hasta que Elaki cruza al Nivel 2.
+
+**Interacción:** Ninguna. Sigue a Elaki unos pasos detrás, por el mismo camino, sin atravesar paredes ni muebles. Si Elaki aparece lejos, el perro reaparece junto a él.
+
+**Diálogos:** No aplica.
+
+**Condiciones:** Prólogo y segundo despertar.
+
+**Recompensas / información:** Establece el vínculo con la mascota antes de su transformación.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →
