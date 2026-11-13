@@ -4,13 +4,27 @@
 
 La accesibilidad busca que el mayor número posible de jugadores pueda comprender y utilizar el videojuego.
 
-## Apoyos incluidos en el demo
+## Opciones previstas
 
+- [ ] Tamaño de texto
+- [ ] Subtítulos
+- [ ] Contraste
+- [ ] Modo para daltonismo
+- [ ] Reasignación de controles
+- [ ] Sensibilidad
+- [ ] Reducción de movimiento
+- [ ] Reducción de destellos
+- [ ] Asistencia de apuntado (no aplica: el juego no tiene combate)
+- [ ] Dificultad ajustable
 - [x] Volumen independiente por categoría (Ajustes → Audio)
+- [ ] Indicadores visuales para sonidos importantes
+
+Además, el demo incluye:
+
 - [x] Brillo ajustable (Ajustes → Video)
 - [x] Consulta de controles (Ajustes → Controles)
 
-El demo no incluye una pestaña de Accesibilidad: tamaño de texto, subtítulos, contraste alto y reducción de destellos o de movimiento quedaron fuera del alcance.
+El demo no incluye una pestaña de Accesibilidad: tamaño de texto, subtítulos, contraste alto y reducción de destellos o de movimiento quedaron fuera del alcance (SC-08).
 
 ## Consideraciones
 
