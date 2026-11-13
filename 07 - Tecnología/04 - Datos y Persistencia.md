@@ -7,7 +7,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 ## Datos persistentes
 
 - **Progreso:** escena, habitación, punto de control, posición y orientación de Elaki, salud y estado de la historia.
-- **Configuración:** volúmenes, calidad gráfica, brillo, tamaño de texto y subtítulos.
+- **Configuración:** volúmenes y brillo.
 - **Inventario:** no aplica. El juego no tiene inventario.
 - **Estadísticas:** no aplica.
 - **Desbloqueos:** no aplica. El avance se registra mediante las banderas narrativas del progreso.
@@ -38,7 +38,7 @@ El juego maneja dos conjuntos de datos independientes:
 
 **2. Configuración**
 
-Preferencias del jugador: volumen general, de música, de efectos y de voces; calidad gráfica; brillo; tamaño de texto y subtítulos. Se conservan entre partidas y no se borran al comenzar una nueva.
+Preferencias del jugador: volumen general, de música, de efectos y de voces, y brillo. Se conservan entre partidas y no se borran al comenzar una nueva.
 
 **Relación:** la partida y la configuración se guardan por separado. Restablecer la configuración no modifica la partida, y comenzar una partida nueva no modifica la configuración.
 
