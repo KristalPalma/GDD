@@ -84,10 +84,10 @@ El roadmap organiza el desarrollo en etapas y entregables.
 | H3. Construcción de niveles   | Prólogo y tres niveles             | Escenarios construidos y conectados mediante las transiciones correspondientes. | Completado |
 | H4. Prototipo funcional       | Movimiento, cámara e interacciones | El jugador puede desplazarse e interactuar con elementos básicos.               | Completado |
 | H5. Integración de mecánicas  | Portales, persecuciones y progreso | Los sistemas principales funcionan durante el recorrido.                        | Completado |
-| H6. Integración audiovisual   | Arte, animaciones y audio          | Los recursos necesarios están integrados y funcionan correctamente.             | Completado |
+| H6. Integración audiovisual   | Arte, animaciones y audio          | Los recursos necesarios están integrados y funcionan correctamente.             | En curso: faltan el arte del desenlace y los créditos |
 | H7. Recorrido completo        | Demo jugable                       | El jugador puede completar la historia desde el inicio hasta el desenlace.      | Completado |
-| H8. Pruebas y correcciones    | Versión estable                    | Errores críticos corregidos y recorrido completo verificado.                    | Completado |
-| H9. Entrega del proyecto      | Demo final para PC                 | Ejecutable funcional, documentación actualizada y presentación realizada.       | Completado |
+| H8. Pruebas y correcciones    | Versión estable                    | Errores críticos corregidos y recorrido completo verificado.                    | En curso: casos de prueba por repetir en [[02 - Pruebas]] |
+| H9. Entrega del proyecto      | Demo final para PC                 | Ejecutable funcional, documentación actualizada y presentación realizada.       | Pendiente |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

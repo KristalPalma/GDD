@@ -25,7 +25,7 @@ Define quién es responsable de cada área y evita que tareas importantes queden
 | Animación    | Preparar y revisar las animaciones del protagonista, las criaturas y los eventos del entorno dentro del juego.                                                  |
 | Audio        | Preparar e integrar sonidos ambientales, efectos y señales sonoras. Coordinar con diseño y narrativa las señales necesarias para avanzar.                       |
 | Narrativa    | Mantener la coherencia de la búsqueda de Margarita. Escribir y revisar diálogos, pensamientos, pistas y textos del desenlace.                                   |
-| QA           | Probar el recorrido completo, las dos persecuciones, los puntos de control y el guardado. Registrar pasos para reproducir errores y verificar las correcciones. |
+| QA           | Probar el recorrido completo, las persecuciones del Nivel 2, los apéndices del Nivel 3, los puntos de control y el guardado. Registrar pasos para reproducir errores y verificar las correcciones. |
 | Gestión      | Mantener las prioridades y los hitos al día. Coordinar la revisión del MVP, la muestra para el evento y el demo.                                                |
 
 

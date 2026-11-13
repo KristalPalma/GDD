@@ -10,14 +10,14 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] T02 — Cámara isométrica y acercamientos
 - [x] T03 — Vistas de inspección
 - [x] T04 — Habitaciones, puertas y cambios de espacio
-- [x] T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos y ajustes
+- [ ] T05 — Diálogos, textos narrativos, menú principal, pausa, derrota, créditos y ajustes
 - [x] T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
 - [x] T07 — Progreso, guardado automático y puntos de control
 - [x] T08 — Arte, movimiento y animación de personajes
 - [x] T09 — Arte de escenarios y objetos
-- [x] T10 — Persecuciones, Daño visual del protagonista, derrota y reintento
+- [ ] T10 — Persecuciones, Daño visual del protagonista, derrota y reintento
 - [x] T11 — Integración de audio
-- [x] T12 — Pruebas del recorrido completo y corrección de errores
+- [ ] T12 — Pruebas del recorrido completo y corrección de errores
 
 ## Tareas
 
@@ -37,7 +37,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 ### T02 — Cámara isométrica y acercamientos
 
-**Descripción:** Implementar la cámara con encuadre por habitación en perspectiva isométrica, con acercamientos y alejamientos controlados por los eventos narrativos.
+**Descripción:** Implementar la cámara isométrica que sigue a Elaki dentro de los límites de cada espacio, con acercamientos y alejamientos controlados por los eventos narrativos.
 
 **Responsable:** Ideny López Rodríguez
 
@@ -59,7 +59,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Dependencias:** T01, T05.
 
-**Criterio de aceptación:** Al acercarse a un objeto interactivo aparece el indicador con la acción disponible, que desaparece al alejarse. La interacción se activa con E o clic. El gabinete cambia a una vista fija en primera persona, donde cada objeto muestra su pensamiento al seleccionarlo. Esc cierra la vista sin abrir el menú de pausa, y el jugador recupera el control.
+**Criterio de aceptación:** Al acercarse a un objeto interactivo aparece el indicador con la acción disponible, que desaparece al alejarse. La interacción se activa con E o clic. El gabinete cambia a una vista fija en primera persona, donde cada objeto muestra su pensamiento al seleccionarlo. E o Esc cierran la vista sin abrir el menú de pausa, y el jugador recupera el control.
 
 **Estado:** Terminada
 ### T04 — Habitaciones, puertas y cambios de espacio
@@ -76,9 +76,9 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Estado:** Terminada
 
-### T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos y ajustes
+### T05 — Diálogos, textos narrativos, menú principal, pausa, derrota, créditos y ajustes
 
-**Descripción:** Diseñar e implementar la interfaz del juego: cuadro de diálogo para conversaciones y pensamientos de Elaki, subtítulos, menú principal, menú de pausa, pantalla de derrota, créditos y hoja de ajustes. Incluye la redacción y revisión de los diálogos, pensamientos, pistas y textos de las noticias.
+**Descripción:** Diseñar e implementar la interfaz del juego: cuadro de diálogo para conversaciones y pensamientos de Elaki, menú principal, menú de pausa, pantalla de derrota, créditos y hoja de ajustes. Incluye la redacción y revisión de los diálogos, pensamientos, pistas y textos de las noticias.
 
 **Responsable:** Zurisarai Delgado Rodríguez. Los textos narrativos están a cargo de Wendy Kristal Palma Góngora, con la participación del equipo de desarrollo.
 
@@ -88,15 +88,17 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Criterio de aceptación:**
 
-- Los diálogos muestran el nombre de quien habla, presentan el texto de forma progresiva y avanzan con Enter o clic. 
+- Los diálogos muestran el nombre de quien habla, presentan el texto de forma progresiva y avanzan con Enter, clic, E o Esc. 
 - El menú principal ofrece Jugar, Continuar, Ajustes, Créditos y Salir. "Continuar" solo está disponible si existe una partida guardada, y "Jugar" pide confirmación antes de reemplazarla.
 - Esc abre la pausa con Reanudar, Ajustes y Volver al menú principal, y un segundo Esc reanuda el juego.
-- La hoja de Ajustes permite ajustar el volumen general, de música, de efectos y de voces, y el brillo. También permite consultar los controles y volver a ver el tutorial.
+- La hoja de Ajustes permite ajustar el volumen general, de música, de efectos y de voces, y el brillo. También permite consultar los controles.
 - La opción de restablecer pide confirmación, solo cambia la pestaña actual y no afecta la partida guardada.
+- Al ser derrotado por la criatura canina, la pantalla de derrota ofrece "Reintentar".
+- Al terminar el desenlace se muestran los créditos.
 - Los textos integrados corresponden a la historia del GDD. 
 
 
-**Estado:** Terminada
+**Estado:** En curso. Están terminados los diálogos, el menú principal, la pausa y los ajustes. Faltan los créditos (en el menú y al final del desenlace) y la pantalla de derrota: hoy la derrota reinicia de forma automática desde el punto de control, después de la animación de muerte y un fundido.
 
 ### T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
 
@@ -120,7 +122,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 ### T07 — Progreso, guardado automático y puntos de control
 
-**Descripción:** Implementar una ranura de guardado automático en formato JSON que registra escena, habitación, posición y banderas narrativas en los puntos de control, con una copia del último guardado válido.
+**Descripción:** Implementar una ranura de guardado automático en formato JSON (`partida.json`) que registra la escena, el punto de entrada y las banderas narrativas en los puntos de control.
 
 **Responsable:** Ideny López Rodríguez
 
@@ -128,7 +130,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Dependencias:** T06.
 
-**Criterio de aceptación:** El juego guarda al entrar a cada nivel, al sentarse frente a la computadora del Nivel 2 y en los momentos narrativos establecidos. "Continuar" restaura la escena, la habitación, la posición y el progreso sin repetir eventos ya vistos. 
+**Criterio de aceptación:** El juego guarda al entrar a cada nivel, al sentarse frente a la computadora del Nivel 2 y en los momentos narrativos establecidos. "Continuar" restaura la escena, coloca a Elaki en el punto de entrada guardado y recupera el progreso sin repetir eventos ya vistos. Un archivo dañado deshabilita "Continuar" en lugar de romper el menú.
 
 **Estado:** Terminada
 
@@ -183,9 +185,9 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - La Manifestación de Margarita siempre alcanza a Elaki; al tercer golpe la vista pasa a negro sin pantalla de derrota y da paso al tercer despertar.
 - Cada golpe intensifica las manchas rojas en la pantalla.
 - Si la criatura canina derrota a Elaki, aparece la pantalla de derrota con el botón "Reintentar", que restaura el último punto de control.
-- Solo es posible morir durante estas dos persecuciones.
+- En el Nivel 3, los apéndices de carne lastiman a Elaki; tres golpes seguidos lo regresan al último punto de control y el daño se recupera si pasa un rato sin golpes.
 
-**Estado:** Terminada
+**Estado:** En curso. Las persecuciones, el daño, los apéndices del Nivel 3 y el reinicio desde el punto de control funcionan; falta la pantalla de derrota con "Reintentar" (ver T05).
 
 ### T11 — Integración de audio
 
@@ -213,7 +215,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Criterio de aceptación:** La compilación termina sin errores y `Carencia.exe` se ejecuta en Windows. El recorrido completo puede jugarse de principio a fin sin errores bloqueantes. Los puntos de control restauran estados válidos, y la pausa y "Continuar" funcionan con teclado real.
 
-**Estado:** Terminada
+**Estado:** En curso. Deben repetirse los casos de prueba marcados como pendientes en [[02 - Pruebas]] con la versión actual.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →

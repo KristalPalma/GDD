@@ -9,7 +9,7 @@ Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
 ### Incluido
 
 - **Demo de Carencia para PC, de un jugador**, con teclado y ratón, exploración 2D isométrica y vistas fijas de detalle para inspeccionar objetos como el gabinete.
-- **Recorrido completo del prólogo, los tres niveles y el desenlace**, con una duración mínima de 30 minutos en una primera partida normal. Incluye la búsqueda de Margarita, las transformaciones de la casa, las pistas principales, las dos persecuciones del nivel 2 y el final único.
+- **Recorrido completo del prólogo, los tres niveles y el desenlace**, con una duración mínima de 20 minutos y una duración estimada de 30 minutos en una primera partida normal. Incluye la búsqueda de Margarita, las transformaciones de la casa, las pistas principales, la persecución de la criatura canina y el encuentro con la Manifestación de Margarita en el Nivel 2, los peligros del entorno del Nivel 3 y el final único.
 - **Sistemas de juego** para explorar, inspeccionar, activar eventos y cruzar portales. Las persecuciones incluyen evasión, daño, derrota y reintento desde puntos de control. El demo incluye menú principal, pausa, ajustes de audio y brillo, consulta de controles y autoguardado.
 - **Presentación y entrega** con arte, audio y código originales del equipo, una versión jugable sin errores bloqueantes.
 
@@ -33,7 +33,7 @@ El MVP puede usar arte, audio y textos provisionales. Se considera listo cuando 
 
 El fragmento va desde la exploración del baño real hasta la voz femenina al final del pasillo del nivel 1. Incluye la inspección del gabinete, la aparición del portal, la llegada al baño alterado y la exploración del pasillo. La comparación entre ambos baños permite mostrar cómo un lugar familiar se vuelve inquietante.
 
-El fragmento debe contar con arte, animaciones, iluminación, audio, subtítulos, interfaz y transiciones representativos de la calidad final. Debe poder jugarse de corrido y funcionar como muestra para el evento.
+El fragmento debe contar con arte, animaciones, iluminación, audio, textos en pantalla, interfaz y transiciones representativos de la calidad final. Debe poder jugarse de corrido y funcionar como muestra para el evento.
 
 ## Criterios de recorte
 
