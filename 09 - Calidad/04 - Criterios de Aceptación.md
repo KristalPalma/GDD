@@ -34,7 +34,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 
 **Cuando:** vuelve al menú principal y selecciona "Continuar".
 
-**Entonces:** el juego carga la escena, la habitación, la posición y el progreso guardados, sin repetir eventos ya vistos.
+**Entonces:** el juego carga la escena guardada, coloca a Elaki en el punto de entrada del último punto de control y recupera el progreso, sin repetir eventos ya vistos.
 
 ### CA-05 — Desenlace
 
@@ -50,7 +50,7 @@ Los criterios de aceptación permiten decidir objetivamente si una característi
 - [x] Las condiciones de victoria y derrota funcionan: completar el desenlace termina la partida, y la derrota ante la criatura canina permite reintentar desde el punto de control.
 - [x] El progreso puede guardarse automáticamente en los puntos de control y recuperarse con "Continuar".
 - [x] Los sistemas principales están integrados: movimiento, interacción, cámara, secuencias, persecuciones, daño, guardado, interfaz y audio.
-- [x] Las pruebas críticas están aprobadas, según los casos registrados en [[02 - Pruebas]].
+- [ ] Las pruebas críticas están aprobadas, según los casos registrados en [[02 - Pruebas]]. Quedan por repetir CP-05, CP-06, CP-07 y CP-09.
 - [x] El rendimiento cumple el objetivo definido: el ejecutable para Windows se mantiene estable durante el recorrido completo.
 - [x] No existen errores bloqueantes conocidos, según el registro de [[03 - Bugs y Seguimiento]].
 

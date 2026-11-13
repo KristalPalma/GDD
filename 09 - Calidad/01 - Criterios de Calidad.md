@@ -13,14 +13,14 @@ Define qué significa que una característica esté correctamente terminada.
 
 - [x] El jugador entiende el objetivo de cada momento mediante los pensamientos de Elaki, los indicadores de interacción y las señales visuales y sonoras.
 - [x] Las respuestas del juego son claras: cada interacción produce un texto, un acercamiento, un sonido o un cambio en el escenario.
-- [x] La dificultad es coherente: el peligro se concentra en las persecuciones del Nivel 2 y el resto del recorrido se centra en la exploración.
+- [x] La dificultad es coherente: el peligro se concentra en las persecuciones del Nivel 2 y en los apéndices del Nivel 3, y el resto del recorrido se centra en la exploración.
 - [x] La interfaz es comprensible: los menús pueden recorrerse con teclado y ratón, y los controles pueden consultarse desde Ajustes.
 
 ## Calidad técnica
 
 - [x] Rendimiento aceptable: el ejecutable para Windows inicia correctamente y se mantiene estable durante el recorrido, sin bloqueos al cambiar de escena.
 - [x] Sin errores críticos de compilación ni de ejecución.
-- [x] Guardado estable: el progreso se guarda en los puntos de control, se conserva una copia del último guardado válido y "Continuar" restaura la partida.
+- [x] Guardado estable: el progreso se guarda en los puntos de control, un archivo dañado deshabilita "Continuar" en lugar de romper el menú y "Continuar" restaura la partida.
 - [x] No existen dependencias rotas: las escenas no contienen scripts faltantes, referencias vacías ni puertas sin destino.
 
 ## Definición de terminado

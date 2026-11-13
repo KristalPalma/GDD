@@ -114,11 +114,11 @@ Se comprobó la compilación del ejecutable para Windows y su estabilidad durant
 
 2. Seleccionar "Continuar".
 
-**Resultado esperado:** Se carga la escena, la habitación, la posición y el progreso narrativo guardados, sin repetir eventos ya vistos.
+**Resultado esperado:** Se carga la escena guardada, Elaki aparece en el punto de entrada del último punto de control y se recupera el progreso narrativo, sin repetir eventos ya vistos.
 
-**Resultado obtenido:** "Continuar" cargó la escena, la habitación, la posición y las banderas narrativas guardadas. El archivo de guardado y su copia se escribieron en cada punto de control.
+**Resultado obtenido:** La versión anterior de este caso esperaba que se guardaran la habitación, la posición y una copia de respaldo. El guardado actual registra la escena, el punto de entrada y las banderas narrativas en `partida.json`, sin copia, así que la prueba debe repetirse con la versión actual.
 
-**Estado:** Correcto
+**Estado:** Pendiente de repetir
 
 ### CP-06 — Ajustes y restablecimiento
 
@@ -154,9 +154,9 @@ Se comprobó la compilación del ejecutable para Windows y su estabilidad durant
 
 **Resultado esperado:** Cada golpe intensifica las manchas rojas. Al agotarse la salud aparece la pantalla de derrota y "Reintentar" restaura la escena y la persecución desde el punto de control.
 
-**Resultado obtenido:** Los golpes intensificaron las manchas rojas, apareció la pantalla de derrota y el reintento restauró la escena y reinició la persecución.
+**Resultado obtenido:** Pendiente. En la versión actual, los golpes intensifican las manchas rojas y, al tercero, Elaki reproduce su animación de muerte y el juego reinicia de forma automática desde el punto de control, cerca del final del video. La pantalla de derrota con "Reintentar" todavía no está en el juego (ver T05 en [[04 - Backlog del Proyecto]]).
 
-**Estado:** Correcto
+**Estado:** Pendiente de repetir
 
 ### CP-09 — Recorrido completo
 
@@ -174,8 +174,8 @@ Se comprobó la compilación del ejecutable para Windows y su estabilidad durant
 
 **Resultado esperado:** Las escenas se encadenan en orden, cada secuencia restaura los controles y el juego regresa al menú principal.
 
-**Resultado obtenido:** El recorrido se completó de principio a fin y el juego regresó al menú principal.
+**Resultado obtenido:** Pendiente. El recorrido llega del menú al desenlace y regresa al menú principal, pero el desenlace todavía muestra marcadores de texto en lugar de su arte y el texto «Fin (créditos pendientes)». Debe repetirse cuando estén el arte del desenlace y los créditos, y después de los cambios del Nivel 3 del 13 de noviembre de 2026.
 
-**Estado:** Correcto
+**Estado:** Pendiente de repetir
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →
