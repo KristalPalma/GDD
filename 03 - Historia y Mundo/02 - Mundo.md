@@ -22,8 +22,6 @@ Define el contexto donde ocurre el videojuego: lugares, culturas, reglas, histor
 - **Realidad incierta:** no se confirma inmediatamente si los acontecimientos son sobrenaturales o producto de la percepción del protagonista.
 ## Historia del mundo
 
-## Historia del mundo
-
 ### Antes del juego
 
 Elaki vivía con sus padres y su hermana Margarita en una casa familiar aparentemente normal.
