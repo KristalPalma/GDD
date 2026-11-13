@@ -24,27 +24,27 @@ Dentro de este estado pueden presentarse diferentes situaciones:
 - **Persecución:** un enemigo persigue al protagonista, quien debe escapar y evitar recibir daño.
 
 - **Pausa**
-Estado que se activa al presionar la tecla Esc en cualquier momento de la partida.
+Estado que se activa al presionar la tecla Esc mientras Elaki tiene el control, ya sea explorando o durante una persecución.
+
+Durante una secuencia narrativa, una vista de inspección, un diálogo o un fundido de carga, la pausa no se abre y Esc conserva su función (avanzar o cerrar). Así, el mismo Esc que cierra un diálogo no abre también la pausa.
 
 Mientras el juego está pausado:
 
-- Se detiene el movimiento del protagonista.
+- Se detiene el tiempo de juego.
+- Se detiene el movimiento del protagonista y la tecla E no interactúa con nada.
 - Se detiene el desplazamiento y comportamiento de los enemigos.
-- Se suspenden las animaciones y acontecimientos que dependen del tiempo de juego.
-- Se pausa la reproducción de videos y el audio asociado.
-- No avanzan las persecuciones ni las secuencias narrativas.
+- No avanzan las persecuciones.
 
 Al reanudar, todos los sistemas continúan desde el momento en que fueron pausados.
-La pausa también debe funcionar durante videos, encuentros narrativos y persecuciones.
 
 - **Victoria**
 Se alcanza cuando el jugador cumple las condiciones necesarias para completar un nivel o finalizar el videojuego.
 En los niveles intermedios, la victoria permite activar la transición hacia el siguiente escenario.
-Por ejemplo, sobrevivir a la persecución de la hermana y alcanzar el final del Nivel 2 permite avanzar al Nivel 3.
+Por ejemplo, llegar a la puerta del fondo del pasillo del Nivel 1 provoca el desmayo y el segundo despertar. El Nivel 2 termina con el encuentro inevitable con la Manifestación de Margarita, que lleva al tercer despertar.
 La victoria final ocurre únicamente cuando se completan los acontecimientos establecidos para el desenlace de la historia.
 
 - **Derrota**
-Se produce cuando el protagonista recibe suficiente daño durante una persecución y alcanza su límite de vida.
+Se produce cuando el protagonista recibe tres golpes de la criatura canina o de los apéndices del Nivel 3. Los golpes de la Manifestación de Margarita no producen una derrota.
 
 - **Game Over**
 Representa el resultado de una derrota por muerte del protagonista.
@@ -60,13 +60,14 @@ Aparecerán los créditos en una sección mostrada en el menú principal.
 | ----------------------------- | ----------------------------------- | ----------------------------------- | -------------------------------------------------------------------- |
 | Menú principal                | Iniciar partida                     | Carga                               | El jugador selecciona la opción para comenzar.                       |
 | Carga                         | Escena preparada                    | Jugando                             | Todos los elementos necesarios están listos.                         |
-| Jugando                       | Presionar Esc                       | Pausa                               | La partida está activa, incluso durante una secuencia o persecución. |
+| Jugando                       | Presionar Esc                       | Pausa                               | Elaki tiene el control: exploración o persecución. No durante una secuencia, una vista, un diálogo o una carga. |
 | Pausa                         | Reanudar partida                    | Jugando                             | El jugador selecciona continuar.                                     |
 | Jugando                       | Interactuar con un objeto narrativo | Jugando (secuencia narrativa)       | Se cumplen las condiciones de interacción del objeto.                |
 | Jugando (secuencia narrativa) | Finalizar acontecimiento            | Jugando (exploración o persecución) | La secuencia concluye y corresponde devolver el control al jugador.  |
 | Jugando                       | Completar un nivel                  | Victoria                            | Se cumple el objetivo narrativo o de supervivencia correspondiente.  |
 | Victoria                      | Avanzar al siguiente nivel          | Carga                               | Existe un nivel posterior en la progresión.                          |
-| Jugando                       | Vida agotada                        | Derrota                             | El protagonista recibe daño suficiente para morir.                   |
+| Jugando                       | Vida agotada                        | Derrota                             | El protagonista recibe tres golpes de la criatura canina o de los apéndices del Nivel 3. |
+| Jugando (persecución)         | Tercer golpe de la Manifestación    | Carga (tercer despertar)            | La vista pasa a negro sin derrota.                                   |
 | Derrota                       | Finalizar respuesta de muerte       | Game Over                           | Se confirma la derrota del protagonista.                             |
 | Game Over                     | Reiniciar                           | Carga                               | Se selecciona reiniciar desde el punto de control establecido.       |
 | Jugando                       | Completar el desenlace              | Victoria                            | Se cumplen las condiciones del final del videojuego.                 |
@@ -75,25 +76,25 @@ Aparecerán los créditos en una sección mostrada en el menú principal.
 ## Reglas globales
 
 1. **Movimiento:** el protagonista se controla mediante WASD o flechas direccionales. No se utiliza desplazamiento automático al hacer clic sobre el escenario.
-2. **Interacción:** el jugador debe acercarse a un objeto interactivo y presionar E para inspeccionarlo o activar su función.
+2. **Interacción:** el jugador debe acercarse a un objeto interactivo y presionar E, o hacer clic sobre él, para inspeccionarlo o activar su función.
 3. **Progresión lineal:** los niveles se completan en el orden establecido por la historia. No se permite acceder a niveles posteriores sin cumplir sus condiciones de avance.
 4. **Activación de acontecimientos:** determinados eventos requieren que el protagonista alcance una zona específica o interactúe con un objeto concreto.
 5. **Control durante secuencias:** algunas escenas narrativas bloquean temporalmente el movimiento del protagonista. El control se devuelve cuando el acontecimiento correspondiente finaliza.
-6. **Cámara:** durante la exploración, la cámara mantiene una perspectiva isométrica fija respecto al escenario. En determinadas secuencias puede modificar temporalmente su encuadre y posteriormente regresar a su posición habitual.
+6. **Cámara:** durante la exploración, la cámara sigue a Elaki con perspectiva isométrica, sin salirse de los límites del espacio en el que se encuentra. En determinadas secuencias puede modificar temporalmente su encuadre y posteriormente regresar a su posición habitual.
 7. **Persecuciones:** durante un encuentro con enemigos, el jugador debe desplazarse para escapar y evitar los ataques.
 8. **Daño:** los ataques enemigos disminuyen la vida del protagonista y aumentan progresivamente las manchas rojizas alrededor de la pantalla.
 9. **Muerte:** cuando el protagonista pierde toda su vida, se produce una derrota. El jugador debe reiniciar desde el punto de control correspondiente.
-10. **Supervivencia obligatoria:** para completar el Nivel 2, el jugador debe sobrevivir a la persecución de la hermana. Morir durante ese encuentro no permite avanzar al Nivel 3.
-11. **Pausa universal:** la tecla Esc permite pausar la partida incluso durante videos, persecuciones y secuencias narrativas. Todos los sistemas afectados deben detenerse de forma sincronizada.
+10. **Encuentro inevitable:** la Manifestación de Margarita siempre alcanza a Elaki. Al tercer golpe, la vista se cierra en espiral, todo pasa a negro y Elaki despierta por tercera vez. No hay pantalla de derrota.
+11. **Pausa:** la tecla Esc pausa la partida mientras Elaki tiene el control, incluso durante las persecuciones. Durante secuencias, vistas, diálogos y cargas, Esc conserva su función.
 12. **Recursos:** no existe inventario, economía, recolección de materiales ni mejoras de atributos. Los objetos del escenario funcionan principalmente como elementos interactivos o narrativos.
 13. **Finalización:** el videojuego termina únicamente cuando se completa el desenlace establecido para el Nivel 3.
+14. **Peligros del Nivel 3:** los apéndices de carne lastiman y empujan a Elaki si lo tocan. Tres golpes seguidos lo regresan al último punto de control, y el daño se recupera si pasa un rato sin recibir golpes.
 ## Casos especiales
 
 Documenta excepciones importantes para evitar interpretaciones diferentes durante la implementación.
 
-**1. Pausa durante una secuencia narrativa**
-Si el jugador presiona Esc mientras se reproduce una secuencia, esta debe detenerse junto con sus animaciones, movimientos de cámara y audio.
-Al reanudar, la secuencia continúa desde el mismo momento, sin reiniciarse ni saltarse acontecimientos.
+**1. Esc durante una secuencia narrativa**
+Si el jugador presiona Esc mientras se reproduce una secuencia, un diálogo o una vista, la pausa no se abre. Esc avanza o cierra el diálogo o la vista, y la secuencia continúa sin reiniciarse ni saltarse acontecimientos.
 
 **2. Pausa durante una persecución**
 Si el jugador pausa mientras un enemigo lo persigue, tanto el protagonista como el enemigo deben permanecer detenidos.
@@ -106,16 +107,15 @@ No debe permitirse que el protagonista se desplace mientras la secuencia mantien
 
 **4. Interacción fuera de alcance**
 Si el protagonista se encuentra demasiado lejos de un objeto interactivo, no puede activarlo.
-El jugador debe acercarse hasta la distancia permitida para que aparezca la opción de interacción y pueda utilizar la tecla E.
+El jugador debe acercarse hasta la distancia permitida para que aparezca el indicador de interacción y pueda utilizar la tecla E o el clic.
 
 **5. Daño durante las persecuciones**
 El daño se representa visualmente mediante manchas rojizas progresivas.
 Cuando se alcanza el límite de vida, se activa la derrota.
 
-**6. Supervivencia durante la persecución de la hermana**
-El jugador debe sobrevivir a la persecución y alcanzar el punto que marca el final del Nivel 2.
-Si lo consigue, se activa la transición al Nivel 3.
-Si muere, se considera una derrota y debe reiniciar desde el punto de control establecido.
+**6. Encuentro con la Manifestación de Margarita**
+La Manifestación siempre alcanza a Elaki. Cada golpe aumenta las manchas rojas y, al tercero, la vista se cierra en espiral y pasa a negro.
+Este final no se considera una derrota: activa la transición al tercer despertar, desde donde el jugador continúa hacia el Nivel 3.
 
 **7. Transición entre niveles**
 Al completar un nivel, el juego debe finalizar los acontecimientos activos, cargar la escena correspondiente y colocar al protagonista en la posición inicial definida para la siguiente etapa.

@@ -8,7 +8,7 @@ Documenta cualquier recurso cuantificable: dinero, vida, energía, munición, ex
 
 | Recurso               | Obtención                                                                              | Uso                                                 | Límite                                                      | Pérdida                                                                                |
 | --------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Vida del protagonista | El personaje comienza las situaciones jugables con la vida establecida por el sistema. | Determina cuánto daño puede recibir antes de morir. | Tiene un valor máximo fijo, sin mejoras durante la partida. | Disminuye cuando el protagonista recibe ataques de enemigos durante las persecuciones. |
+| Vida del protagonista | El personaje comienza las situaciones jugables con la vida establecida por el sistema. | Determina cuánto daño puede recibir antes de morir. | Tres golpes, sin mejoras durante la partida. | Disminuye cuando el protagonista recibe ataques de enemigos durante las persecuciones o el contacto de los apéndices del Nivel 3. |
 
 ## Fuentes y sumideros
 
@@ -26,11 +26,11 @@ El jugador no gasta recursos para desplazarse, interactuar con objetos, explorar
 Define límites, regeneración, acumulación, intercambio y condiciones especiales.
 
 - **Límites:** la vida tiene un valor máximo fijo y no puede incrementarse mediante mejoras.
-- **Regeneración:** no se contempla una regeneración automática de vida durante las persecuciones.
+- **Regeneración:** no existe regeneración durante las persecuciones del Nivel 2. En el Nivel 3, después de 4 segundos sin recibir daño, las manchas se borran poco a poco.
 - **Acumulación:** el jugador no puede acumular monedas, materiales, consumibles ni otros recursos.
 - **Intercambio:** no existen tiendas, compras, ventas ni intercambios.
 - **Daño:** cuando un enemigo golpea al protagonista, disminuye su vida y aumenta la intensidad de las manchas rojizas en pantalla.
-- **Muerte:** cuando la vida llega a su límite mínimo, el protagonista muere y se reinicia desde el punto de control establecido.
+- **Muerte:** al tercer golpe, el protagonista muere y se reinicia desde el punto de control establecido. Frente a la Manifestación de Margarita, el tercer golpe lleva al tercer despertar.
 - **Interacciones:** los objetos del escenario pueden inspeccionarse o activar acontecimientos, pero no se incorporan a un inventario.
 - **Progresión:** el avance depende de completar acontecimientos narrativos y sobrevivir a las amenazas, no de reunir recursos.
 

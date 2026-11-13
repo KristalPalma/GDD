@@ -10,11 +10,11 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | -------- |
 | Movimiento del personaje | Desplazamiento mediante WASD o flechas direccionales.                                                                                                    | Colisiones, animaciones y estados del personaje. | Definido |
 | Interacción              | Detectar objetos cercanos y permitir examinarlos o activarlos mediante una opción de interacción                                                         | Proximidad, interfaz y eventos.                  | Definido |
-| Cámara isométrica        | Realizar acercamientos a objetos que requieran observación para obtener información y recuperar la vista habitual, en el área donde se ubique en jugador | Movimiento, escenarios y eventos narrativos.     | Definido |
+| Cámara isométrica        | Seguir a Elaki dentro de los límites del espacio donde se encuentra, realizar acercamientos durante los eventos narrativos y recuperar la vista habitual | Movimiento, escenarios y eventos narrativos.     | Definido |
 | Secuencias               | Coordinar eventos jugables, semijugables y cinemáticos.                                                                                                  | Movimiento, cámara, animaciones, video y audio.  | Definido |
 | Video                    | Reproducir automáticamente contenido en el monitor y mostrar su progreso.                                                                                | Interacción, cámara, interfaz y audio.           | Definido |
 | Persecución              | Controlar el seguimiento, comportamiento y ataques de los enemigos.                                                                                      | Movimiento, navegación, colisiones y daño.       | Definido |
-| Daño visual              | Representar el deterioro del personaje mediante una mancha rojas progresivas alrededor de la pantalla.                                                   | Enemigos, colisiones, interfaz y secuencias.     | Definido |
+| Daño visual              | Representar el deterioro del personaje mediante manchas rojas progresivas alrededor de la pantalla.                                                      | Enemigos, colisiones, interfaz y secuencias.     | Definido |
 | Iluminación              | Modificar la visibilidad y reforzar la distorsión de los escenarios.                                                                                     | Escenarios, cámara y eventos.                    | Definido |
 | Audio                    | Reproducir sonidos ambientales, murmullos y sonido ambiental de fondo.                                                                                   | Eventos, escenarios y enemigos.                  | Definido |
 | Progreso del juego       | Gestionar el reinicio de fases o puntos de control.                                                                                                      | Progresión, estados del personaje y escenas.     | Definido |
@@ -28,7 +28,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Entradas:** 
 - Teclas W, A, S, D o flechas direccionales.
-- Clic izquierdo sobre una posición transitable del escenario.
+- Tecla Shift para correr.
 - Estado actual del protagonista.
 - Colisiones y límites del escenario.
 
@@ -86,7 +86,8 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Procesamiento / reglas:** 
 - Cada objeto interactivo dispone de un área de detección.
-- Cuando el protagonista entra en dicha área, aparece una opción visual para interactuar, por ejemplo, "E - Inspeccionar".
+- Cuando el protagonista entra en dicha área, aparece sobre el objeto más cercano el indicador de la tecla E.
+- Los objetos que se revisan con el ratón muestran su contorno iluminado al pasar el cursor; el clic solo funciona si Elaki está cerca.
 - La opción desaparece cuando el personaje se aleja del objeto.
 - El jugador debe activar manualmente la interacción.
 - La acción ejecutada depende del objeto: inspeccionar, abrir, activar, leer o iniciar un evento.
@@ -141,8 +142,9 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 - Parámetros de acercamiento y transición.
 
 **Procesamiento / reglas:** 
-- Durante la exploración, la cámara se mantiene fija al escenario conservando la perspectiva isométrica.
-- Debe permitir visualizar el espacio completo en el que el personaje se está desplazando e interactuando.
+- Durante la exploración, la cámara ortográfica sigue a Elaki con un suavizado breve y conserva la perspectiva isométrica.
+- La cámara no muestra nada fuera de los límites del espacio en el que se encuentra Elaki. En el pasillo solo se ve la puerta de la que salió y un poco más.
+- Cuando Elaki cambia de espacio, la cámara salta a su nueva posición en lugar de recorrer la distancia.
 - Al interactuar con el monitor o televisión u otro elemento, que ayude a la trama, la cámara realiza un acercamiento gradual.
 - El acercamiento debe permitir observar el video sin cambiar a una perspectiva en primera persona.
 - Conforme avanza el video, la cámara puede alejarse progresivamente para revelar una presencia en el escenario.
@@ -150,7 +152,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 - Los cambios de cámara no deben interferir con el movimiento durante las persecuciones.
 
 **Salidas:** 
-- Visualización del escenario mediante un encuadre isométrico fijo.
+- Visualización del escenario mediante un encuadre isométrico que acompaña a Elaki.
 - Acercamientos y alejamientos de cámara.
 - Enfoque de objetos o acontecimientos narrativos.
 - Transiciones suaves entre encuadres.
@@ -166,7 +168,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 Sistema de movimiento, interacción y secuencias narrativas .
 
 **Interacciones:** 
-- Movimiento: permite mantener al protagonista dentro del área visible del escenario, sin que la cámara siga constantemente su desplazamiento.
+- **Movimiento:** la cámara sigue la posición del protagonista para mantenerlo dentro del área visible.
 - **Interacción:** cuando el jugador activa un objeto especial, como el monitor, puede solicitarse un cambio de cámara mediante una secuencia.
 - **Secuencias:** controla cuándo se ejecutan los acercamientos, alejamientos y cambios de enfoque.
 - **Video:** sincroniza los cambios de encuadre con la reproducción del contenido audiovisual.
@@ -194,7 +196,7 @@ Sistema de movimiento, interacción y secuencias narrativas .
 
 **Criterios de aceptación:**
 - La cámara mantiene la perspectiva isométrica durante la exploración.
-- Mantiene un encuadre fijo durante la exploración, permitiendo visualizar el escenario y los desplazamientos del protagonista.
+- Sigue al protagonista durante la exploración sin mostrar áreas fuera del espacio en el que se encuentra.
 - Al interactuar con el monitor, realiza el acercamiento correspondiente.
 - Durante el video, ejecuta el alejamiento progresivo para revelar la presencia de la criatura.
 - Los movimientos de cámara son suaves y están sincronizados con los eventos narrativos.
@@ -320,9 +322,11 @@ Sistema de movimiento, interacción y secuencias narrativas .
 **Procesamiento / reglas:** 
 - Los enemigos permanecen inactivos hasta que se activa su evento correspondiente.
 - Al comenzar una persecución, el enemigo identifica la posición del protagonista y se desplaza hacia él.
-- El seguimiento debe respetar los obstáculos del escenario.
+- El seguimiento respeta los obstáculos: el enemigo busca a Elaki por las celdas libres del escenario y lo golpea por contacto.
+- Mientras un enemigo se acerca, los bordes de la pantalla se tiñen de rojo.
+- La criatura canina avanza a 2.0 unidades por segundo: Elaki puede escapar corriendo (2.6), pero no caminando (1.5).
 - La persecución de la primera criatura termina cuando el protagonista alcanza la zona establecida del pasillo.
-- Durante el encuentro posterior, la hermana es la amenaza principal y persigue directamente al protagonista.
+- Durante el encuentro posterior, la hermana es la amenaza principal y persigue directamente al protagonista. Siempre lo alcanza: su tercer golpe cierra la vista y lleva al tercer despertar.
 - Los gusanos de su secuencia funcionan como elementos ambientales y no deben causar daño directo.
 - La hermana puede utilizar diferentes animaciones de ataque si los recursos artísticos y técnicos lo permiten.
 
@@ -379,7 +383,10 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - Cada golpe incrementa la intensidad de las manchas rojas en la pantalla.
 - El efecto visual se acumula progresivamente.
 - Conforme aumenta el daño, la visibilidad del escenario disminuye.
-- Al alcanzar el límite establecido, se activa el estado de "muerte", en el cual se reiniciará el juego en el nivel que perdió..
+- El límite es de tres golpes. Tras un golpe, Elaki no recibe otro durante 0.8 segundos, para que varios contactos simultáneos cuenten como uno.
+- Al alcanzar el límite, se reproduce la animación de muerte y el juego se reinicia desde el último punto de control.
+- Frente a la Manifestación de Margarita, el tercer golpe no reinicia: la vista pasa a negro y Elaki despierta por tercera vez.
+- En el Nivel 3 el daño se recupera: después de 4 segundos sin recibir golpes, las manchas se borran poco a poco.
 
 **Salidas:** 
 - Actualización de daño acumulado.
@@ -431,7 +438,8 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - Durante la primera fase liminal, el escenario puede mantenerse relativamente visible para destacar su vacío y amplitud.
 - En las fases deformadas se introduce una penumbra que limita parcialmente la visibilidad.
 - La zona cercana al protagonista debe conservar suficiente iluminación para permitir el desplazamiento.
-- La penumbra no debe funcionar como un círculo de linterna demasiado marcado.
+- En el Nivel 2, la penumbra no debe funcionar como un círculo de linterna demasiado marcado.
+- En el Nivel 3 la casa está a oscuras y solo queda una luz pequeña alrededor de Elaki.
 - Determinados eventos pueden modificar la iluminación para revelar u ocultar elementos.
 - Durante el video del monitor, la iluminación contribuye a ocultar inicialmente la presencia de la criatura.
 
@@ -534,7 +542,8 @@ Sistema de movimiento, interacción y secuencias narrativas .
 - El sistema debe identificar la fase y los eventos completados.
 - En caso de muerte, el juego ejecuta la consecuencia narrativa o el reinicio correspondiente.
 - Al reiniciar, los sistemas de movimiento, enemigos, daño, cámara y secuencias deben recuperar un estado válido.
-- La persistencia del progreso entre sesiones y la ubicación definitiva de los puntos de control.
+- Cada punto de control guarda la escena, el punto de entrada y las banderas narrativas en el archivo de la partida, que "Continuar" utiliza entre sesiones.
+- Puntos de control: al entrar a cada escena jugable; al levantarse de la cama en los despertares; en el comedor del tercer despertar; al sentarse frente a la computadora y al iniciar el encuentro con la Manifestación en el Nivel 2; y en la cocina, el cuarto y el pasillo del Nivel 3.
 
 **Salidas:** 
 - Registro de progreso.

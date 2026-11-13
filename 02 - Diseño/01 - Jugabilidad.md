@@ -27,8 +27,8 @@ Explorar el entorno → Acercarse e inspeccionar elementos → Descubrir pistas 
 ## Experiencia segundo a segundo
 
 ¿Qué hace el jugador durante los primeros minutos?
-	Al iniciar el jugador observa el espacio, identifica su entorno y comienza a interactuar con objetos que se encuentran a su alrededor. El control comienza en el baño, donde el jugador puede examinar las toallas, la cortina, la palanca y el gabinete.
-	Abrirlo constituye una interacción obligatoria para avanzar hacia el espejo. Posteriormente, el jugador hace clic en el espejo para atravesar el portal.
+	Al iniciar, Elaki despierta en su cuarto y el jugador toma el control de inmediato. Mamá lo llama a comer y el jugador camina hasta el comedor. Al acercarse, Elaki se sienta: puede revisar el periódico del padre (opcional) y el lugar vacío de la mesa, que inicia la conversación con sus padres y el mareo.
+	Después del mareo, Elaki aparece en el baño real. El jugador puede revisar el lavabo, las toallas y la cortina. Con E en el espejo se abre el gabinete; si Elaki se queda quieto 10 segundos frente al espejo, el gabinete se abre solo. Revisar el gabinete es obligatorio: al cerrarlo se abre el portal y una silueta femenina lo cruza. Con E en el espejo, Elaki cruza al otro lado.
 ## Experiencia minuto a minuto
 
 ¿Qué actividades se repiten durante una sesión?
@@ -42,13 +42,14 @@ Explorar el entorno → Acercarse e inspeccionar elementos → Descubrir pistas 
 
 ¿Qué debe lograr el jugador para avanzar o terminar?
 	Para avanzar dentro de un nivel, el jugador debe completar las interacciones obligatorias, alcanzar los puntos que activan los acontecimientos y superar las amenazas que correspondan a ese segmento.
-	En el primer nivel, debe llegar a la entrada de la casa, activar el acontecimiento de la voz y regresar a la puerta del fondo del pasillo.
+	En el primer nivel, debe recorrer el otro lado de la casa hasta salir por el cuarto de lavado y caminar por el pasillo largo, siguiendo la voz, hasta la puerta del fondo.
 	Para completar el juego, debe recorrer la secuencia de niveles y alcanzar el desenlace que revela la verdad sobre la hermana.
 ## Condición de derrota
 
 ¿Qué situaciones provocan fracaso?
-	El jugador pierde cuando los ataques agotan la salud del protagonista. En ese caso, retoma la partida desde el último punto de guardado.
-	Ser descubierto genera una situación de peligro; no implica necesariamente una derrota inmediata. Agotar la energía limita la posibilidad de correr y aumenta la vulnerabilidad.
+	El jugador pierde cuando Elaki recibe tres golpes. En ese caso, retoma la partida desde el último punto de control.
+	Solo existen tres fuentes de daño: la criatura canina del Nivel 2, la Manifestación de Margarita y los apéndices de carne del Nivel 3. La Manifestación de Margarita siempre alcanza a Elaki: su tercer golpe no es una derrota, sino la transición al tercer despertar. En el Nivel 3 el daño se recupera poco a poco si Elaki pasa unos segundos sin recibir golpes.
+	El juego no tiene sigilo ni energía: correr no se agota.
 ## Ritmo
 
 Describe cómo alternan:

@@ -29,9 +29,9 @@ Al fondo del pasillo aparece la Manifestación de Margarita. La figura gira, rev
 En este encuentro no existe escapatoria: cada golpe incrementa las manchas rojas en la pantalla y, al tercero, la vista se cierra en espiral y todo pasa a negro. Elaki despierta por tercera vez en su cuarto real, donde la casa muestra el altar del perro y la alacena que ocupa el lugar del cuarto de Margarita.
 
 5. Clímax
-Elaki cruza por última vez desde el baño real a una versión de la casa hecha de carne. El jugador observa los elementos grotescos del entorno y, al sentarse en el sillón, presencia un anuncio en la televisión.
+Elaki cruza por última vez desde el baño real a una versión de la casa hecha de carne, a oscuras, con solo una luz pequeña a su alrededor. Camina lento y no puede correr. Al salir del baño, la luz parpadea y Elaki aparece en la cocina, sellada con carne. De las paredes salen apéndices que lo lastiman si lo tocan; el jugador debe esperar a que se escondan para pasar. Al abrir el refrigerador se abre la membrana que cubre la puerta.
 
-Los ojos de las paredes giran hacia el baño y guían a Elaki hasta él. Allí, con la cortina completamente abierta y la tina llena, Margarita aparece en el reflejo del agua.
+Elaki cruza su cuarto deforme y el pasillo, donde tres apéndices cierran el paso. De forma opcional, puede sentarse en el sillón y escuchar el anuncio de la televisión, que después se apaga. En el baño, con la cortina completamente abierta y la tina llena, Margarita aparece en el remolino del agua.
 
 6. Final
 Convencido de que la encontró, Elaki salta a la tina para alcanzarla. La imagen alterna entre Elaki entrando a la tina del otro lado y Elaki solo en su baño real, hasta llegar a negro.
@@ -51,7 +51,7 @@ El jugador adquiere conocimientos de manera gradual, comenzando con el desplazam
 ¿Qué mejora el personaje?
 El protagonista no cuenta con un sistema tradicional de mejoras físicas, armas o habilidades. Su progresión es principalmente narrativa y psicológica, ya que obtiene información y experimenta acontecimientos que modifican su comprensión de la realidad.
 
-- Vida: No aumenta durante la partida. El daño recibido se representa mediante manchas rojizas progresivas alrededor de la pantalla.
+- Vida: No aumenta durante la partida. Elaki resiste tres golpes y el daño recibido se representa mediante manchas rojizas progresivas alrededor de la pantalla. Solo en el Nivel 3 el daño se recupera con el tiempo.
 
 - Daño: Al recibir daño, el personaje verá su pantalla con manchas rojas.
 - Habilidades: Conserva las mismas capacidades básicas de desplazamiento e interacción. No se desbloquean habilidades adicionales.
@@ -63,14 +63,16 @@ El protagonista no cuenta con un sistema tradicional de mejoras físicas, armas 
 
 | Desbloqueo                     | Requisito                                                                                   | Efecto                                                                                        |
 | ------------------------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Interacción con el espejo      | Abrir el gabinete del baño durante el prólogo.                                              | Permite activar el acontecimiento sobrenatural que conduce al Nivel 1.                        |
+| Interacción con el espejo      | Abrir y cerrar el gabinete del baño durante el prólogo.                                     | Permite activar el acontecimiento sobrenatural que conduce al Nivel 1.                        |
 | Nivel 1 — Primera ruptura      | Completar la interacción con el espejo.                                                     | El protagonista accede a la versión liminal de la casa.                                       |
-| Nivel 2 — La deformación       | Completar el recorrido y los acontecimientos establecidos en el Nivel 1.                    | Se presenta una versión más oscura y deformada del hogar.                                     |
+| Segundo despertar              | Llegar a la puerta del fondo del pasillo del Nivel 1.                                       | Elaki se desmaya y despierta en su cuarto real.                                               |
+| Nivel 2 — La deformación       | Completar el segundo desayuno y cruzar el espejo del baño real.                             | Se presenta una versión más oscura y deformada del hogar.                                     |
 | Secuencia del monitor          | Acercarse al monitor y presionar E.                                                         | Inicia la reproducción del video, el bloqueo temporal del movimiento y los cambios de cámara. |
 | Primera persecución            | Finalizar la secuencia narrativa del monitor.                                               | La criatura comienza a perseguir al protagonista.                                             |
 | Encuentro con la hermana       | Escapar de la primera criatura, alcanzar el pasillo y avanzar hasta el punto de activación. | Se inicia la aparición y transformación de la figura relacionada con la hermana.              |
-| Nivel 3 — La realidad se rompe | Completar los acontecimientos narrativos que permiten finalizar el Nivel 2.                 | Se habilita la siguiente etapa de la historia, con nuevas alteraciones y pistas.              |
-| Desenlace                      | Completar los acontecimientos principales del Nivel 3.                                      | Se activa la secuencia final del videojuego.                                                  |
+| Tercer despertar               | Recibir el tercer golpe de la Manifestación de Margarita.                                   | Elaki despierta por tercera vez en su cuarto real.                                            |
+| Nivel 3 — La realidad se rompe | Revisar los cuatro elementos obligatorios del tercer desayuno y cruzar el espejo.           | Se habilita la casa de carne, con nuevas alteraciones y peligros del entorno.                 |
+| Desenlace                      | Llegar a la tina del Nivel 3 y hacer clic en ella.                                          | Se activa la secuencia final del videojuego.                                                  |
 
 ## Curva de dificultad
 

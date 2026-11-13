@@ -33,7 +33,7 @@ El jugador mantiene presionada una tecla de dirección mientras tiene el control
     
 
 **Entrada:**  
-Propuesta: teclas **W, A, S y D**, con movimiento correspondiente a las direcciones visibles en pantalla.
+Teclas **W, A, S y D** o **flechas direccionales**, con movimiento correspondiente a las direcciones visibles en pantalla. Elaki camina a 1.5 unidades por segundo.
 
 **Estado inicial:**  
 Personaje detenido en una posición válida y con el control habilitado.
@@ -87,7 +87,7 @@ El jugador hace clic sobre un elemento inspeccionable. En la vista del escenario
     
 
 **Entrada:**  
-Propuesta: **clic izquierdo** para inspeccionar y **Escape** o un botón visible de regreso para cerrar la vista.
+**Clic izquierdo** sobre un objeto que se ilumina al pasar el cursor, con Elaki cerca, o **E** frente al objeto más cercano. **E** o **Esc** cierran la vista de inspección.
 
 **Estado inicial:**  
 Objeto disponible para inspección y ninguna otra vista de detalle abierta.
@@ -140,7 +140,7 @@ El jugador interactúa con un elemento disponible o entra en una zona que activa
 - Las pistas opcionales no se convierten en requisitos de avance.
 
 **Entrada:**  
-Propuesta: Tecla "E" para accionar objetos. Los eventos por proximidad se activan al entrar en su zona.
+Tecla **E** para accionar puertas, el espejo y los objetos cercanos. Los eventos por proximidad se activan al entrar en su zona o, en casos como el gabinete del prólogo, al quedarse quieto en ella.
 
 **Estado inicial:**  
 Elemento en su estado correspondiente: bloqueado, disponible o ya utilizado.
@@ -165,6 +165,8 @@ Lista las mecánicas que complementan la experiencia pero no constituyen el núc
 
 |Mecánica|Descripción|Función|
 |---|---|---|
-|**Correr**|Permite aumentar temporalmente la velocidad de desplazamiento del protagonista.|Facilitar la evasión durante las persecuciones del Nivel 2 y otros encuentros peligrosos.|
+|**Correr**|Mantener **Shift** mientras Elaki se mueve aumenta su velocidad de 1.5 a 2.6 unidades por segundo. No consume energía. En el Nivel 3 Elaki camina lento y no puede correr.|Facilitar la evasión durante la persecución de la criatura canina, que avanza a 2.0 unidades por segundo.|
 |**Evasión de enemigos**|Consiste en evitar el contacto con las criaturas mediante el desplazamiento y el aprovechamiento de los espacios disponibles.|Permitir que el protagonista sobreviva a los encuentros y continúe la historia.|
+|**Evasión de peligros del entorno**|En el Nivel 3, los apéndices de carne salen de las paredes con un ritmo fijo. Una sombra roja en el piso marca por dónde pasarán; el jugador debe esperar a que se escondan para cruzar.|Mantener la tensión del Nivel 3 sin una persecución.|
+|**Sentarse**|En los desayunos, Elaki se sienta a la mesa: no camina, pero puede revisar lo que tiene cerca.|Presentar las conversaciones familiares desde el lugar de Elaki.|
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →
