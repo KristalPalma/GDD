@@ -9,25 +9,21 @@ Define cómo se conserva el progreso y qué ajustes puede modificar el jugador.
 **Tipo:** Automático
 
 **Cuándo se guarda:**
-- Al completar el prólogo y atravesar el primer portal.
-- Al finalizar un nivel y acceder al siguiente.
-- Antes de iniciar las persecuciones del Nivel 2.
-- Al superar las persecuciones y avanzar al siguiente acontecimiento narrativo.
-- Al llegar a otros puntos de control definidos durante el desarrollo.
+- Al entrar a cada escena jugable (prólogo, Nivel 1, pasillo del Nivel 1, despertares, Nivel 2 y Nivel 3).
+- Al levantarse de la cama en cada despertar y en el comedor del tercer despertar.
+- Al sentarse frente a la computadora del Nivel 2, antes de la persecución.
+- Al iniciar el encuentro con la Manifestación de Margarita.
+- En la cocina, el cuarto y el pasillo del Nivel 3.
 
 **Qué datos se guardan:**
-- Nivel actual
-- Punto de control
-- Progreso narrativo
-- Interacciones importantes
-- Estado del escenario
+- Escena actual
+- Punto de entrada donde reaparece Elaki
+- Banderas narrativas (acontecimientos y objetos ya revisados)
 
 **Cantidad de ranuras:** Una ranura de guardado para el demo.
 
-**Qué ocurre si el guardado falla:**
-El videojuego deberá mostrar un mensaje indicando que no fue posible guardar el progreso.
-
-Se conservará el último guardado válido, evitando sobrescribirlo con datos incompletos o dañados. El jugador podrá continuar jugando, pero deberá ser informado de que su progreso reciente podría no recuperarse al cerrar el juego.
+**Qué ocurre si el archivo falla:**
+Si el archivo de la partida falta, está dañado o quedó a medio escribir, el juego lo trata como si no hubiera partida: *Continuar* aparece tachado y el jugador puede comenzar una partida nueva. El demo no muestra un aviso cuando falla la escritura del archivo.
 
 ## Configuración
 Los ajustes están disponibles desde el menú principal y el menú de pausa, en la hoja de **Ajustes** con tres pestañas.

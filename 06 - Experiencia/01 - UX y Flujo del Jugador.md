@@ -33,32 +33,36 @@ PRIMER PORTAL
        ↓
 NIVEL 1 — EXPLORACIÓN
 Reconocer alteraciones
-Seguir pistas ambientales
+Seguir la voz por el pasillo
        ↓
-SEGUNDO PORTAL
+DESMAYO Y SEGUNDO DESPERTAR
+Segundo desayuno
+       ↓
+SEGUNDO PORTAL (BAÑO REAL)
        ↓
 NIVEL 2 — EXPLORACIÓN Y PELIGRO
 Investigar la casa
 Interactuar con la computadora
        ↓
-PRIMERA PERSECUCIÓN
+PERSECUCIÓN
 Escapar de la criatura canina
        ↓
-SEGUNDA PERSECUCIÓN
-Escapar de Margarita deformada
+ENCUENTRO INEVITABLE
+La Manifestación de Margarita alcanza a Elaki
        ↓
-SEGUNDO DESPERTAR
-Explorar la casa real
+TERCER DESPERTAR
+Tercer desayuno y casa real
        ↓
-TERCER PORTAL
+TERCER PORTAL (BAÑO REAL)
        ↓
 NIVEL 3 — HORROR Y REVELACIÓN
-Explorar la casa orgánica
+Cruzar la casa de carne esquivando los apéndices
 Encontrar a Margarita en la bañera
        ↓
 DESENLACE
 Carteles de desaparición
 Noticiero sobre Margarita
+Texto sobre el joven ahogado y edificio
        ↓
 FIN DEL DEMO
        ↓
@@ -66,7 +70,7 @@ MENÚ PRINCIPAL
 ```
 
 ```text
-JUEGO / CINEMÁTICA / PERSECUCIÓN
+JUEGO / PERSECUCIÓN (con control de Elaki)
              ↓
          PRESIONAR ESC
              ↓
@@ -130,7 +134,7 @@ Por otro lado, un  mala experiencia de usuario ocurre cuando el jugador no puede
 #### ¿Cómo sabe el jugador qué hacer?
 
 El videojuego utiliza objetivos contextuales, elementos ambientales y acontecimientos narrativos.
-Durante el prólogo se introducen indicaciones breves para enseñar los controles. Posteriormente, el jugador debe reconocer los elementos relevantes mediante su ubicación, apariencia y relación con la historia.
+Durante el prólogo, el indicador de la tecla E y el contorno iluminado al pasar el cursor enseñan a interactuar; los controles pueden consultarse en Ajustes → Controles. Posteriormente, el jugador debe reconocer los elementos relevantes mediante su ubicación, apariencia, los pensamientos de Elaki y su relación con la historia.
 
 #### ¿Cómo sabe dónde ir?
 
@@ -140,8 +144,8 @@ Los espacios bloqueados y las transiciones deben comunicar claramente cuándo ex
 
 #### ¿Cómo sabe qué puede interactuar?
 
-Cuando el protagonista se encuentre suficientemente cerca de un objeto interactivo, aparecerá una indicación visual discreta, como la tecla E.
-En las vistas fijas de inspección, el mouse permitirá seleccionar los elementos disponibles.
+Cuando el protagonista se encuentra suficientemente cerca de un objeto interactivo, aparece sobre él el indicador de la tecla E. Los objetos que se revisan con el ratón muestran su contorno iluminado al pasar el cursor.
+En las vistas fijas de inspección, el ratón permite seleccionar los elementos disponibles.
 Los objetos exclusivamente decorativos no deben mostrar indicadores de interacción.
 
 #### ¿Cómo sabe qué ocurrió?

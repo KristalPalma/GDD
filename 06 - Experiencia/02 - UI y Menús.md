@@ -117,7 +117,7 @@ Menú principal → Juego / Ajustes / Salir.
 
 **Transiciones:** Juego → Pausa → Juego / Ajustes / Menú principal.
 
-El menú debe poder abrirse con **Esc**, incluso durante las persecuciones y cinemáticas.
+El menú se abre con **Esc** mientras Elaki tiene el control, incluso durante las persecuciones. Durante cinemáticas, vistas de inspección, diálogos y cargas no se abre, para que el Esc que cierra un diálogo no abra también la pausa.
 
 ### Pantalla 04 — Derrota
 
