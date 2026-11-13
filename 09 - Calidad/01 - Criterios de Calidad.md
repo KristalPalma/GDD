@@ -14,7 +14,7 @@ Define qué significa que una característica esté correctamente terminada.
 - [x] El jugador entiende el objetivo de cada momento mediante los pensamientos de Elaki, los indicadores de interacción y las señales visuales y sonoras.
 - [x] Las respuestas del juego son claras: cada interacción produce un texto, un acercamiento, un sonido o un cambio en el escenario.
 - [x] La dificultad es coherente: el peligro se concentra en las persecuciones del Nivel 2 y el resto del recorrido se centra en la exploración.
-- [x] La interfaz es comprensible: los menús pueden recorrerse con teclado y ratón, y los controles pueden consultarse desde las opciones.
+- [x] La interfaz es comprensible: los menús pueden recorrerse con teclado y ratón, y los controles pueden consultarse desde Ajustes.
 
 ## Calidad técnica
 

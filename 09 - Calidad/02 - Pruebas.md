@@ -8,7 +8,7 @@ Define cómo se comprobará que el videojuego funciona como fue diseñado.
 
 ### Pruebas funcionales
 
-En Carencia se comprobaron el movimiento, la interacción con E, las vistas de inspección, la pausa, el menú principal, las opciones, el guardado y la carga de la partida. Se realizaron dentro del editor de Unity y con entrada real de teclado.
+En Carencia se comprobaron el movimiento, la interacción con E, las vistas de inspección, la pausa, el menú principal, los ajustes, el guardado y la carga de la partida. Se realizaron dentro del editor de Unity y con entrada real de teclado.
 
 ### Pruebas de integración
 
@@ -120,15 +120,15 @@ Se comprobó la compilación del ejecutable para Windows y su estabilidad durant
 
 **Estado:** Correcto
 
-### CP-06 — Opciones y restablecimiento
+### CP-06 — Ajustes y restablecimiento
 
-**Objetivo:** Comprobar que las opciones se modifican y se restablecen sin afectar la partida.
+**Objetivo:** Comprobar que los ajustes se modifican y se restablecen sin afectar la partida.
 
 **Precondiciones:** Menú principal abierto.
 
 **Pasos:**
 
-1. Abrir "Opciones" y recorrer sus categorías con el teclado.
+1. Abrir "Ajustes" y recorrer sus pestañas (Audio, Video y Controles) con Q y E.
 
 2. Modificar valores con las flechas y los deslizadores.
 
@@ -136,9 +136,9 @@ Se comprobó la compilación del ejecutable para Windows y su estabilidad durant
 
 **Resultado esperado:** Los valores cambian y vuelven a sus valores originales al restablecerlos, sin modificar la partida guardada.
 
-**Resultado obtenido:** Las categorías y los valores respondieron al teclado. El restablecimiento devolvió el tamaño de texto y los subtítulos a sus valores originales sin afectar la partida.
+**Resultado obtenido:** En la versión anterior, con la pestaña Accesibilidad, las categorías y los valores respondieron al teclado y el restablecimiento devolvió el tamaño de texto y los subtítulos a sus valores originales sin afectar la partida. El 12 de noviembre de 2026 se quitó Accesibilidad y Video quedó solo con Brillo, así que la prueba debe repetirse con la versión actual.
 
-**Estado:** Correcto
+**Estado:** Pendiente de repetir
 
 ### CP-07 — Persecución, derrota y reintento
 
