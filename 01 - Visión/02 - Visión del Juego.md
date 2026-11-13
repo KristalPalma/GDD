@@ -1,5 +1,9 @@
 # Visión del Juego
 
+## Descripción de la sección
+
+Aquí se define la **idea central** del videojuego. Esta sección funciona como brújula: cuando aparezca una nueva idea, el equipo puede comprobar si realmente pertenece al juego.
+
 ## Concepto central
 
 El videojuego presenta una experiencia de terror psicológico con horror corporal en la que el jugador vive la historia de Elaki, un joven que busca a su hermana Margarita mientras su familia niega que ella haya existido. Durante este recorrido, su percepción de la realidad se altera y la casa se transforma en espacios cada vez más perturbadores, hasta que el desenlace revela lo ocurrido.

@@ -1,5 +1,9 @@
 # Público y Plataforma
 
+## Descripción de la sección
+
+Define para quién se diseña el videojuego y dónde se jugará. Las decisiones de diseño, interfaz, controles y rendimiento dependen de estas variables.
+
 ## Público objetivo
 
 **Edad aproximada:** A partir de 16 años.

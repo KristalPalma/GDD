@@ -1,5 +1,9 @@
 # Pilares de Diseño
 
+## Descripción de la sección
+
+Los pilares son los principios que deben mantenerse durante todo el desarrollo. Cuando dos ideas entren en conflicto, los pilares ayudan a decidir cuál encaja mejor con la identidad del juego.
+
 ## Pilar 1 — La realidad en duda
 
 **Descripción:** El jugador nunca debe estar completamente seguro de si Elaki viaja físicamente a otro lado a través del espejo o si está experimentando su propio deterioro mental. La desconfianza hacia la realidad es el motor principal del terror psicológico.
@@ -17,6 +21,27 @@
 **Descripción:** El miedo no proviene de elementos fantásticos ajenos, sino de la corrupción y deformación de lo que debería sentirse seguro e inofensivo: el propio hogar, la familia y los objetos de uso diario.
 
 **¿Cómo se refleja en el juego?** El punto de entrada al terror es un simple espejo de baño. El arte y la narrativa aplican el horror corporal no solo a las criaturas, sino también a los espacios y objetos familiares de la casa, que se convierten en fuentes constantes de incomodidad y repulsión.
+
+## Reglas de decisión
+
+Antes de incorporar una característica importante, preguntar:
+
+- ¿Refuerza uno de nuestros pilares?
+- ¿Mejora la experiencia principal?
+- ¿Justifica el costo de desarrollo?
+- ¿Complica innecesariamente otro sistema?
+
+En Carencia, estas preguntas definieron decisiones concretas:
+
+| Propuesta | Pilar | Decisión |
+|---|---|---|
+| Agregar una forma de defenderse de las criaturas | Pilar 2 — Vulnerabilidad sin combate | Fuera del concepto: Elaki solo puede huir (ver Límites del concepto en [[02 - Visión del Juego]]). |
+| Apéndices de carne en el Nivel 3 | Pilar 2 y Pilar 3 | Aprobada. Generan peligro sin combate y llevan el horror corporal a la casa (SC-09). |
+| Explicar desde el inicio qué son los portales | Pilar 1 — La realidad en duda | Fuera del concepto: el misterio se revela con pistas y el desenlace mantiene la ambigüedad. |
+| Pestaña de Accesibilidad con subtítulos | Experiencia principal | Retirada del demo: no hay voces con palabras que subtitular (SC-08). |
+
+> [!warning] Evitar
+> Convertir los pilares en frases genéricas como “que sea divertido”. Deben describir decisiones concretas de diseño.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →
