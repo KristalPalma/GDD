@@ -4,7 +4,7 @@
 
 Documenta las entidades controladas por el juego y su comportamiento.
 
-## Enemigos
+## Plantilla de enemigo
 
 ### Nombre: Criatura canina deformada
 
@@ -123,7 +123,7 @@ PERSEGUIR AL JUGADOR
 **Debilidades:** Se esconden en la pared al terminar su ciclo: el jugador debe esperar ese momento para pasar.
 
 **Recompensa:** Avanzar hacia el cuarto, el pasillo y el baño.
-## NPC 
+## Plantilla de NPC
 
 **Rol:** Madre
 

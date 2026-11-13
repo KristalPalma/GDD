@@ -6,6 +6,9 @@ Una mecánica es una regla o interacción mediante la cual el jugador puede actu
 
 Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
 
+## Plantilla de mecánica
+
+Cada mecánica principal se documenta con los campos **Propósito**, **Activación**, **Reglas**, **Entrada**, **Estado inicial**, **Estado final**, **Recursos utilizados**, **Recompensa**, **Penalización**, **Interacciones con otras mecánicas** y **Casos límite**.
 
 ## Mecánicas principales
 

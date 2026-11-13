@@ -4,6 +4,10 @@
 
 Cada personaje importante debe tener una función clara dentro de la historia y/o la jugabilidad.
 
+## Plantilla de personaje
+
+Cada personaje se documenta con los campos **Rol**, **Función jugable**, **Función narrativa**, **Descripción física**, **Personalidad**, **Motivaciones**, **Objetivos**, **Conflicto**, **Relaciones**, **Arco del personaje**, **Habilidades**, **Debilidades**, **Frases o tono de diálogo** y **Referencias visuales**.
+
 ## Personajes
 
 ### Protagonista

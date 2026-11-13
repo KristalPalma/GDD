@@ -4,6 +4,10 @@
 
 Los criterios de aceptación permiten decidir objetivamente si una característica está lista.
 
+## Plantilla
+
+Cada criterio sigue el formato **Dado que** (contexto inicial), **Cuando** (acción) y **Entonces** (resultado esperado).
+
 ### CA-01 — Apertura del primer portal
 
 **Dado que:** Elaki se encuentra en el baño real después del primer desayuno.
