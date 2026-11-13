@@ -4,10 +4,13 @@
 
 La accesibilidad busca que el mayor número posible de jugadores pueda comprender y utilizar el videojuego.
 
-## Opciones previstas
+## Apoyos incluidos en el demo
 
-- [x] Tamaño de texto
-- [x] Volumen independiente
+- [x] Volumen independiente por categoría (Ajustes → Audio)
+- [x] Brillo ajustable (Ajustes → Video)
+- [x] Consulta de controles (Ajustes → Controles)
+
+El demo no incluye una pestaña de Accesibilidad: tamaño de texto, subtítulos, contraste alto y reducción de destellos o de movimiento quedaron fuera del alcance.
 
 ## Consideraciones
 
@@ -49,7 +52,7 @@ Cuando un sonido sea necesario para orientar al jugador o comprender un aconteci
 
 Los portales, las interferencias de televisión y las alteraciones de la realidad pueden incluir distorsiones, movimientos y destellos.
 
-Se recomienda ofrecer opciones para reducir estos efectos sin eliminar la información necesaria para continuar.
+El demo no incluye una opción para reducir estos efectos; queda como mejora para una versión futura. Mientras tanto, no deben ocultar la información necesaria para continuar.
 
 ### 7. Controles
 

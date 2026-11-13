@@ -16,7 +16,7 @@ INICIO DEL JUEGO
 MENÚ PRINCIPAL
        ├── Jugar / Iniciar nueva partida
        ├── Continuar (retomar progreso guardado)
-       ├── Opciones
+       ├── Ajustes
        └── Salir
        ↓
 JUGAR
@@ -72,7 +72,7 @@ JUEGO / CINEMÁTICA / PERSECUCIÓN
              ↓
          MENÚ DE PAUSA
              ├── Reanudar
-             ├── Opciones
+             ├── Ajustes
              └── Volver al menú principal
 ```
 

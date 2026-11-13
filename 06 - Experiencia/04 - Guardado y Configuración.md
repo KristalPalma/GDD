@@ -2,7 +2,7 @@
 
 ## Descripción de la sección
 
-Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
+Define cómo se conserva el progreso y qué ajustes puede modificar el jugador.
 
 ## Guardado
 
@@ -30,21 +30,21 @@ El videojuego deberá mostrar un mensaje indicando que no fue posible guardar el
 Se conservará el último guardado válido, evitando sobrescribirlo con datos incompletos o dañados. El jugador podrá continuar jugando, pero deberá ser informado de que su progreso reciente podría no recuperarse al cerrar el juego.
 
 ## Configuración
-Las opciones estarán disponibles desde el menú principal y el menú de pausa.
+Los ajustes están disponibles desde el menú principal y el menú de pausa, en la hoja de **Ajustes** con tres pestañas.
 
-| Categoría     | Opciones                                                                                                                                                   |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Audio         | Volumen general, música, efectos de sonido y voces, si se implementan.                                                                                     |
-| Video         | NA                                                                                                                                                         |
-| Controles     | Consulta de teclas, reasignación de controles si se implementa.                                                                                            |
-| Accesibilidad | Tamaño de texto, subtítulos, contraste, reducción de destellos, reducción de movimiento e indicadores visuales para sonidos importantes, si se implementa. |
-| Jugabilidad   | NA                                                                                                                                                         |
+| Pestaña   | Ajustes                                                                                        |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| Audio     | Volumen general, música, efectos de sonido y voces.                                            |
+| Video     | Brillo. Resolución, modo de pantalla y calidad gráfica los fija la configuración del proyecto. |
+| Controles | Consulta de teclas. La reasignación de controles queda para una versión futura.               |
+
+El demo no incluye pestañas de Accesibilidad ni de Jugabilidad.
 
 ## Restablecimiento
 
-¿Qué opciones pueden volver a valores predeterminados?
+¿Qué ajustes pueden volver a valores predeterminados?
 
-El jugador podrá restablecer los ajustes de audio, video, controles, accesibilidad y jugabilidad a sus valores originales mediante una opción de Restablecer valores predeterminados.
+El jugador puede restablecer los ajustes de la pestaña actual (Audio o Video) a sus valores originales con la tecla **R** (Restablecer valores predeterminados). Controles no tiene valores que restablecer.
 
 Esta acción deberá solicitar confirmación antes de aplicarse.
 
