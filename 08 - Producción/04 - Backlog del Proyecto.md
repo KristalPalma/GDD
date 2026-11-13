@@ -98,7 +98,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - Los textos integrados corresponden a la historia del GDD. 
 
 
-**Estado:** En curso. Están terminados los diálogos, el menú principal, la pausa y los ajustes. Faltan los créditos (en el menú y al final del desenlace) y la pantalla de derrota: hoy la derrota reinicia de forma automática desde el punto de control, después de la animación de muerte y un fundido.
+**Estado:** En progreso. Están terminados los diálogos, el menú principal, la pausa y los ajustes. Faltan los créditos (en el menú y al final del desenlace) y la pantalla de derrota: hoy la derrota reinicia de forma automática desde el punto de control, después de la animación de muerte y un fundido.
 
 ### T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
 
@@ -187,7 +187,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - Si la criatura canina derrota a Elaki, aparece la pantalla de derrota con el botón "Reintentar", que restaura el último punto de control.
 - En el Nivel 3, los apéndices de carne lastiman a Elaki; tres golpes seguidos lo regresan al último punto de control y el daño se recupera si pasa un rato sin golpes.
 
-**Estado:** En curso. Las persecuciones, el daño, los apéndices del Nivel 3 y el reinicio desde el punto de control funcionan; falta la pantalla de derrota con "Reintentar" (ver T05).
+**Estado:** En progreso. Las persecuciones, el daño, los apéndices del Nivel 3 y el reinicio desde el punto de control funcionan; falta la pantalla de derrota con "Reintentar" (ver T05).
 
 ### T11 — Integración de audio
 
@@ -215,7 +215,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Criterio de aceptación:** La compilación termina sin errores y `Carencia.exe` se ejecuta en Windows. El recorrido completo puede jugarse de principio a fin sin errores bloqueantes. Los puntos de control restauran estados válidos, y la pausa y "Continuar" funcionan con teclado real.
 
-**Estado:** En curso. Deben repetirse los casos de prueba marcados como pendientes en [[02 - Pruebas]] con la versión actual.
+**Estado:** En progreso. Deben repetirse los casos de prueba marcados como pendientes en [[02 - Pruebas]] con la versión actual.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →
