@@ -41,6 +41,7 @@ Esta sección conserva las decisiones importantes del proyecto y el razonamiento
 | 27 de octubre de 2026  | Guardado                | Se utiliza una sola ranura de guardado automático con una copia de respaldo. Si el guardado falla, se avisa al jugador y se conserva el último guardado válido.                  | Ideny López Rodríguez                                 |
 | 27 de octubre de 2026  | Organización del código | Cada componente de Unity se escribe en un archivo con el mismo nombre de su clase, para evitar componentes con scripts faltantes en los prefabs.                                 | Ideny López Rodríguez                                 |
 | 3 de noviembre de 2026 | Historia y estructura   | Se adopta el guion unificado como referencia de la historia.                                                                                                                     | Wendy Kristal Palma Góngora                           |
+| 13 de noviembre de 2026 | Documentación          | El GDD se actualiza para coincidir con el juego en `develop`: cámara que sigue a Elaki, pausa con control, guardado en un solo archivo `partida.json` sin copia de respaldo ni aviso de fallo, Nivel 3 con apéndices de carne y Margarita de 19 años. Los cambios de diseño se registran en [[05 - Gestión de Cambios]] (SC-06 a SC-09). | Zurisarai Delgado Rodríguez                           |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Referencias e Inspiración]] · [[04 - Historial de Versiones]] →

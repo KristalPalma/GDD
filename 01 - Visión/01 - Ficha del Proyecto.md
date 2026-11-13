@@ -5,12 +5,12 @@
 | ---------------------------- | --------------------------------------------- |
 | **Nombre del proyecto**      | Carencia                                      |
 | **Nombre clave**             | <!-- Identificador interno si existe -->      |
-| **Versión del GDD**          | 0.2.0                                         |
+| **Versión del GDD**          | 0.7.0                                         |
 | **Estado del proyecto**      | Producción                                    |
 | **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando |
 | **Responsable del proyecto** | Wendy                                         |
 | **Fecha de inicio**          | 24 de septiembre 2026                         |
-| **Última actualización**     | 09 de Noviembre 2026                          |
+| **Última actualización**     | 13 de noviembre de 2026                       |
 | **Repositorio**              | https://github.com/MelchorOjeda/CARENCIA      |
 
 ## Identidad del videojuego
@@ -41,7 +41,7 @@ Un jugador
 **Perspectiva:**  
 > Consulta [[04 - Perspectivas y Cámaras]].
 
-Isométrica 2D, con cámara dinámica que realiza acercamientos durante los eventos narrativos y vista fija en primera persona para inspeccionar el gabinete del baño.
+Isométrica 2D. La cámara sigue a Elaki dentro de los límites de cada espacio y realiza acercamientos durante los eventos narrativos. Las vistas fijas en primera persona permiten inspeccionar el gabinete del baño y el refrigerador.
 
 **Clasificaciones y etiquetas adicionales:**  
 > Consulta [[06 - Clasificaciones y Etiquetas]].
@@ -53,9 +53,11 @@ Lineal - Exploración
 
 - Unity
 - C#
-- Aseprite 
-- Krita 
-- Audicy 
+- Aseprite
+- Krita
+- Audacity
+- FL Studio
+- CapCut
 ## Elevator Pitch
 
 **Respuesta:**

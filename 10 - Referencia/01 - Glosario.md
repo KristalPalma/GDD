@@ -44,14 +44,17 @@ Centraliza términos técnicos, de diseño y propios del universo del videojuego
 | Término | Definición |
 | --- | --- |
 | Elaki | Protagonista de Carencia. Joven de 17 años que busca a su hermana. |
-| Margarita | Hermana de Elaki, cuya existencia niegan sus padres. |
+| Margarita | Hermana de Elaki, de 19 años, cuya existencia niegan sus padres. |
 | Manifestación de Margarita | Versión deformada de Margarita que aparece al fondo del pasillo del Nivel 2. |
 | Criatura canina | Manifestación del perro de la familia que persigue a Elaki en el Nivel 2. |
 | Gabinete | Botiquín detrás del espejo del baño. Su revisión abre el primer portal. |
 | Cortina de la bañera | Elemento del baño que se abre progresivamente a lo largo de la historia, desde cerrada en el prólogo hasta abierta por completo en el Nivel 3. |
-| Calendario del 31 de octubre | Calendario que aparece junto a la puerta del baño del otro lado y marca la fecha de la desaparición de Margarita. |
+| Calendario del 31 de octubre | Calendario que aparece en los tres niveles del otro lado y marca la fecha de la desaparición de Margarita. |
 | Altar del perro | Altar con la foto del perro de la familia, que aparece en el pasillo real después del Nivel 2. |
 | Alacena | Mueble del pasillo real que ocupa el lugar de la puerta del cuarto de Margarita. |
+| Perro de la familia | Mascota que acompaña a Elaki en la casa real durante el prólogo y el segundo despertar. |
+| Apéndices de carne | Peligro del entorno del Nivel 3: salen de las paredes con un ritmo fijo y lastiman a Elaki si lo tocan. |
+| Punto de entrada | Lugar de una escena donde aparece Elaki al cargarla o al reiniciar desde un punto de control. |
 
 ## Convenciones de nombres
 
@@ -69,10 +72,10 @@ Documenta aquí términos que el equipo debe escribir siempre de la misma manera
 
 | Recurso | Convención | Ejemplo |
 | --- | --- | --- |
-| Escenas | Prefijo del tramo y nombre del espacio | `MENU_Principal`, `PRO_Casa`, `N1_Casa`, `N2_Casa`, `N3_Casa`, `DES_Creditos` |
-| Sprites | Prefijo `SPR_`, tipo, nombre y versión de la casa | `SPR_ESC_BanoHabitacion_D1` |
+| Escenas | Prefijo del tramo y nombre del espacio | `MEN_Principal`, `PRO_Casa`, `N1_Laberinto`, `N1_Pasillo`, `R1_Casa`, `N2_Casa`, `R2_Casa`, `N3_Casa`, `DES_Final` |
+| Sprites | Prefijo `SPR_`, tipo, nombre y versión de la casa | `SPR_ESC_ParedBanoDerA_D3` |
 | Scripts y clases | PascalCase | `PlayerController` |
-| Variables privadas | camelCase con prefijo `_` | `_velocidadMovimiento` |
+| Variables privadas | camelCase sin prefijo | `velocidadCarrera` |
 
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →

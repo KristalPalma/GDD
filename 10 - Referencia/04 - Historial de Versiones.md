@@ -17,6 +17,8 @@ Registra los cambios importantes realizados al GDD. Esto permite conocer cómo e
 | 0.4.3 | 1 de noviembre de 2026 | Corrección de redacción. | Ideny López Rodríguez |
 | 0.5.0 | 6 al 7 de noviembre de 2026 | Actualización de la ficha del proyecto y de las secciones 07 - Tecnología y 08 - Producción. | Ideny López Rodríguez |
 | 0.6.0 | 9 de noviembre de 2026 | Actualización del backlog del proyecto y de la gestión de cambios, redacción de la sección 09 - Calidad y de los apartados de glosario, registro de decisiones e historial de versiones de la sección 10 - Referencia. | Ideny López Rodríguez |
+| 0.6.1 | 12 de noviembre de 2026 | Actualización de Interfaz Visual, UI y Menús, Accesibilidad, Tecnología, Producción y Calidad con la hoja de Ajustes sin la pestaña de Accesibilidad. | Zurisarai Delgado Rodríguez |
+| 0.7.0 | 13 de noviembre de 2026 | Revisión del GDD contra el juego en `develop`: controles, cámara, pausa, daño y guardado; Nivel 1, Nivel 2 y Nivel 3 según las escenas actuales; textos del desenlace; personajes; tecnología; estado del backlog, del roadmap y de las pruebas; solicitudes de cambio SC-06 a SC-09. | Zurisarai Delgado Rodríguez |
 Durante la elaboración del GDD, el número de versión no se actualizó en cada entrega al repositorio. Por ello, las versiones de esta tabla se asignaron de forma retroactiva a partir del historial de commits de GitHub, conservando las fechas, los responsables y los cambios registrados en cada uno. 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Registro de Decisiones]] · [[00 - Índice]] →
