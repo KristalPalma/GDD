@@ -44,22 +44,27 @@ Presentación
 
 ## Componentes principales
 
-| Componente                | Responsabilidad                                                                                  | Dependencias                                    |
-| ------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
-| Gestor del juego          | Administrar el estado general de la partida, las transiciones y la coordinación de los sistemas. | Progreso, secuencias y escenas.                 |
-| Controlador del personaje | Procesar el movimiento, la carrera y las restricciones de desplazamiento.                        | Entrada, físicas 2D, colisiones y animaciones.  |
-| Gestor de interacción     | Detectar objetos cercanos y gestionar inspecciones mediante clic y acciones mediante E.          | Movimiento, interfaz y objetos interactivos.    |
-| Controlador de cámara     | Mantener la perspectiva isométrica y realizar cambios de encuadre durante eventos narrativos.    | Personaje, escenarios y secuencias.             |
-| Gestor de daño visual     | Registrar el daño recibido, actualizar los efectos rojizos y activar la condición de muerte.     | Enemigos, interfaz y progreso.                  |
-| Gestor de iluminación     | Aplicar las condiciones de visibilidad y los cambios ambientales correspondientes a cada nivel.  | Escenarios, cámara y secuencias.                |
-| Gestor de audio           | Administrar ambientes, efectos, diálogos, sonidos de pausa y silencios narrativos.               | Escenarios, secuencias, video y enemigos.       |
-| Gestor de progreso        | Registrar los eventos completados y restaurar estados válidos después de una muerte o reinicio.  | Escenas, secuencias y estados del personaje.    |
-| Interfaz de usuario       | Mostrar indicadores de interacción, vistas de inspección, menús y retroalimentación visual.      | Interacción, estados del juego y configuración. |
+| Componente                | Responsabilidad                                                                                  | Dependencias                                    | Implementación en Unity |
+| ------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------- | ----------------------- |
+| Gestor del juego          | Administrar el estado general de la partida, las transiciones y la coordinación de los sistemas. | Progreso, secuencias y escenas.                 | `PantallaJuego` (carga de escenas, fundidos, manchas, penumbra y video) |
+| Controlador del personaje | Procesar el movimiento, la carrera y las restricciones de desplazamiento.                        | Entrada, físicas 2D, colisiones y animaciones.  | `PlayerController`, `AnimadorJugador` |
+| Gestor de interacción     | Detectar objetos cercanos y gestionar inspecciones mediante clic y acciones mediante E.          | Movimiento, interfaz y objetos interactivos.    | `InteractionDetector`, `Interactable`, `ResalteAlMouse`, `VistaDeObjetos` |
+| Controlador de cámara     | Seguir a Elaki con perspectiva isométrica y realizar cambios de encuadre durante eventos narrativos. | Personaje, escenarios y secuencias.         | `CameraController` con Pixel Perfect Camera |
+| Gestor de secuencias      | Ejecutar en orden los pasos de cada acontecimiento: bloqueo, cámara, diálogos, banderas, enemigos y escenas. | Interacción, cámara, enemigos y progreso. | `Secuencia`, `ZonaEvento`, `EsperaQuieto`, `ContarEntradas` |
+| Enemigos y peligros       | Perseguir a Elaki por las celdas libres o golpearlo con un ritmo fijo.                           | Movimiento, colisiones y daño.                  | `EnemigoPerseguidor`, `NavGrid`, `ApendiceCarne` |
+| Gestor de daño visual     | Registrar el daño recibido, actualizar los efectos rojizos y activar la condición de muerte.     | Enemigos, interfaz y progreso.                  | `SaludJugador` |
+| Gestor de iluminación     | Aplicar las condiciones de visibilidad y los cambios ambientales correspondientes a cada nivel.  | Escenarios, cámara y secuencias.                | `PenumbraNivel` y la penumbra de `PantallaJuego` |
+| Gestor de audio           | Administrar ambientes, efectos, diálogos, sonidos de pausa y silencios narrativos.               | Escenarios, secuencias, video y enemigos.       | `VolumenPorCategoria` y AudioMixer con grupos de música, efectos y voces |
+| Gestor de progreso        | Registrar los eventos completados y restaurar estados válidos después de una muerte o reinicio.  | Escenas, secuencias y estados del personaje.    | `EstadoJuego` (clase estática) y `PuntoEntrada` |
+| Diálogos                  | Mostrar cada línea del guion a partir de su clave.                                               | Secuencias e interfaz.                          | `CajaDialogo` y el ScriptableObject `SO_Dialogo_Guion` |
+| Interfaz de usuario       | Mostrar indicadores de interacción, vistas de inspección, menús y retroalimentación visual.      | Interacción, estados del juego y configuración. | `MenuPrincipal`, `MenuPausa`, `PantallaOpciones` |
 
 ## Comunicación
 
 ¿Cómo intercambian información los sistemas?
 Los componentes se comunican mediante referencias controladas, métodos públicos y eventos de C# cuando corresponda, evitando que todos los sistemas dependan directamente entre sí.
+
+Cada escena es autosuficiente: contiene su cámara, a Elaki y los sistemas que necesita, y se puede abrir y probar por separado. No se usa `DontDestroyOnLoad` para el progreso: lo que debe sobrevivir al cambio de escena (banderas, golpes y punto de control) vive en la clase estática `EstadoJuego` y en el archivo de la partida. La pausa (`PF_MenuPausa`) se carga sola desde `Resources` en cualquier escena.
 El flujo de comunicación se organiza de la siguiente manera:
 
 1. **Entrada y movimiento:** el controlador recibe las acciones del jugador, verifica las restricciones y actualiza la posición del protagonista.

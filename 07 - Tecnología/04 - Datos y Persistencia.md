@@ -6,7 +6,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 
 ## Datos persistentes
 
-- **Progreso:** escena, habitación, punto de control, posición y orientación de Elaki, salud y estado de la historia.
+- **Progreso:** escena del último punto de control, punto de entrada donde reaparece Elaki y banderas narrativas.
 - **Configuración:** volúmenes y brillo.
 - **Inventario:** no aplica. El juego no tiene inventario.
 - **Estadísticas:** no aplica.
@@ -23,40 +23,33 @@ El juego maneja dos conjuntos de datos independientes:
 
 | Campo | Contenido |
 |---|---|
-| Versión | Número de versión de la estructura del guardado. |
-| Fecha de guardado | Momento en que se guardó la partida. |
-| Escena | Nivel en el que se encuentra el jugador. |
-| Habitación | Espacio de la casa donde se encuentra Elaki. |
-| Punto de control | Último punto de control alcanzado. |
-| Posición y orientación | Ubicación de Elaki y dirección hacia la que mira. |
-| Salud | Daño acumulado al momento de guardar. |
-| Banderas narrativas | Acontecimientos de la historia que ya ocurrieron. |
-| Diálogos vistos | Diálogos que ya se mostraron, para no repetirlos. |
-| Objetos examinados | Objetos que el jugador ya revisó. |
-| Portales cruzados | Portales que el jugador ya atravesó. |
-| Estado de la cortina | Estado de la cortina del baño en el momento del guardado. |
+| Escena | Escena del último punto de control, por ejemplo `N2_Casa`. |
+| Entrada | Nombre del punto de entrada donde reaparece Elaki, por ejemplo `monitor`. |
+| Banderas | Lista de acontecimientos de la historia que ya ocurrieron y objetos ya revisados. |
+
+La fecha que muestra el menú ("hace cuánto se guardó") se toma de la fecha de modificación del archivo. Los golpes recibidos no se guardan: al reiniciar desde un punto de control, Elaki empieza sin daño.
 
 **2. Configuración**
 
-Preferencias del jugador: volumen general, de música, de efectos y de voces, y brillo. Se conservan entre partidas y no se borran al comenzar una nueva.
+Preferencias del jugador: volumen general, de música, de efectos y de voces, y brillo, de 0 a 100 en pasos de 10. Se conservan entre partidas y no se borran al comenzar una nueva.
 
 **Relación:** la partida y la configuración se guardan por separado. Restablecer la configuración no modifica la partida, y comenzar una partida nueva no modifica la configuración.
 
 ## Formato
 
-**Formato de guardado:** La partida se guarda en un archivo JSON. La configuración se guarda con el sistema de preferencias de Unity (PlayerPrefs).
+**Formato de guardado:** Ambos archivos son JSON, escritos con `JsonUtility` de Unity: `partida.json` para la partida y `ajustes.json` para la configuración.
 
-**Ubicación:** `%USERPROFILE%\AppData\LocalLow\Equipo Carencia\Carencia\`, con el archivo principal `carencia_save.json` y su copia de respaldo `carencia_save.bak`.
+**Ubicación:** `Application.persistentDataPath`. En Windows corresponde a `%USERPROFILE%\AppData\LocalLow\<Compañía>\CARENCIA\`, donde la compañía es la que define *Player Settings* del proyecto.
 
-**Versionado de datos:** El archivo incluye un número de versión de su estructura.
+**Versionado de datos:** Los archivos no incluyen un número de versión. Al leer la configuración, los campos de versiones anteriores (por ejemplo, los de la pestaña de Accesibilidad) se ignoran y desaparecen al volver a guardar.
 
 ## Migraciones
 
 ¿Qué ocurre si cambia la estructura de los datos entre versiones?
 
-Al cargar una partida, el juego traduce los nombres de escena de la versión anterior del proyecto a los nombres actuales. Si el archivo principal está dañado o no es válido, el juego carga la copia de respaldo. Si ninguno de los dos es válido, "Continuar" no está disponible y el jugador comienza una partida nueva.
+Si `partida.json` falta, está dañado o no tiene escena, el juego lo trata como si no hubiera partida: "Continuar" aparece tachado y el jugador comienza una partida nueva. Si `ajustes.json` falta o está dañado, el juego usa los valores predeterminados y corrige cualquier valor fuera de rango al paso de 10 más cercano.
 
-Al completar el desenlace se elimina la partida guardada, por lo que "Continuar" deja de estar disponible.
+Elegir "Jugar" con una partida guardada pide confirmación y, si el jugador acepta, borra `partida.json` antes de comenzar.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Requisitos Técnicos]] · [[05 - Seguridad y Riesgos Técnicos]] →

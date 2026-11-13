@@ -10,18 +10,18 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 **Versión:** Unity 6 6000.6.3f1
 
-**Renderizado:** 2D con perspectiva isométrica. Se contempla el uso de sprites, Tilemaps y efectos de iluminación 2D. El pipeline de renderizado deberá confirmarse en la configuración del proyecto.
+**Renderizado:** 2D con perspectiva isométrica, con Universal Render Pipeline 2D (URP 17.6), sprites, Tilemaps y Pixel Perfect Camera. Los sprites se ordenan según su posición en la vista isométrica.
 
 **Física:** Física 2D de Unity, mediante Rigidbody2D y Collider2D para gestionar movimiento colisiones y detección de zonas de interacción.
 
 **Sistema de entrada:**
-Teclado y ratón. WASD o flechas para el desplazamiento, clic izquierdo para inspeccionar objetos y tecla E para activar interacciones. La implementación concreta mediante Input System Package o el sistema de entrada clásico deberá verificarse en el proyecto.
+Teclado y ratón. WASD o flechas para el desplazamiento, Shift para correr, clic izquierdo para inspeccionar objetos, tecla E para activar interacciones y Esc para pausar. El proyecto utiliza el paquete Input System (versión 1.20) como único sistema de entrada, con el archivo de acciones `Settings/InputSystem_Actions.inputactions`.
 ## Lenguajes
 
 | Lenguaje        | Uso                                                                                                     |
 | --------------- | ------------------------------------------------------------------------------------------------------- |
 | C#              | Programación de las mecánicas, sistemas, controladores, eventos narrativos e interfaces del videojuego. |
-| Shaderlab/ HLSL | Creación de efectos personalizados.                                                                     |
+| Shaderlab/ HLSL | Creación de efectos personalizados, como el shader del video del portal (`PortalVideo.shader`).         |
 
 ## Herramientas
 
@@ -44,14 +44,19 @@ Teclado y ratón. WASD o flechas para el desplazamiento, clic izquierdo para ins
 
 Lista librerías, paquetes, plugins o servicios externos.
 
-Unity 2D Physics
-Unity Tilemap
-Unity Animator
-Unity Video Player
-Unity Audio
-Unity Input System
-Universal Render Pipeline (URP)
-Cinemachine
+| Paquete | Versión | Uso |
+|---|---|---|
+| Universal Render Pipeline (URP) | 17.6.0 | Renderizado 2D y Pixel Perfect Camera |
+| Input System | 1.20.0 | Entrada de teclado y ratón |
+| 2D Animation | 16.0.1 | Animaciones de personajes |
+| 2D Aseprite Importer | 6.0.0 | Importación directa de archivos `.aseprite` |
+| 2D Tilemap y Tilemap Extras | 1.0.0 y 9.0.1 | Pisos y paredes de la casa |
+| uGUI y TextMeshPro | 2.6.0 | Menús, caja de diálogo y textos |
+| Timeline | 6.6.0 | Instalado; las secuencias narrativas usan el componente propio `Secuencia` |
+| Test Framework | 1.8.0 | Pruebas automáticas en EditMode |
+| Módulos de Unity | — | Física 2D, Animator, Video Player y Audio |
+
+No se utiliza Cinemachine: la cámara se controla con un script propio (`CameraController`).
 
 ## Convenciones del proyecto
 
@@ -64,27 +69,35 @@ Assets/
     │   ├── Ambientes/
     │   ├── Efectos/
     │   ├── Musica/
-    │   └── Voces/
+    │   ├── Voces/
+    │   └── Mixer/
+    ├── Data/
     ├── Materials/
     ├── Prefabs/
+    ├── Resources/          (pausa y guion de diálogos)
     ├── Scenes/
     │   ├── Menu/
     │   ├── Prologo/
     │   ├── Nivel01/
     │   ├── Nivel02/
     │   ├── Nivel03/
-    │   └── Desenlace/
+    │   ├── Desenlace/
+    │   └── Pruebas/        (no entran al build)
     ├── Scripts/
-    │   ├── Core/
+    │   ├── Core/           (estado del juego y guardado)
     │   ├── Player/
     │   ├── Interaction/
     │   ├── Camera/
+    │   ├── Cuartos/
     │   ├── Enemies/
     │   ├── Narrative/
+    │   ├── Dialogue/
+    │   ├── Effects/
     │   ├── Audio/
-    │   ├── UI/
-    │   └── Progress/
+    │   └── UI/
+    ├── Settings/           (Input Actions)
     ├── Sprites/
+    ├── Tests/
     ├── Tilemaps/
     ├── UI/
     └── Videos/
@@ -96,17 +109,21 @@ Scripts y clases: PascalCase. Ejemplo: MovimientoJugador.cs.
 
 Métodos y propiedades públicas: PascalCase. Ejemplo: IniciarPersecucion().
 
-Variables privadas: camelCase, preferentemente con prefijo _. Ejemplo: _velocidadMovimiento.
+Variables privadas: camelCase, sin prefijo. Ejemplo: velocidadCarrera.
 
-Escenas: nombres descriptivos según su contenido. Ejemplo: Nivel02.
+Escenas: prefijo del tramo y nombre del espacio. Ejemplos: MEN_Principal, PRO_Casa, N1_Laberinto, N1_Pasillo, R1_Casa, N2_Casa, R2_Casa, N3_Casa, DES_Final. Las escenas de prueba usan el prefijo PRB_.
 
-Prefabs: nombres que identifiquen su función. Ejemplo: EnemigoHermana.
+Prefabs: prefijo PF_. Ejemplo: PF_PerroAcompanante.
 
-Sprites: nombres que identifiquen el personaje, objeto o escenario. Ejemplo: Margarita_Idle.
+Sprites: prefijo SPR_, categoría, nombre y variante. Ejemplo: SPR_PJ_Elaki_Caminar_S_R.
 
-Archivos de audio: nombres asociados con su función. Ejemplo: Ambiente_Nivel01.
+Archivos de audio: prefijos AMB_, SFX_, MUS_ y VOZ_, seguidos del nivel y el nombre. Ejemplo: AMB_N1_PasilloLiminal.
 
-Archivos de video: nombres que identifiquen su contenido. Ejemplo: Noticia_Final.
+Archivos de video: prefijo VID_, nivel y nombre. Ejemplo: VID_N2_Monitor.
+
+Datos: prefijo SO_ para los ScriptableObject. Ejemplo: SO_Dialogo_Guion.
+
+La tabla completa está en `CONTRIBUTING.md` del repositorio del juego.
 
 - **Control de versiones**
 - Utilizar Git para registrar los cambios.
@@ -126,8 +143,8 @@ Archivos de video: nombres que identifiquen su contenido. Ejemplo: Noticia_Final
 |Archivos editables de Aseprite|`.ase` o `.aseprite`|
 |Ilustraciones editables de Krita|`.kra`|
 |Imágenes de referencia|PNG o JPG|
-|Efectos sonoros y voces|WAV|
-|Música y ambientes|WAV u OGG|
+|Efectos sonoros y voces|MP3 (WAV para algunos efectos)|
+|Música y ambientes|MP3 (WAV para algunas pistas)|
 |Videos narrativos|MP4 compatible con Unity|
 |Animaciones de Unity|`.anim`|
 |Materiales de Unity|`.mat`|

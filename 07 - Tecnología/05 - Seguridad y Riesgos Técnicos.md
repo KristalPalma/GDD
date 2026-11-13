@@ -29,8 +29,8 @@ No aplica. Carencia es un juego de un jugador y no utiliza conexión en red.
 
 ¿Qué ocurre ante corrupción de datos, pérdida de conexión o fallo del programa?
 
-- **Corrupción de datos:** si el archivo principal está dañado, el juego carga la copia de respaldo. Si ninguno es válido, el jugador puede comenzar una partida nueva.
-- **Fallo al guardar:** el juego muestra un aviso y conserva el último guardado válido.
+- **Corrupción de datos:** si `partida.json` está dañado, "Continuar" se deshabilita y el jugador puede comenzar una partida nueva. Si `ajustes.json` está dañado, se usan los valores predeterminados.
+- **Fallo al guardar:** el demo no muestra un aviso; un archivo a medio escribir se trata como dañado.
 - **Fallo del programa:** al volver a abrir el juego, "Continuar" retoma la partida desde el último punto de control guardado.
 - **Pérdida de conexión:** no aplica, porque el juego no requiere conexión.
 
