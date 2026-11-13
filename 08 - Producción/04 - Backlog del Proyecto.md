@@ -4,24 +4,11 @@
 
 El backlog contiene el trabajo necesario para convertir el diseño en un videojuego funcional.
 
-## Backlog
+## Formato de tarea
 
-- [x] T01 — Configuración del proyecto en Unity
-- [x] T02 — Cámara isométrica y acercamientos
-- [x] T03 — Vistas de inspección
-- [x] T04 — Habitaciones, puertas y cambios de espacio
-- [ ] T05 — Diálogos, textos narrativos, menú principal, pausa, derrota, créditos y ajustes
-- [x] T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
-- [x] T07 — Progreso, guardado automático y puntos de control
-- [x] T08 — Arte, movimiento y animación de personajes
-- [x] T09 — Arte de escenarios y objetos
-- [ ] T10 — Persecuciones, Daño visual del protagonista, derrota y reintento
-- [x] T11 — Integración de audio
-- [ ] T12 — Pruebas del recorrido completo y corrección de errores
+Cada tarea del proyecto se documenta con los campos **Descripción**, **Responsable**, **Prioridad** (Alta / Media / Baja), **Dependencias**, **Criterio de aceptación** y **Estado** (Pendiente / En progreso / Bloqueada / Terminada).
 
-## Tareas
-
-### T01 - Configuración del proyecto en Unity
+### T01 — Configuración del proyecto en Unity
 
 **Descripción:** Preparar el proyecto en Unity 6 con Universal Render Pipeline 2D, Input System, capas de orden de dibujo para la vista isométrica, estructura de carpetas y registro de las escenas del juego en Build Settings.
 
@@ -216,6 +203,33 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 **Criterio de aceptación:** La compilación termina sin errores y `Carencia.exe` se ejecuta en Windows. El recorrido completo puede jugarse de principio a fin sin errores bloqueantes. Los puntos de control restauran estados válidos, y la pausa y "Continuar" funcionan con teclado real.
 
 **Estado:** En progreso. Deben repetirse los casos de prueba marcados como pendientes en [[02 - Pruebas]] con la versión actual.
+
+## Backlog
+
+- [x] T01 — Configuración del proyecto en Unity
+- [x] T02 — Cámara isométrica y acercamientos
+- [x] T03 — Vistas de inspección
+- [x] T04 — Habitaciones, puertas y cambios de espacio
+- [ ] T05 — Diálogos, textos narrativos, menú principal, pausa, derrota, créditos y ajustes
+- [x] T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
+- [x] T07 — Progreso, guardado automático y puntos de control
+- [x] T08 — Arte, movimiento y animación de personajes
+- [x] T09 — Arte de escenarios y objetos
+- [ ] T10 — Persecuciones, Daño visual del protagonista, derrota y reintento
+- [x] T11 — Integración de audio
+- [ ] T12 — Pruebas del recorrido completo y corrección de errores
+
+## Priorización
+
+Prioriza aquello que desbloquea otras tareas o valida primero las partes más riesgosas del proyecto.
+
+En Carencia, según las dependencias de cada tarea, la prioridad es:
+
+1. **Base técnica (T01, T02, T04 y T08):** proyecto, cámara, habitaciones y movimiento. La mayoría de las demás tareas depende de ellas.
+2. **Riesgo principal (T03, T06 y T10):** inspección, secuencias y persecuciones, que validan la experiencia central del juego.
+3. **Progreso e interfaz (T05 y T07):** guardado, menús y diálogos, necesarios para un recorrido completo.
+4. **Contenido audiovisual (T09 y T11):** arte de escenarios y audio, integrados sobre los sistemas ya probados.
+5. **Cierre (T12):** pruebas del recorrido completo y correcciones antes de la entrega.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →
