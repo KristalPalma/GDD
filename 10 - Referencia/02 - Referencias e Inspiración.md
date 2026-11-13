@@ -207,11 +207,10 @@ Registra juegos, películas, libros, fotografías, artículos, diseños o cualqu
 
 - [Movimiento de la criatura canina al caminar](https://vt.tiktok.com/ZSbuw1gHR/)
 
-## Propiedad intelectual
-
-Una referencia sirve para analizar y comunicar una idea. No implica que el proyecto pueda copiar recursos protegidos.
-
-Todas las imágenes de esta sección se utilizaron únicamente como guía de composición, postura, textura o atmósfera. El arte, las animaciones, el audio y los textos de Carencia son originales del equipo.
+> [!warning] Propiedad intelectual
+> Una referencia sirve para analizar y comunicar una idea. No implica que el proyecto pueda copiar recursos protegidos.
+>
+> Todas las imágenes de esta sección se utilizaron únicamente como guía de composición, postura, textura o atmósfera. El arte, las animaciones, el audio y los textos de Carencia son originales del equipo.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Glosario]] · [[03 - Registro de Decisiones]] →

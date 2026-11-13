@@ -1,11 +1,16 @@
 # Ficha del Proyecto
+
+## Descripción de la sección
+
+Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
+
 ## Información general
 
 | Campo                        | Información                                   |
 | ---------------------------- | --------------------------------------------- |
 | **Nombre del proyecto**      | Carencia                                      |
 | **Nombre clave**             | <!-- Identificador interno si existe -->      |
-| **Versión del GDD**          | 0.7.0                                         |
+| **Versión del GDD**          | 0.8.0                                         |
 | **Estado del proyecto**      | Producción                                    |
 | **Equipo**                   | Wendy, Ideny , Yareny, Zuri, Melchor, Armando |
 | **Responsable del proyecto** | Wendy                                         |
