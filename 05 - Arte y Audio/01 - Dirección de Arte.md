@@ -61,8 +61,8 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 
 ## Reglas visuales
 
-1. **Perspectiva isométrica 2:1 en todo.** Cámara ortográfica con 30° de elevación y 45° de acimut. Las piezas del piso avanzan +32, +16 px por bloque.
-2. **Una sola escala para todos los personajes:** unos 70 px por metro. Elaki mide 112 px (1.60 m). Ningún personaje se reescala en Unity.
+1. **Perspectiva isométrica 2:1 en todo.** Cámara ortográfica con 30° de elevación y 45° de acimut. Cada celda del piso mide 48 × 24 px y se importa a 48 *Pixels Per Unit*, con filtro *Point* y sin compresión.
+2. **Una sola escala para todos los personajes:** unos 54 px por metro. Elaki mide 92 px (1.70 m) en un lienzo de 64 × 104 px; la madre mide 86 px (1.60 m). Ningún personaje se reescala en Unity. Las medidas completas están en `Docs/MEDIDAS.md` del repositorio del juego.
 3. **8 direcciones por animación** (N, NE, E, SE, S, SW, W, NW) con los pies anclados a la misma línea de suelo.
 4. **Paleta cerrada por personaje.** Cada personaje tiene su archivo `.gpl` y todo render se ajusta a él. Colores nuevos solo si se agregan a la paleta.
 5. **Sombreado de 3 tonos, sin antialiasing ni semitransparencias.** Píxeles duros, contorno exterior de 1 px y sin píxeles sueltos.

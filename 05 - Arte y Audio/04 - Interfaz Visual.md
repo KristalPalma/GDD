@@ -17,7 +17,7 @@ La información que el jugador necesita se comunica dentro del propio mundo (ilu
 | Vida / Energía / Munición | No | No existen como recursos visibles. |
 | Objetivo | No | Lo guía la narrativa y el escenario. |
 | Mapa / Recursos | No | La exploración es parte de la tensión. |
-| Indicadores contextuales | Sólo en menús | La ayuda de teclas aparece en la parte inferior de cada pantalla de menú. |
+| Indicadores contextuales | Sí, sobre los objetos | La ayuda de teclas aparece en la parte inferior de cada pantalla de menú. Durante el juego, el indicador de la tecla E aparece sobre el objeto más cercano y los objetos inspeccionables se iluminan al pasar el cursor. |
 | Progreso | Sólo en pausa | Nivel actual y último guardado automático, en la esquina inferior derecha. |
 
 ## Jerarquía visual
@@ -77,7 +77,7 @@ La información que el jugador necesita se comunica dentro del propio mundo (ilu
 
 ### Menú principal
 
-Con partida guardada, el cartel muestra el último rastro (nivel y tiempo jugado). Sin partida, *Continuar* aparece deshabilitado.
+Con partida guardada, el cartel muestra el último rastro: el nivel y hace cuánto se guardó. Sin partida, o si el archivo está dañado, *Continuar* aparece tachado y deshabilitado.
 
 ![Menú principal con Continuar enfocado](img/UI03_menu_continuar.jpg)
 
@@ -104,6 +104,10 @@ La hoja de Ajustes tiene tres pestañas: Audio (volumen general, música, efecto
 ![Ajustes: Controles](img/UI11_ajustes_controles.jpg)
 
 ![Confirmar restablecer valores predeterminados](img/UI12_ajustes_restablecer.jpg)
+
+### Caja de diálogo
+
+Rectángulo negro translúcido al pie de la pantalla, con el nombre de quien habla arriba, en dorado, y el texto en Special Elite. El texto se escribe letra por letra con un sonido de escritura. Los pensamientos de Elaki se muestran en cursiva con la etiqueta *pensamiento*. La primera pulsación de Enter, clic, E o Esc completa la página; la siguiente avanza o cierra la línea.
 
 ### Inventario
 

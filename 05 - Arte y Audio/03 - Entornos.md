@@ -12,10 +12,10 @@ Todo el juego ocurre en un único entorno: la casa familiar de Elaki y sus disti
 |---|---|---|---|
 | Casa real | Hogar familiar mexicano contemporáneo, cotidiano y creíble. Paleta apagada y sensación de una escena familiar que resulta incómoda. | Cuarto de Elaki y su cama; comedor con mesa cuadrada y mantel, tres lugares servidos y uno vacío; sala con sillón y televisión; cocina; pasillo con fotografías. Tras el tercer despertar: madre deteriorada, periódico, altar del perro y una alacena en el lugar del cuarto de Margarita. | Punto de partida y de regreso entre niveles. Sus cambios después de cada despertar funcionan como pistas que contradicen la versión de los padres. |
 | Baño real | Baño doméstico cotidiano y desgastado, con iluminación tenue. | Espejo con gabinete, lavabo, inodoro, tina con cortina y toallero. Prólogo: cuatro toallas y cortina cerrada. Segunda visita: tres toallas. La cortina se abre progresivamente y la tina se llena. | Escenario recurrente y lugar del portal. Conserva su distribución en todas las visitas para que el jugador compare los cambios. |
-| Nivel 1 — Casa liminal | Espacio liminal: reconocible, pero amplio, vacío e inconsistente. Cambios sutiles de color y apariencia de los objetos. Sensación de extrañeza más que de amenaza. | Baño del otro lado con toallas e inodoro alterados, gabinete distorsionado y cortina en su primer estado; pasaje detrás de la cortina; calendario; versión liminal del cuarto de Elaki; espacios del otro lado de la casa; pasillo anormalmente largo con ventana cubierta y puerta bloqueada. | Introducir la ruptura de la realidad. El jugador compara con la casa real y sigue la voz de Margarita hasta el fondo del pasillo. |
+| Nivel 1 — Casa liminal | Espacio liminal: reconocible, pero amplio, vacío e inconsistente. Paredes y objetos en blanco. Sensación de extrañeza más que de amenaza. | Baño del otro lado en blanco, con toallas, gabinete con símbolos ilegibles, puerta que no abre y cortina que se abre con clic; pasaje con el calendario del 31; versión liminal del cuarto de Elaki con cama y cuadros; sala con el sillón pegado a la pared, cocina, comedor con cuatro sillas sin mesa, pared de frente y cuarto de lavado; objetos regados; pasillo blanco anormalmente largo con una puerta al fondo. | Introducir la ruptura de la realidad. El jugador compara con la casa real y sigue la voz de Margarita hasta el fondo del pasillo. |
 | Nivel 2 — Casa abandonada | Versión oscura, deteriorada y abandonada del hogar. Sala y cocina en penumbra. | Baño abandonado y calendario; pasillo con la fotografía familiar de los cuatro y el perro; ventana con vista nocturna a una barda pintada y mujeres de pie que miran fijamente; sala y cocina con cuatro platos de comida deteriorada; televisión con interferencias; computadora. | Primer nivel con amenazas: persecución del perro de la familia y encuentro con la Manifestación de Margarita. Las rutas de escape deben leerse con claridad. |
-| Nivel 3 — Casa de carne | Horror corporal aplicado al espacio: paredes, muebles y objetos de apariencia carnosa, con poros, órganos y ojos. | Baño de carne; pasillo de carne con agua y ojos; sala y cocina de carne con el sillón y la televisión que transmite un anuncio; ventana con una figura armada y sin rostro definido frente a una barda (opcional); calendario del 31 de octubre; puerta del baño con un corazón deformado; tina llena con la cortina completamente abierta. | Punto máximo del deterioro. Los ojos de las paredes giran hacia el baño y guían a Elaki hasta el encuentro con Margarita en el reflejo del agua. |
-| Vistas de inspección | Imágenes fijas en primera persona con lectura clara de cada objeto. | Interior del gabinete con medicamentos y productos personales organizados en repisas; pantalla de la computadora con el video. | Mostrar de cerca las pistas y permitir seleccionarlas con el mouse. |
+| Nivel 3 — Casa de carne | Horror corporal aplicado al espacio: paredes, muebles y objetos de apariencia carnosa, con poros y órganos. La casa está a oscuras y solo hay una luz pequeña alrededor de Elaki. | Baño de carne con toallas de piel y frascos con dientes; cocina sellada con carne, apéndices en las paredes y refrigerador con carne que late; sillón y televisión que transmite un anuncio; membrana que cubre la puerta de la cocina; cuarto deforme de Elaki; pasillo con apéndices; calendario del 31 de octubre; tina llena con la cortina completamente abierta. | Punto máximo del deterioro. Elaki regresa al baño para el encuentro con Margarita en el agua de la tina. |
+| Vistas de inspección | Imágenes fijas en primera persona con lectura clara de cada objeto. | Interior del gabinete con medicamentos y productos personales organizados en repisas; interior del refrigerador del prólogo; pantalla de la computadora con el video. | Mostrar de cerca las pistas y permitir seleccionarlas con el mouse. |
 | Desenlace | Imágenes fijas y secuencias fuera de la casa. | Imágenes alternadas de la tina del otro lado y del baño real; carteles de búsqueda de Margarita y otras personas desaparecidas; transmisión televisiva del 25 de diciembre; pantalla de texto; edificio familiar de noche, en Navidad, con patrullas, ambulancia y vecinos. | Revelar el destino de Margarita y de Elaki y cerrar la historia. |
 
 ## Modularidad
@@ -34,7 +34,7 @@ Elementos reutilizables:
   - Cama de Elaki: según cada despertar.
   - Fotografías familiares: normales y alteradas.
   - Calendario: aparece en los tres niveles y destaca el 31 de octubre.
-- **Ventana con barda:** la misma composición nocturna se reutiliza en el Nivel 2 (mujeres de pie) y en el Nivel 3 (figura armada).
+- **Ventana con barda:** composición nocturna del Nivel 2 con mujeres de pie; después del evento, la ventana queda tapiada.
 - **Gabinete:** la misma vista de inspección puede alterarse en las dimensiones donde reaparece.
 
 ## Iluminación
@@ -45,7 +45,8 @@ La iluminación controla la visibilidad para reforzar el terror psicológico y c
 |---|---|---|
 | Iluminación normal | Casa real y baño real | Permite observar el entorno con claridad. Luz doméstica tenue, acorde con un hogar cotidiano y desgastado. |
 | Iluminación liminal | Nivel 1 | El escenario se mantiene relativamente visible para destacar su vacío y su amplitud. |
-| Penumbra | Niveles 2 y 3 | Limita parcialmente la visibilidad. La zona cercana a Elaki conserva luz suficiente para desplazarse, sin que funcione como un círculo de linterna demasiado marcado. |
+| Penumbra | Nivel 2 | Limita parcialmente la visibilidad. La zona cercana a Elaki conserva luz suficiente para desplazarse, sin que funcione como un círculo de linterna demasiado marcado. |
+| Oscuridad | Nivel 3 | La casa está a oscuras y solo queda una luz pequeña alrededor de Elaki. Al salir del baño, la luz parpadea y se apaga antes de que Elaki aparezca en la cocina. |
 | Iluminación de evento | Eventos narrativos | Revela u oculta elementos en momentos clave. Durante el video de la computadora, la penumbra disminuye poco a poco hasta revelar al perro de la familia, erguido y observando a Elaki. |
 | Transición | Portales, desmayos y despertares | Cambios de luz y fundidos a negro. En el Nivel 1, la visión de Elaki se oscurece con cada paso hasta que se desmaya. |
 
@@ -62,16 +63,16 @@ Reglas:
 - **Humo:** no aplica.
 - **Fuego:** no aplica.
 - **Agua:**
-  - Agua en el pasillo de carne del Nivel 3.
-  - Tina llena con ondas en la superficie, donde Margarita aparece en el reflejo.
+  - Tina llena con un remolino en la superficie, donde aparece Margarita.
   - En el desenlace, la imagen alterna entre la tina del otro lado y Elaki solo en el baño real.
 - **Magia / energía:**
   - El espejo se deforma al abrirse el portal y una silueta femenina lo atraviesa.
   - Interferencias en la televisión, anuncio distorsionado y video de la computadora.
-  - Los ojos de las paredes giran hacia el baño.
+  - Apéndices que salen de las paredes de carne, con una sombra roja en el piso como aviso.
 - **Impactos:** al recibir un golpe aparecen manchas rojas progresivas en la pantalla. Al tercer golpe, la vista se cierra en espiral y todo pasa a negro.
 - **Otros:**
-  - Penumbra durante el Nivel 2 y el Nivel 3.
+  - Penumbra durante el Nivel 2 y oscuridad con luz alrededor de Elaki en el Nivel 3.
+  - Tinte rojo en los bordes de la pantalla cuando un enemigo se acerca; destello y sacudida de cámara al recibir un golpe.
   - Indicación visual sobre los objetos interactivos cuando Elaki está cerca o el cursor pasa sobre ellos.
   - Acercamientos de cámara en eventos narrativos.
 
@@ -82,11 +83,11 @@ Reglas:
 | Espacio                           | Real | Nivel 1             | Nivel 2 | Nivel 3 |
 | --------------------------------- | ---- | ------------------- | ------- | ------- |
 | Baño                              | ✓    | ✓                   | ✓       | ✓       |
-| Cuarto de Elaki                   | ✓    | ✓ (versión liminal) |         |         |
+| Cuarto de Elaki                   | ✓    | ✓ (versión liminal) |         | ✓ (deforme) |
 | Pasillo                           | ✓    | ✓ (prolongado)      | ✓       | ✓       |
-| Sala                              | ✓    |                     | ✓       | ✓       |
-| Comedor y cocina                  | ✓    |                     | ✓       | ✓       |
-| Espacios del otro lado de la casa |      | ✓                   |         |         |
+| Sala                              | ✓    | ✓                   | ✓       | ✓       |
+| Comedor y cocina                  | ✓    | ✓ (sillas sin mesa) | ✓       | ✓ (sellada) |
+| Cuarto de lavado                  |      | ✓                   |         |         |
 
 Cada versión necesita piso, paredes, puertas y ventanas con el material correspondiente: doméstico, liminal, abandonado y de carne.
 **Objetos:**
@@ -95,14 +96,13 @@ Cada versión necesita piso, paredes, puertas y ventanas con el material corresp
 - **Cuarto:** cama de Elaki con sus estados por despertar.
 - **Comedor y cocina:** mesa cuadrada con mantel, sillas, platos servidos y lugar vacío, cuatro platos con comida deteriorada.
 - **Sala:** sillón y televisión.
-- **Pasillo:** fotografías familiares (normales y alteradas, incluida la de los cuatro con el perro), ventana cubierta, puerta bloqueada, puerta del baño con corazón deformado.
-- **Pistas:** calendario del 31 de octubre, periódico del 20 de noviembre, altar del perro, alacena, computadora.
-- **Elementos de carne:** paredes con poros y ojos, estructuras corporales y muebles deformados.
+- **Pasillo:** fotografías familiares (normales y alteradas, incluida la de los cuatro con el perro), ventana tapiada, puerta del fondo del Nivel 1.
+- **Pistas:** calendario del 31 de octubre, periódicos de los tres desayunos, altar del perro, alacena, computadora, refrigerador.
+- **Elementos de carne:** paredes con poros, apéndices, membrana de la puerta, estructuras corporales y muebles deformados.
 
 **Fondos de ventana:**
 
 - Barda nocturna con mujeres de pie que miran fijamente (Nivel 2).
-- Barda nocturna con figura armada sin rostro definido (Nivel 3, opcional).
 
 **Vistas de inspección:** interior del gabinete con medicamentos para dormir, ansiedad y esquizofrenia, analgésicos, crema con etiqueta ilegible y parches para granitos.
 
