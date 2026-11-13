@@ -37,8 +37,6 @@ Teclado y ratón. WASD o flechas para el desplazamiento, Shift para correr, clic
 | FL Studio                          | Composición musical y producción de la banda sonora del videojuego.                                              | v26.1.7                                                  |
 | Obsidian                           | Redacción de documentación y organización del cronograma mediante documentos y hojas de cálculo.                 | v1.15.0<br>                                              |
 | ClickUp                            | Gestión del proyecto, organización de actividades y asignación de responsables.                                  | Servicio web                                             |
-| Claude Pro                         | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local v4.23118.0               |
-| ChatGPT Plus                       | Apoyo en documentación, análisis y revisión de código.                                                           | Servicio web / Aplicación local                          |
 
 ## Dependencias
 
