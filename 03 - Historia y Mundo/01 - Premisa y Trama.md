@@ -18,9 +18,9 @@ Describe el argumento completo sin entrar todavía en cada escena.
 
 Durante el desayuno, Elaki pregunta por Margarita y sus padres niegan que haya tenido una hermana. En el baño encuentra señales que contradicen esa versión: cuatro toallas en una casa donde dicen vivir tres personas y un gabinete con más tratamientos que gente. Al cerrar el gabinete, una silueta femenina cruza el espejo y Elaki la sigue.
 
-Su búsqueda lo lleva a tres versiones de su casa. Primero recorre espacios vacíos e inconsistentes guiado por la voz de Margarita; después atraviesa una casa abandonada donde el perro de la familia lo persigue y la Manifestación de Margarita lo alcanza sin remedio; finalmente llega a una casa hecha de carne que lo guía de regreso al baño.
+Su búsqueda lo lleva a tres versiones de su casa. Primero recorre espacios vacíos e inconsistentes guiado por la voz de Margarita; después atraviesa una casa abandonada donde el perro de la familia lo persigue y la Manifestación de Margarita lo alcanza sin remedio; finalmente cruza una casa hecha de carne, a oscuras, hasta volver al baño.
 
-Allí encuentra a Margarita en el reflejo del agua de la tina y salta para alcanzarla. El desenlace revela que Margarita fue hallada sin vida y que Elaki murió ahogado en la tina, solo en su baño, el mismo día en que se confirmó la muerte de su hermana.
+Allí encuentra a Margarita en el agua de la tina y salta para alcanzarla. El desenlace revela que Margarita fue hallada sin vida y que Elaki murió ahogado en la tina, solo en su baño, el mismo día en que se confirmó la muerte de su hermana.
 
 ## Estructura narrativa
 
@@ -36,12 +36,12 @@ Elaki regresa al baño real, donde ahora solo hay tres toallas, y cruza a una ca
 Elaki despierta por tercera vez. La madre luce deteriorada, el periódico habla de familias que buscan a sus desaparecidos, en el pasillo aparece el altar del perro y una alacena ocupa el lugar del cuarto de Margarita.
 
 ### Acto / Etapa 4 Nivel 3 - La realidad se rompe
-Elaki cruza a una versión de la casa hecha de carne. Al sentarse en el sillón, la televisión transmite un anuncio y se apaga. Los ojos de las paredes lo guían al baño, donde la cortina está abierta por completo y Margarita aparece en el reflejo del agua de la tina.
+Elaki cruza a una versión de la casa hecha de carne, a oscuras. Al salir del baño, la luz parpadea y aparece en la cocina, sellada con carne y con apéndices que salen de las paredes. Al abrir el refrigerador se abre la puerta y Elaki atraviesa su cuarto deforme y el pasillo de regreso al baño. Si se sienta en el sillón, la televisión transmite un anuncio y se apaga. En el baño, la cortina está abierta por completo y Margarita aparece en el agua de la tina. Elaki piensa: «Te encontré».
 
 ### Acto / Etapa 5 Desenlace - La revelación
 Elaki salta a la tina para alcanzar a Margarita. La imagen alterna entre la tina del otro lado y Elaki solo en su baño real, hasta llegar a negro.
 
-Aparecen los carteles de búsqueda de Margarita y de otras personas desaparecidas. Una transmisión del 25 de diciembre confirma que el cuerpo localizado en un lote baldío corresponde a Margarita. Una pantalla de texto informa la muerte de un joven ahogado en una tina, y la escena final muestra el edificio donde vive la familia, de noche y en Navidad, con servicios de emergencia.
+Aparecen los carteles de búsqueda de Margarita y de otras personas desaparecidas. Una transmisión del 25 de diciembre confirma que el cuerpo localizado en un lote baldío corresponde a Margarita. Una pantalla de texto informa la muerte de un joven ahogado en una tina, y la escena final muestra el edificio donde vive la familia, de noche y en Navidad, con servicios de emergencia. El cierre dice: «El mismo día en que confirmaron que habían encontrado a su hermana, él dejó de buscarla».
 
 ## Eventos principales
 
@@ -49,7 +49,7 @@ Aparecen los carteles de búsqueda de Margarita y de otras personas desaparecida
 | Orden                          | Evento                                                                                          | Participación del jugador                                               | Consecuencia                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | Prólogo                        |                                                                                                 |                                                                         |                                                                          |
-| 1                              | Elaki despierta y desayuna con sus padres, quienes niegan la existencia de Margarita.           | Avanza el diálogo.                                                      | Se establece el conflicto principal.                                     |
+| 1                              | Elaki despierta y desayuna con sus padres, quienes niegan la existencia de Margarita.           | Camina al comedor, revisa el periódico (opcional) y el lugar vacío, y avanza el diálogo. | Se establece el conflicto principal.                                     |
 | 2                              | Revisa el baño real y el gabinete.                                                              | Inspecciona los objetos y abre y cierra el gabinete.                    | Encuentra pistas que contradicen la versión familiar.                    |
 | 3                              | Se abre el portal en el espejo.                                                                 | Cruza el espejo.                                                        | Comienza su búsqueda del otro lado.                                      |
 | Nivel 1. La primera ruptura    |                                                                                                 |                                                                         |                                                                          |
@@ -62,8 +62,8 @@ Aparecen los carteles de búsqueda de Margarita y de otras personas desaparecida
 | 9                              | La Manifestación de Margarita lo alcanza.                                                       | Intenta huir sin posibilidad de escape.                                 | Despierta por tercera vez.                                               |
 | 10                             | Tercer desayuno, altar del perro y alacena.                                                     | Revisa el lugar vacío, a la madre, la comida y el periódico.            | Descubre nuevas pistas sobre la familia.                                 |
 | Nivel 3 — La realidad se rompe |                                                                                                 |                                                                         |                                                                          |
-| 11                             | Recorre la casa hecha de carne y ve el anuncio en la televisión.                                | Explora y se sienta en el sillón.                                       | Los ojos de las paredes lo guían al baño.                                |
-| 12                             | Encuentra a Margarita en el reflejo del agua de la tina.                                        | Salta a la tina.                                                        | Comienza el desenlace.                                                   |
+| 11                             | Recorre la casa hecha de carne: cocina sellada, refrigerador, cuarto deforme y pasillo.         | Esquiva los apéndices de las paredes, abre el refrigerador y, si quiere, se sienta en el sillón a ver el anuncio. | Regresa al baño.                                                         |
+| 12                             | Encuentra a Margarita en el agua de la tina.                                                    | Hace clic en la tina.                                                   | Comienza el desenlace.                                                   |
 | Desenlace                      |                                                                                                 |                                                                         |                                                                          |
 | 13                             | Carteles de búsqueda y transmisión sobre el cuerpo de Margarita.                                | Observa la secuencia.                                                   | Se revela el destino de Margarita.                                       |
 | 14                             | Pantalla de texto sobre el joven ahogado y escena del edificio.                                 | Observa la secuencia y avanza el texto.                                 | Se revela el destino de Elaki y concluye la historia.                    |
@@ -74,12 +74,12 @@ Documenta los finales posibles y las condiciones que los provocan.
 
 El videojuego cuenta con un único final narrativo.
 
-Elaki encuentra a Margarita en el reflejo del agua de la tina y salta para alcanzarla, convencido de que finalmente la encontró. La imagen alterna entre la tina del otro lado y su baño real, donde está completamente solo.
+Elaki encuentra a Margarita en el agua de la tina y salta para alcanzarla, convencido de que finalmente la encontró. La imagen alterna entre la tina del otro lado y su baño real, donde está completamente solo.
 
 Los carteles de búsqueda y una transmisión del 25 de diciembre revelan que Margarita desapareció el 31 de octubre y que su cuerpo fue localizado en un lote baldío. Después, una pantalla de texto informa que un joven de aproximadamente 17 años murió ahogado en una tina, y la escena final muestra el edificio de la familia con servicios de emergencia.
 
 El mismo día en que se confirmó que habían encontrado a su hermana, Elaki dejó de buscarla. El final no confirma si los lugares que recorrió fueron reales o una manifestación de su negación ante la pérdida.
 
-**Condición de activación:** llegar a la tina del Nivel 3 y saltar a ella.
+**Condición de activación:** llegar a la tina del Nivel 3 y hacer clic en ella.
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

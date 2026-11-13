@@ -96,21 +96,19 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Función narrativa:** Es el motivo principal de la búsqueda del protagonista. Su desaparición origina el conflicto y su destino constituye la revelación final del demo.
 
-**Descripción física:** Joven de 16 años. Su diseño se distingue claramente de sus versiones deformadas y solo se muestra completa en el reflejo del agua de la tina.
+**Descripción física:** Joven de 19 años, estudiante universitaria. Su diseño se distingue claramente de sus versiones deformadas y solo se muestra completa en el agua de la tina.
 
 **Personalidad:** En la historia actual no presenta suficientes escenas de su vida cotidiana para establecerla.
 
 **Motivaciones:** No se muestran motivaciones activas durante el desarrollo jugable.
 
-**Conflicto:** Desapareció el 31 de octubre al regresar de la universidad. Su cuerpo fue localizado en un lote baldío y su identidad se confirmó el 25 de diciembre, aunque Elaki desconoce o rechaza esta realidad.
-
-**Conflicto:** Desapareció el 31 de octubre después de ser secuestrada por un grupo criminal. Su cuerpo fue encontrado posteriormente en un lote baldío, aunque el protagonista desconoce o rechaza esta realidad.
+**Conflicto:** Desapareció el 31 de octubre al regresar de la universidad; su último mensaje a sus padres, a las 10:30 de la noche, decía «Ya salí de la universidad, voy para la casa». Su cuerpo fue localizado el 21 de diciembre en un lote baldío de Cuautitlán Izcalli y su identidad se confirmó el 25 de diciembre, aunque Elaki desconoce o rechaza esta realidad.
 
 **Relaciones:** Hermana del protagonista e hija de sus padres.
 
 **Arco del personaje:** Su historia se reconstruye progresivamente a partir de pistas hasta revelar su verdadero destino.
 
-**Habilidades:** No tiene habilidades, debido a que no tiene una presencia física en el juego.
+**Habilidades:** No tiene habilidades. Fuera de sus manifestaciones, solo aparece en la fotografía familiar y en el agua de la tina.
 
 **Debilidades:** No aplican como mecánica jugable.
 
@@ -126,7 +124,7 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Función narrativa:** Introduce el conflicto al negar la existencia de Margarita y contribuye a generar dudas sobre los recuerdos del protagonista.
 
-**Descripción física:** Mujer adulta. Su apariencia se deteriora en cada desayuno: tranquila en el primero, un poco cansada en el segundo y ojerosa, con la piel grisácea, en el tercero.
+**Descripción física:** Mujer mexicana adulta, de estatura promedio, piel morena y cabello negro ondulado. Parpadea de forma sutil mientras está sentada a la mesa. Su apariencia se deteriora en cada desayuno: tranquila en el primero, un poco cansada en el segundo y ojerosa, con la piel grisácea, en el tercero.
 
 **Personalidad:** Reservada y evasiva ante las preguntas relacionadas con Margarita.
 
@@ -146,7 +144,7 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Frases o tono de diálogo:** Suave, contenido y preocupado. Frase representativa: «Hijo… tú nunca tuviste hermana».
 
-**Referencias visuales:** Madre de familia en un entorno doméstico mexicano. Se requieren variantes para las dos secuencias de desayuno.
+**Referencias visuales:** Madre de familia en un entorno doméstico mexicano. Se requieren variantes para los tres desayunos, sentada y de pie.
 
 #### Padre del protagonista
 
@@ -156,7 +154,7 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Función narrativa:** Refuerza la negación de la existencia de Margarita y aumenta la desconfianza del protagonista.
 
-**Descripción física:** Hombre adulto. 
+**Descripción física:** Hombre mexicano adulto, de estatura promedio, piel morena y cabello negro. Siempre sostiene un periódico que le cubre la cara y, de vez en cuando, lo extiende.
 
 **Personalidad:** Serio, reservado y evasivo.
 
@@ -182,7 +180,7 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Rol:** Personaje secundario que también cuenta con una manifestación hostil.
 
-**Función jugable:** Su versión deformada aparece durante el Nivel 2 y desencadena una persecución en la que el jugador debe escapar.
+**Función jugable:** En la casa real, durante el prólogo y el segundo despertar, el perro acompaña a Elaki unos pasos detrás, por el mismo camino que él recorrió; no choca ni se puede usar. Su versión deformada aparece durante el Nivel 2 y desencadena una persecución en la que el jugador debe escapar. Después del Nivel 2, su altar ocupa un lugar en el pasillo real.
 
 **Función narrativa:** Representa la transformación de un elemento familiar en una presencia amenazante. Su aparición refuerza la pérdida de seguridad dentro del hogar.
 
@@ -204,15 +202,15 @@ En el Nivel 3, Margarita aparece en el reflejo del agua de la tina, completa y s
 
 **Debilidades:** Ninguna.
 
-**Frases o tono de diálogo:** No utiliza lenguaje humano, ni produce algún sonido.
+**Frases o tono de diálogo:** No utiliza lenguaje humano. Su manifestación gruñe y emite sonidos de amenaza durante la persecución.
 
 **Referencias visuales:** Se requieren dos diseños relacionados: el perro doméstico original y su versión de horror corporal, con rasgos caninos y humanoides. Ambos deben conservar características reconocibles que permitan establecer su conexión.
 ## NPC
 
 Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
 
-El juego no contempla NPC convencionales con sistemas de diálogo interactivo, misiones secundarias, comercio o acompañamiento.
+El juego no contempla NPC convencionales con sistemas de diálogo interactivo, misiones secundarias o comercio.
 
-Los personajes no controlables, como los padres del protagonista y las manifestaciones de Margarita, participan mediante cinemáticas, eventos narrativos o secuencias de persecución.
+Los personajes no controlables, como los padres del protagonista y las manifestaciones de Margarita, participan mediante cinemáticas, eventos narrativos o secuencias de persecución. El perro de la familia sigue a Elaki en la casa real, sin diálogo ni interacción.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →
