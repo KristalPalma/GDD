@@ -10,7 +10,7 @@ Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
 
 - **Demo de Carencia para PC, de un jugador**, con teclado y ratón, exploración 2D isométrica y vistas fijas de detalle para inspeccionar objetos como el gabinete.
 - **Recorrido completo del prólogo, los tres niveles y el desenlace**, con una duración mínima de 30 minutos en una primera partida normal. Incluye la búsqueda de Margarita, las transformaciones de la casa, las pistas principales, las dos persecuciones del nivel 2 y el final único.
-- **Sistemas de juego** para explorar, inspeccionar, activar eventos y cruzar portales. Las persecuciones incluyen evasión, daño, derrota y reintento desde puntos de control. El demo incluye menú principal, pausa, ajustes básicos de audio, ajustes de accesibilidad y autoguardado.
+- **Sistemas de juego** para explorar, inspeccionar, activar eventos y cruzar portales. Las persecuciones incluyen evasión, daño, derrota y reintento desde puntos de control. El demo incluye menú principal, pausa, ajustes de audio y brillo, consulta de controles y autoguardado.
 - **Presentación y entrega** con arte, audio y código originales del equipo, una versión jugable sin errores bloqueantes.
 
 ### No incluido

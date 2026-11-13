@@ -43,7 +43,7 @@ El roadmap organiza el desarrollo en etapas y entregables.
 - Implementación de enemigos, persecuciones y daño.
 - Sistema de guardado, progreso y puntos de control.
 - Integración de personajes, sprites y animaciones.
-- Menú principal, pausa y opciones de audio, video y accesibilidad.
+- Menú principal, pausa y ajustes de audio, brillo y consulta de controles.
 - Integración de música, efectos y ambientación sonora.
 - Secuencia final de Margarita y el joven en la bañera.
 - Versión jugable con el recorrido principal completo.

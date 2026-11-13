@@ -10,7 +10,7 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 - [x] T02 — Cámara isométrica y acercamientos
 - [x] T03 — Vistas de inspección
 - [x] T04 — Habitaciones, puertas y cambios de espacio
-- [x] T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos, opciones y accesibilidad
+- [x] T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos y ajustes
 - [x] T06 — Secuencias narrativas y registro de eventos (diseño de niveles)
 - [x] T07 — Progreso, guardado automático y puntos de control
 - [x] T08 — Arte, movimiento y animación de personajes
@@ -76,9 +76,9 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Estado:** Terminada
 
-### T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos, opciones y accesibilidad
+### T05 — Diálogos, textos narrativos y subtítulos, menú principal, pausa, derrota, créditos y ajustes
 
-**Descripción:** Diseñar e implementar la interfaz del juego: cuadro de diálogo para conversaciones y pensamientos de Elaki, subtítulos, menú principal, menú de pausa, pantalla de derrota, créditos y panel de opciones. Incluye la redacción y revisión de los diálogos, pensamientos, pistas y textos de las noticias.
+**Descripción:** Diseñar e implementar la interfaz del juego: cuadro de diálogo para conversaciones y pensamientos de Elaki, subtítulos, menú principal, menú de pausa, pantalla de derrota, créditos y hoja de ajustes. Incluye la redacción y revisión de los diálogos, pensamientos, pistas y textos de las noticias.
 
 **Responsable:** Zurisarai Delgado Rodríguez. Los textos narrativos están a cargo de Wendy Kristal Palma Góngora, con la participación del equipo de desarrollo.
 
@@ -89,10 +89,10 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 **Criterio de aceptación:**
 
 - Los diálogos muestran el nombre de quien habla, presentan el texto de forma progresiva y avanzan con Enter o clic. 
-- El menú principal ofrece Jugar, Continuar, Opciones, Créditos y Salir. "Continuar" solo está disponible si existe una partida guardada, y "Jugar" pide confirmación antes de reemplazarla.
-- Esc abre la pausa con Reanudar, Opciones y Volver al menú principal, y un segundo Esc reanuda el juego.
-- El panel de opciones permite ajustar el volumen general, de música, de efectos y de voces, la calidad gráfica y el brillo. También permite consultar los controles y volver a ver el tutorial.
-- En accesibilidad pueden cambiarse el tamaño de texto y los subtítulos. La opción de restablecer pide confirmación y no afecta la partida guardada.
+- El menú principal ofrece Jugar, Continuar, Ajustes, Créditos y Salir. "Continuar" solo está disponible si existe una partida guardada, y "Jugar" pide confirmación antes de reemplazarla.
+- Esc abre la pausa con Reanudar, Ajustes y Volver al menú principal, y un segundo Esc reanuda el juego.
+- La hoja de Ajustes permite ajustar el volumen general, de música, de efectos y de voces, y el brillo. También permite consultar los controles y volver a ver el tutorial.
+- La opción de restablecer pide confirmación, solo cambia la pestaña actual y no afecta la partida guardada.
 - Los textos integrados corresponden a la historia del GDD. 
 
 
@@ -197,13 +197,13 @@ El backlog contiene el trabajo necesario para convertir el diseño en un videoju
 
 **Dependencias:** T05, T06.
 
-**Criterio de aceptación:** Cada escenario reproduce su ambiente, y los eventos narrativos, persecuciones y noticias reproducen sus sonidos y voces en el momento correspondiente. El volumen de cada grupo responde a los ajustes de opciones.
+**Criterio de aceptación:** Cada escenario reproduce su ambiente, y los eventos narrativos, persecuciones y noticias reproducen sus sonidos y voces en el momento correspondiente. El volumen de cada grupo responde a los ajustes de audio.
 
 **Estado:** Terminada
 
 ### T12 — Pruebas del recorrido completo y corrección de errores
 
-**Descripción:** Generar el ejecutable para Windows de 64 bits y probar el juego desde el menú hasta los créditos, incluidas las persecuciones, la derrota, el reintento, el guardado, la pausa y las opciones, corrigiendo los errores encontrados.
+**Descripción:** Generar el ejecutable para Windows de 64 bits y probar el juego desde el menú hasta los créditos, incluidas las persecuciones, la derrota, el reintento, el guardado, la pausa y los ajustes, corrigiendo los errores encontrados.
 
 **Responsable:** Ideny López Rodríguez y Melchor Emmanuel Ojeda Cauich, con la participación del equipo
 
